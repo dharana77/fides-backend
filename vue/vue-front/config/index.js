@@ -47,14 +47,14 @@ module.exports = {
     // Template for index.html
     //기존경로: index: path.resolve(__dirname, '../dist/index.html'),
     //변경경로: SpringBoot static folder
-    index: path.resolve(__dirname, '../../../src/amin/resources/templates/vue/index.html')
+    index: path.resolve(__dirname, '../../../src/main/resources/templates/vue/index.html'),
 
     // Paths
     // 기존경로: assetsRoot: path.resolve(__dirname, '../dist'),
     //SpringBoot static folder
-    assertRoot: path.resolve(__dirname, '../../../src/main/resources/static/vue'),
-    assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsRoot: path.resolve(__dirname, '../../../src/main/resources/static/vue'),
+    assetsSubDirectory: 'static/',
+    assetsPublicPath: 'vue/',
 
     /**
      * Source Maps
