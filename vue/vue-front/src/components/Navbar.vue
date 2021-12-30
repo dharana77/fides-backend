@@ -26,8 +26,17 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 nav .menu-item {
-  color: #FFF;
+  color: #4D6360;;
+  width: 93px;
+  height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* or 100% */
   padding: 25px 40px;
   position: relative;
   text-align: center;
@@ -37,7 +46,7 @@ nav .menu-item {
 }
 nav .menu-item.active,
 nav .menu-item:hover {
-  background-color: #0d0d0e;
+  background-color: #FFFFFF;
   border-bottom-color: #FFFFFF;
 }
 nav .menu-item a {
