@@ -1,6 +1,6 @@
 <template>
     <nav id="vue">
-        <img src="../assets/logo.png">
+        <img src="../assets/logo3.png">
         <div class="menu-item"><router-link to="/">Home</router-link></div>
         <div class="menu-item"><router-link to="/using">Using fides</router-link></div>
         <div class="menu-item"><router-link to="/community">Community</router-link></div>
@@ -19,6 +19,14 @@ export default {
 </script>
 
 <style>
+img{
+  width: 40px;
+  height: 40px;
+  left: 410px;
+  top: 37px;
+
+  background: #4D6360;
+}
 nav {
   width: 100vw;
   background-color: #FFFFFF;
