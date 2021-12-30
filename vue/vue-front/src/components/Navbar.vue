@@ -1,20 +1,21 @@
 <template>
-  <div id="app">
-    <Navbar/>
-   <router=view/>
-  </div>
+  <nav id="vue">
+    <div class="menu-item"><router-link to="/">Home</router-link></div>
+    <div class="menu-item"><router-link to="/using">Using fides</router-link></div>
+    <div class="menu-item"><router-link to="/community">Community</router-link></div>
+    <Services title="Services"/>
+  </nav>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar'
-export default{
-  name: 'App',
-  components:{
-    Navbar
+  import Services from '../components/Services'
+  export default {
+    name: 'navbar',
+    components:{
+      Services
+    },
   }
-}
 </script>
-
 <style>
-#for styling check the github repository
+  #for styling
 </style>
