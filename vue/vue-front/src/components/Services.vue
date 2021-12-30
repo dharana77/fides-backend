@@ -10,6 +10,7 @@
          <div class="sub-menu" v-if="isOpen">
             <div class="menu-item">
               <router-link to="/services/funds">Fund</router-link>
+            </div>
         </div>
         </transition>
     </div>
