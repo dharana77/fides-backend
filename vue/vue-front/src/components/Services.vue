@@ -9,7 +9,7 @@
         <transition name="fade" apear>
          <div class="sub-menu" v-if="isOpen">
             <div class="menu-item">
-              <router-link to="/services/web">Web</router-link>
+              <router-link to="/services/funds">Fund</router-link>
         </div>
         </transition>
     </div>
