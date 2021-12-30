@@ -10,13 +10,6 @@
          <div class="sub-menu" v-if="isOpen">
             <div class="menu-item">
               <router-link to="/services/web">Web</router-link>
-            </div>
-            <div class="menu-item">
-              <router-link to="/services/design">Design</router-link>
-            </div>
-            <div class="menu-item">
-              <router-link to="/services/videos">Videos</router-link>
-            </div>
         </div>
         </transition>
     </div>
