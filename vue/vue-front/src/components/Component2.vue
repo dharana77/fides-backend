@@ -35,7 +35,7 @@ export default {
 
 <style>
 #component2{
-  width: 1600px;
+  width: 100%;
   height: 1048px;
   left: 0px;
   top: 607px;

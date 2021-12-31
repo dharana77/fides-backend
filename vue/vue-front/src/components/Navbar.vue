@@ -28,7 +28,7 @@ img{
   background: #4D6360;
 }
 nav {
-  width: 100vw;
+  width: 100%;
   background-color: #FFFFFF;
   display: flex;
   align-items: center;

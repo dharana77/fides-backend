@@ -36,7 +36,9 @@ export default {
   }
 }
 </script>
-
+#component3{
+  width:100%;
+}
 <style>
 
 </style>

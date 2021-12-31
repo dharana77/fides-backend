@@ -16,7 +16,6 @@ export default {
 #layer2 img{
   width: 100%;
   height: 595px;
-  left: -105px;
   top: 42px;
   background-color: #FFFFFF;
   text-align: center;
