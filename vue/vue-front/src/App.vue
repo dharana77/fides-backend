@@ -8,6 +8,8 @@
     <Component4/>
     <Component5/>
     <Component6/>
+    <Component7/>
+    <Component8/>
   </div>
 </template>
 
@@ -19,6 +21,8 @@ import Component3 from '@/components/Component3'
 import Component4 from '@/components/Component4'
 import Component5 from '@/components/Component5'
 import Component6 from '@/components/Component6'
+import Component7 from '@/components/Component7'
+import Component8 from '@/components/Component8'
 
 export default {
   name: 'App',
@@ -29,7 +33,9 @@ export default {
     Component3,
     Component4,
     Component5,
-    Component6
+    Component6,
+    Component7,
+    Component8
   }
 }
 </script>
