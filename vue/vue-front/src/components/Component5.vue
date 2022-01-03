@@ -41,12 +41,21 @@ export default {
 </script>
 
 <style>
+#component5{
+  background:white;
+  height: 572px;
+}
+
 #wrapper{
+  top:2810px;
+}
+
+#text-wrapper{
+  top: 2810px;
 }
 
 #image-wrapper{
   display: inline-block;
-
   width: 100%;
   height: 100%;
   background: #FFFFFF;
