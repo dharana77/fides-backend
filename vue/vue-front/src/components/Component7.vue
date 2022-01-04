@@ -74,6 +74,7 @@ export default {
 
 #text-content-wrapper{
 }
+
 #main-text{
   position: relative;
    text-align: left;

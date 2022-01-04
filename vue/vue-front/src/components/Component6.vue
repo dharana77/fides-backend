@@ -1,8 +1,6 @@
 <template>
     <div id="component6">
-      <div id="Chess3">
-        <img id="chess3" class="chess" src="../assets/Chess3.png">
-      </div>
+      <img id="chess3" class="chess" src="../assets/Chess3.png">
       <div id="text-wrapper">
         <h1>Join Our Community</h1>
         <p>Learn more about Fides system. chat with us and have your say in the future of the Fides ecosystem</p>
@@ -57,9 +55,8 @@
           </div>
         </div>
       </div>
-      <div id="Chess4">
-        <img id="chess4" class="chess" src="../assets/Chess4.png">
-      </div>
+      <img id="chess4" class="chess" src="../assets/Chess4.png">
+
     </div>
 </template>
 
@@ -74,24 +71,33 @@ export default {
 <style>
 #component6{
   background: #EDEDF2;
+  width: 100%;
+  height: 570px;
 }
-#Chess3{
-  text-align: left;
+
+#text-wrapper{
+  position: relative;
+  top: -25%;
 }
-#Chess4{
-  text-align: right;
-  left: 89.03%;
-  top: 80.34%;
-  bottom: 15.07%;
+#contents-wrapper{
+  position: relative;
+  top: -25%;
+  left: -5%;
 }
+
 #chess3{
+  position: relative;
+  left: -40%;
+  top: -10%;
   height: 165.5461126167448px;
   width: 122.04705088612502px;
   border-radius: 0px;
 }
 
 #chess4{
-  right: 3.07%;
+  position: relative;
+  left: 40%;
+  top: -20%;
   height: 216.23389008128223px;
   width: 126.44475752047089px;
   border-radius: 0px;
@@ -101,9 +107,34 @@ export default {
   background: rgba( 255, 255, 255, 0 );
 }
 
+#telegram-board,#discord-board,#reddit-board{
+  float:right;
+}
+#telegram-board,#discord-board,#reddit-board,#github-board,#blog-board{
+  position: relative;
+}
+#telegram-image, #twitter-image, #blog-image, #github-image, #reddit-image, #discord-image{
+  background: rgba( 255, 255, 255, 0 );
+  position : absolute;
+  left: 15%;
+}
+#twitter-image, #blog-image,#github-image{
+  left: 25%;
+  top: 25%;
+}
+#twitter-image{
+  top:10%;
+}
+#twitter-text-board-wrapper,#telegram-text-board-wrapper,#discord-text-board-wrapper,#github-text-board-wrapper,
+#blog-text-board-wrapper,#reddit-text-board-wrapper{
+  position:absolute;
+  top: 0%;
+  left: 35%;
+}
 .board{
   height: 95px;
   width: 380px;
   border-radius: 20px;
+  background: rgba( 255, 255, 255, 0 );
 }
 </style>
