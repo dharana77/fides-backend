@@ -1,43 +1,45 @@
 <template>
     <div id="component7">
-      <div id= "content-wrapper">
-        <img class="rect" id="rect1" src="../assets/info/whitepaper.png">
-      </div>
+
       <div id= "text-content-wrapper">
+        <img id="whitepaper-img" src="../assets/info/whitepaper.png">
         <div id="main-text">
-          <h3 id="content-title">More Information</h3>
-          <h3 id="content-text">Our Fides is more advanced and democratic investment guild for capital increase</h3>
-        </div>
-        <div id="explains">
-          <div id="explain1">
-            <img class="icons" id="icon1" src="../assets/info/icon1.png">
-            <h5>1/n System</h5>
-            <h5>p.2</h5>
-          </div>
-          <div id="explain2">
-            <img class="icons" id="icon2" src="../assets/info/icon2.png">
-            <h5>Tiered dao community</h5>
-            <h5>p.3</h5>
-          </div>
-          <div id="explain3">
-            <img class="icons" id="icon3" src="../assets/info/icon3.png">
-            <h5>Subdao system</h5>
-            <h5>p.4</h5>
-          </div>
-          <div id="explain4">
-            <img class="icons" id="icon2" src="../assets/info/icon4.png">
-            <h5>Lend system</h5>
-            <h5>p.5</h5>
-          </div>
-          <div id="explain5">
-            <img class="icons" id="icon2" src="../assets/info/icon5.png">
-            <h5>Dao driven investment system</h5>
-            <h5>p.6</h5>
-          </div>
-          <div id="explain6">
-            <img class="icons" id="icon2" src="../assets/info/icon6.png">
-            <h5>Bounty system</h5>
-            <h5>p.7</h5>
+          <span id="content-title" class="infoText">More Information</span><br>
+          <span id="content-text" class="infoText">Our Fides is more advanced and<br>
+           democratic investment guild for<br> capital increase</span>
+
+          <div id="explains">
+            <div id="explain1">
+              <br>
+              <img class="icons" id="icon1" src="../assets/info/icon1.png">
+              <h5>1/n System</h5>
+              <h5>p.2</h5>
+            </div>
+            <div id="explain2">
+              <img class="icons" id="icon2" src="../assets/info/icon2.png">
+              <h5>Tiered dao community</h5>
+              <h5>p.3</h5>
+            </div>
+            <div id="explain3">
+              <img class="icons" id="icon3" src="../assets/info/icon3.png">
+              <h5>Subdao system</h5>
+              <h5>p.4</h5>
+            </div>
+            <div id="explain4">
+              <img class="icons" id="icon2" src="../assets/info/icon4.png">
+              <h5>Lend system</h5>
+              <h5>p.5</h5>
+            </div>
+            <div id="explain5">
+              <img class="icons" id="icon2" src="../assets/info/icon5.png">
+              <h5>Dao driven investment system</h5>
+              <h5>p.6</h5>
+            </div>
+            <div id="explain6">
+              <img class="icons" id="icon2" src="../assets/info/icon6.png">
+              <h5>Bounty system</h5>
+              <h5>p.7</h5>
+            </div>
           </div>
         </div>
       </div>
@@ -59,58 +61,24 @@ export default {
   height: 530px;
   text-align: left;
 }
-#content-wrapper{
-  background: white;
-  text-align:left;
-}
-.rect{
-  height: 290.0216990779262px;
-  width: 236.2126530259646px;
-  border-radius: 0px;
-}
 
-#rect1{
-  position: absolute;
+#whitepaper-img{
+  position: relative;
   width: 250.93px;
   height: 308.09px;
+  top: 100px;
+  left: 20.05%;
   box-sizing: border-box;
-  text-align: left;
-  background:white;
+  background: rgba( 255, 255, 255, 0 );
 }
 
-#rect2{
-  position:relative;
-  width: 246px;
-  height: 238px;
-  background: white;
+#text-content-wrapper{
 }
-
-#rect3{
-  position: relative;
-  height: 290.02173873590175px;
-  width: 236.2126853260154px;
-  border-radius: 0px;
-  filter: blur(1px);
-}
-
-#rect4{
-  position : relative;
-  height: 290.02170998620716px;
-  width: 236.21266191038254px;
-  border-radius: 0px;
-  filter: blur(2px);
-}
-
-#rect5{
-  position: relative;
-  width: 236.21px;
-  height: 290.02px;
-  background: #AFD0CA;
-  filter: blur(4px);
-}
-
 #main-text{
-  text-align: center;
+  position: relative;
+   text-align: left;
+   top: -200px;
+   right: -700px;
 }
 .icons{
   background: white;
@@ -119,7 +87,7 @@ export default {
   border-radius: 0px;
 }
 #explains{
-  text-align: center;
+  text-align: left;
 }
 #explain1 img, #explain2 img, #explain3 img, #explain4 img, #explain5 img, #explain6 img{
   vertical-align: middle;
@@ -134,4 +102,17 @@ export default {
   line-height: 24px;
 }
 
+.infoText{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+}
+
+#content-title{
+  white-space: nowrap;
+  color: #3B7E74;
+}
 </style>
