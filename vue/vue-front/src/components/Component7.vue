@@ -1,11 +1,7 @@
 <template>
     <div id="component7">
       <div id= "content-wrapper">
-        <img class="rect" id="rect1" src="../assets/info/rect1.png">
-        <img class="rect" id="rect2" src="../assets/info/rect2.png">
-        <img class="rect" id="rect3" src="../assets/info/rect3.png">
-        <img class="rect" id="rect3" src="../assets/info/rect4.png">
-        <img class="rect" id="rect3" src="../assets/info/rect5.png">
+        <img class="rect" id="rect1" src="../assets/info/whitepaper.png">
       </div>
       <div id= "text-content-wrapper">
         <div id="main-text">
@@ -77,7 +73,6 @@ export default {
   position: absolute;
   width: 250.93px;
   height: 308.09px;
-  border: 1px solid #4D6360;
   box-sizing: border-box;
   text-align: left;
   background:white;
