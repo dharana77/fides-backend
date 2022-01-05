@@ -2,26 +2,36 @@
     <div id="component2">
       <img id="chess1" src="../assets/Chess1.png">
       <img id="chess2" src="../assets/Chess2.png">
-      <h1>Lean More About Fides</h1>
-      <p>Fides is the new wave for Investing crypto asset, We can devide the right
-         and the seed money</p>
-      <img id ="info" src="../assets/arrow_button.png">
-      <img id = "info_icon" src="../assets/info_icon.png">
-      <h1>Become Speaker Tier</h1>
-      <p>Fides is the new wave for Investing crypto asset, We can devide the right
-         and the seed money</p>
-      <img id ="tier" src="../assets/arrow_button.png">
-      <img id = "tier_icon" src="../assets/tier_icon.png">
-      <h1>Build Your Community</h1>
-      <p>Fides is the new wave for Investing crypto asset, We can devide the right
-         and the seed money</p>
-      <img id ="subdao" src="../assets/arrow_button.png">
-      <img id = "subdao_icon" src="../assets/subdao_icon.png">
-      <h1>Join Out Community</h1>
-      <p>Fides is the new wave for Investing crypto asset, We can devide the right
-         and the seed money</p>
-      <img id ="community" src="../assets/arrow_button.png">
-      <img id = "community_icon" src="../assets/community_icon.png">
+      <div id="box1-wrapper">
+        <div id="box1">
+          <h1>Lean More About Fides</h1>
+          <p>Fides is the new wave for Investing crypto asset, We can devide the right
+             and the seed money</p>
+          <img id ="info" src="../assets/arrow_button.png">
+          <img id = "info_icon" src="../assets/info_icon.png">
+        </div>
+        <div id="box2">
+          <h1>Become Speaker Tier</h1>
+          <p>Fides is the new wave for Investing crypto asset, We can devide the right
+             and the seed money</p>
+          <img id ="tier" src="../assets/arrow_button.png">
+          <img id = "tier_icon" src="../assets/tier_icon.png">
+        </div>
+      </div>
+      <div id="box3-content">
+        <h1>Build Your Community</h1>
+        <p>Fides is the new wave for Investing crypto asset, We can devide the right
+           and the seed money</p>
+        <img id ="subdao" src="../assets/arrow_button.png">
+        <img id = "subdao_icon" src="../assets/subdao_icon.png">
+      </div>
+      <div id="box4">
+        <h1>Join Out Community</h1>
+        <p>Fides is the new wave for Investing crypto asset, We can devide the right
+           and the seed money</p>
+        <img id="community_arrow" src="../assets/arrow_button.png">
+        <img id="community_icon" src="../assets/community_icon.png">
+      </div>
     </div>
 </template>
 
@@ -44,14 +54,13 @@ export default {
 #chess1 {
   height: 267.17490145529985px;
   width: 113.27063209377528px;
-  top: 741.300537109375px;
+  top: 655px;
   border-radius: 0px;
-
   position: absolute;
   left: 89.8%;
   right: 3.12%;
   bottom: 78.58%;
-  background: #EDEDF2;
+  background: rgba( 255, 255, 255, 0 );
 }
 #chess2 {
   position: absolute;
@@ -60,9 +69,54 @@ export default {
   left: 150px;
   top: 1485.837646484375px;
   border-radius: 0px;
-  background: #EDEDF2;
+  background: rgba( 255, 255, 255, 0 );
 }
 
+#box1-wrapper{
+  position: relative;
+  top: 5%;
+}
+#box1-wrapper > div{
+  float: left;
+}
+
+#box1{
+  position: relative;
+  width: 380px;
+  height: 530px;
+  left: 25%;
+  background: #F5F8FC;
+  border-radius: 20px;
+}
+#box2{
+  position: relative;
+  width: 380px;
+  height: 346px;
+  background: #F5F8FC;
+  border-radius: 20px;
+  left: 27%;
+}
+#box3-content{
+  position: relative;
+  clear: both;
+  top: 8%;
+  left: 25%;
+  width: 380px;
+  height: 346px;
+  background: #F5F8FC;
+  border-radius: 20px;
+  float: left;
+}
+#box4{
+  position: relative;
+  width: 380px;
+  height: 534px;
+  background: #F5F8FC;
+  border-radius: 20px;
+  float: right;
+  left: -19%;
+  top: -10%;
+}
 #info, #tier, #subdao,#community{
   background: white;
 }
