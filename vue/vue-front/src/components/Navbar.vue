@@ -24,7 +24,6 @@ img{
   height: 40px;
   left: 410px;
   top: 37px;
-
   background: #4D6360;
 }
 nav {

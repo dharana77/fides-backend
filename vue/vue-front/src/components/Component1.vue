@@ -1,6 +1,6 @@
 <template>
     <div id="layer2">
-      <img src="../assets/layer2-3.png">
+      <img src="../assets/component1/layer_2x.png">
     </div>
 </template>
 
