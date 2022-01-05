@@ -1,31 +1,42 @@
 <template>
     <div id="component3">
-      <h1>Why Fides?</h1>
-      <p>Fides is the new wave for Investing crypto asset, We can
-      devide the right and the seed money.
-      And then we share our profits with less capital</p>
-      <h3>View Detail</h3>
-      <h1>1/N Investment</h1>
-      <p>Fides is the new wave for Investing crypto
-      asset, Our strong point is our App can devide
-      the right and the seed money of the investment ,
-      At last we can share risk and advantage of
-      investment.</p>
-      <h3>View Detail</h3>
-      <h1>Tiered Dao System</h1>
-      <p>Fides is the new wave for Investing crypto
-      asset, Our strong point is our App can devide
-      the right and the seed money of the investment ,
-      At last we can share risk and advantage of
-      investment.</p>
-      <h3>View Detail</h3>
-      <h1>Lend System</h1>
-      <p>Fides is the new wave for Investing crypto
-      asset, Our strong point is our App can devide
-      the right and the seed money of the investment ,
-      At last we can share risk and advantage of
-      investment.</p>
-      <h3>View Detail</h3>
+      <div id="fides-explain-wrapper">
+          <div id="fides-explain-first">
+            <span class="fides-explain-title">Why Fides?</span><br>
+            <span class="fides-explain-text">Fides is the new wave for Investing crypto asset, We can
+            devide the right and the seed money.<br>
+            And then we share our profits with less capital</span>
+          </div>
+        <div id="explain-contents-wrapper">
+          <div id="explain-contents1">
+            <h1 class="contents1-title">1/N Investment</h1>
+            <p class="contents1-text">Fides is the new wave for Investing crypto
+            asset, Our strong point is our App can devide
+            the right and the seed money of the investment ,
+            At last we can share risk and advantage of
+            investment.</p>
+            <h3 class="detail">View Detail</h3>
+          </div>
+          <div id="explain-contents2">
+            <h1 class="contents2-title">Tiered Dao System</h1>
+            <p class="contents2-text">Fides is the new wave for Investing crypto
+            asset, Our strong point is our App can devide
+            the right and the seed money of the investment ,
+            At last we can share risk and advantage of
+            investment.</p>
+            <h3 class="detail">View Detail</h3>
+          </div>
+          <div id="explain-contents3">
+            <h1 class="contents3-title">Lend System</h1>
+            <p class="contents3-text">Fides is the new wave for Investing crypto
+            asset, Our strong point is our App can devide
+            the right and the seed money of the investment ,
+            At last we can share risk and advantage of
+            investment.</p>
+            <h3 class="detail">View Detail</h3>
+          </div>
+        </div>
+      </div>
     </div>
 </template>
 
@@ -36,9 +47,78 @@ export default {
   }
 }
 </script>
+
+<style>
 #component3{
   width:100%;
 }
-<style>
 
+#fides-explain-first{
+  position: relative;
+  width: 780px;
+  height: 142px;
+  left: 22%;
+  padding: 3% 0 2.5% 5%;
+  text-align: left;
+}
+.fides-explain-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  color: #1CAE9A;
+}
+.fides-explain-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 5% 0;
+}
+#explain-contents-wrapper> div{
+  position: relative;
+  left: 10%;
+}
+#explain-contents1, #explain-contents2, #explain-contents3{
+  width: 380px;
+  height: 290px;
+  background: #F9F9F9;
+  border-radius: 20px;
+  float: left;
+  margin: 0 1% 5% 1%;
+}
+.contents1-title, .contents2-title, .contents3-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 26px;
+  /* or 87% */
+  color: #1CAE9A;
+  margin: 10% 0 10% 0;
+}
+.contents1-text, .contents2-text, .contents3-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #606060;
+  text-align: left;
+  margin: 0 0 10% 0;
+}
+.detail{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  /* or 87% */
+
+  color: #96BEB9;
+}
 </style>

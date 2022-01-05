@@ -147,7 +147,6 @@ export default {
   left: 564px;
   top: 1439px;
   border-radius: 0px;
-
 }
 #community_icon{
   width: 303.36px;

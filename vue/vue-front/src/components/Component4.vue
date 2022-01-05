@@ -24,6 +24,7 @@ export default {
 
 <style>
 #wrap-contents{
+  clear: both;
   position: relative;
 }
 #wrap-contents-box{
