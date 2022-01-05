@@ -29,7 +29,7 @@
         <h1>Join Out Community</h1>
         <p>Fides is the new wave for Investing crypto asset, We can devide the right
            and the seed money</p>
-        <img id="community_arrow" src="../assets/arrow_button.png">
+        <img id="community" src="../assets/arrow_button.png">
         <img id="community_icon" src="../assets/community_icon.png">
       </div>
     </div>
