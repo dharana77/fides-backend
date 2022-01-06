@@ -20,12 +20,6 @@ export default {
 
 <style>
 #component1{
-  position: absolute;
-  height: 595px;
-  width: 1997px;
-  left: -105px;
-  top: 42px;
-  border-radius: 0px;
 }
 #background_img{
   position: absolute;
