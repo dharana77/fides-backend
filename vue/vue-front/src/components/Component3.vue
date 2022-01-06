@@ -1,13 +1,11 @@
 <template>
     <div id="component3">
-      <div id="fides-explain-wrapper">
           <div id="fides-explain-first">
             <span class="fides-explain-title">Why Fides?</span><br>
             <span class="fides-explain-text">Fides is the new wave for Investing crypto asset, We can
             devide the right and the seed money.<br>
             And then we share our profits with less capital</span>
           </div>
-        <div id="explain-contents-wrapper">
           <div id="explain-contents1">
             <h1 class="contents1-title">1/N Investment</h1>
             <p class="contents1-text">Fides is the new wave for Investing crypto
@@ -35,8 +33,6 @@
             investment.</p>
             <h3 class="detail">View Detail</h3>
           </div>
-        </div>
-      </div>
     </div>
 </template>
 
@@ -50,16 +46,22 @@ export default {
 
 <style>
 #component3{
-  width:100%;
 }
 
 #fides-explain-first{
-  position: relative;
+  position: absolute;
   width: 780px;
   height: 142px;
-  left: 22%;
-  padding: 3% 0 2.5% 5%;
-  text-align: left;
+  left: 410px;
+  top: 1735px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  color: #0F8D7C;
+  text-align:left;
 }
 .fides-explain-title{
   font-family: Roboto;
@@ -76,19 +78,36 @@ export default {
   font-weight: 900;
   font-size: 30px;
   line-height: 36px;
-  margin: 0 0 5% 0;
+  color: black;
 }
-#explain-contents-wrapper> div{
-  position: relative;
-  left: 10%;
-}
-#explain-contents1, #explain-contents2, #explain-contents3{
+
+#explain-contents1{
+ position: absolute;
+ width: 380px;
+ height: 290px;
+ left: 210px;
+ top: 1917px;
+ background: #F9F9F9;
+ border-radius: 20px;
+ }
+ #explain-contents2{
+  position: absolute;
   width: 380px;
   height: 290px;
+  left: 610px;
+  top: 1917px;
+
   background: #F9F9F9;
   border-radius: 20px;
-  float: left;
-  margin: 0 1% 5% 1%;
+}
+#explain-contents3{
+  position: absolute;
+  width: 380px;
+  height: 290px;
+  left: 1010px;
+  top: 1917px;
+  background: #F9F9F9;
+  border-radius: 20px;
 }
 .contents1-title, .contents2-title, .contents3-title{
   font-family: Roboto;
@@ -118,7 +137,6 @@ export default {
   font-size: 16px;
   line-height: 14px;
   /* or 87% */
-
   color: #96BEB9;
 }
 </style>
