@@ -32,28 +32,30 @@ export default {
 }
 #layer_text{
   position: absolute;
+  width:100%;
   top: 15%;
   left: 10%;
 }
 #layer_title{
-  width: 536px;
+  width: 40%;
   height: 108px;
   text-align: left;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 3.375rem;
+  font-size: 3vw;
   line-height: 60px;
   /* or 111% */
   color: #000000;
 }
 #layer_contents{
-  width: 536px;
+  margin: 0% 0% 0% 0%;
+  width: 40%;
   height: 108px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 2vw;
   line-height: 36px;
   /* or 120% */
   color: #000000;

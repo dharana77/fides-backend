@@ -92,7 +92,7 @@ export default {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 150%;
+  font-size: 130%;
   line-height: 20px;
   color: white;
   text-align:center;
