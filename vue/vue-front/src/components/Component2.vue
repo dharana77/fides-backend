@@ -57,7 +57,7 @@ export default {
  height: 267.17490145529985px;
  width: 113.27063209377528px;
  left: 1436.8583984375px;
- top: 741.300537109375px;
+ top: 104.300537109375px;
  border-radius: 0px;
 
  background: rgba( 255, 255, 255, 0 );
@@ -68,7 +68,7 @@ export default {
   height: 247.28165346559211px;
   width: 119.18116349536974px;
   left: 150px;
-  top: 1485.837646484375px;
+  top: 848.837646484375px;
   border-radius: 0px;
   background: rgba( 255, 255, 255, 0 );
 }
