@@ -1,12 +1,12 @@
 <template>
-    <div id="layer2">
-      <img id="layer_img" src="../assets/component1/layer_2x.png">
-      <div id="layer_text">
-        <h1 id="layer_title">The most progressive investment guild</h1>
-        <p id="layer_contents">Fides is The <span class="most">Most</span> progressive<br>
-        <span class="guild"> Investment Guild,</span> We seek more profits<br>
-        with less capital</p>
-      </div>
+    <div id="component1">
+      <img id="background_img" src="../assets/component1/background.png">
+
+      <h1 id="component1_title">The most progressive investment guild</h1>
+      <p id="component1_contents">Fides is The <span class="most">Most</span> progressive<br>
+      <span class="guild"> Investment Guild,</span> We seek more profits<br>
+      with less capital</p>
+
     </div>
 </template>
 
@@ -19,34 +19,53 @@ export default {
 </script>
 
 <style>
-#layer2 img{
-  width: 100%;
-  max-width:100%; height:auto;
-  height: 595px;
-  top: 42px;
-  background-color: #FFFFFF;
-  text-align: center;
-}
-#layer2{
-  position: relative;
-}
-#layer_text{
+#component1{
   position: absolute;
-  width:100%;
-  top: 15%;
-  left: 10%;
+  height: 595px;
+  width: 1997px;
+  left: -105px;
+  top: 42px;
+  border-radius: 0px;
 }
-#layer_title{
-  width: 40%;
+#background_img{
+  position: absolute;
+  width: 1600px;
+  height: 530px;
+  left: 0px;
+  top: 85px;
+  background: #FFFFFF;
+}
+
+#component1_title{
+  position: absolute;
+  width: 536px;
   height: 108px;
-  text-align: left;
+  left: 210px;
+  top: 178px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 3vw;
+  font-size: 54px;
   line-height: 60px;
   /* or 111% */
   color: #000000;
+  text-align:left;
+
+}
+#component1_contents{
+  position: absolute;
+  width: 536px;
+  height: 108px;
+  left: 210px;
+  top: 316px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  color: #000000;
+  text-align:left;
 }
 #layer_contents{
   margin: 0% 0% 0% 0%;

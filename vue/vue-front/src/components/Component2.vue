@@ -2,23 +2,23 @@
     <div id="component2">
       <img id="chess1" src="../assets/Chess1.png">
       <img id="chess2" src="../assets/Chess2.png">
-      <div id="box1-wrapper">
-        <div id="box1">
-          <h1>Lean More About Fides</h1>
-          <p>Fides is the new wave for Investing crypto asset, We can devide the right
-             and the seed money</p>
-          <img id ="info" src="../assets/arrow_button.png">
-          <img id = "info_icon" src="../assets/info_icon.png">
-        </div>
-        <div id="box2">
-          <h1>Become Speaker Tier</h1>
-          <p>Fides is the new wave for Investing crypto asset, We can devide the right
-             and the seed money</p>
-          <img id ="tier" src="../assets/arrow_button.png">
-          <img id = "tier_icon" src="../assets/tier_icon.png">
-        </div>
+
+      <div id="box1">
+        <h1>Lean More About Fides</h1>
+        <p>Fides is the new wave for Investing crypto asset, We can devide the right
+           and the seed money</p>
+        <img id ="info" src="../assets/arrow_button.png">
+        <img id = "info_icon" src="../assets/info_icon.png">
       </div>
-      <div id="box3-content">
+      <div id="box2">
+        <h1>Become Speaker Tier</h1>
+        <p>Fides is the new wave for Investing crypto asset, We can devide the right
+           and the seed money</p>
+        <img id ="tier" src="../assets/arrow_button.png">
+        <img id = "tier_icon" src="../assets/tier_icon.png">
+      </div>
+
+      <div id="box3">
         <h1>Build Your Community</h1>
         <p>Fides is the new wave for Investing crypto asset, We can devide the right
            and the seed money</p>
@@ -45,23 +45,24 @@ export default {
 
 <style>
 #component2{
-  width: 100%;
-  height: 1048px;
+  position: absolute;
+  width: 1600px;
+  height: 1040px;
   left: 0px;
-  top: 607px;
+  top: 615px;
   background: #EDEDF2;
 }
 #chess1 {
-  height: 267.17490145529985px;
-  width: 113.27063209377528px;
-  top: 655px;
-  border-radius: 0px;
-  position: absolute;
-  left: 89.8%;
-  right: 3.12%;
-  bottom: 78.58%;
-  background: rgba( 255, 255, 255, 0 );
+ position: absolute;
+ height: 267.17490145529985px;
+ width: 113.27063209377528px;
+ left: 1436.8583984375px;
+ top: 741.300537109375px;
+ border-radius: 0px;
+
+ background: rgba( 255, 255, 255, 0 );
 }
+
 #chess2 {
   position: absolute;
   height: 247.28165346559211px;
@@ -72,50 +73,41 @@ export default {
   background: rgba( 255, 255, 255, 0 );
 }
 
-#box1-wrapper{
-  position: relative;
-  top: 5%;
-}
-#box1-wrapper > div{
-  float: left;
-}
-
 #box1{
-  position: relative;
+  position: absolute;
   width: 380px;
   height: 530px;
-  left: 25%;
+  left: 410px;
+  top: 44px;
   background: #F5F8FC;
   border-radius: 20px;
 }
 #box2{
-  position: relative;
-  width: 380px;
+  position: absolute;
   height: 346px;
-  background: #F5F8FC;
+  width: 380px;
+  left: 810px;
+  top: 44px;
   border-radius: 20px;
-  left: 27%;
+  background: #F5F8FC;
 }
-#box3-content{
-  position: relative;
-  clear: both;
-  top: 8%;
-  left: 25%;
+#box3{
+  position: absolute;
   width: 380px;
   height: 346px;
+  left: 410px;
+  top: 612px;
   background: #F5F8FC;
   border-radius: 20px;
-  float: left;
 }
 #box4{
-  position: relative;
+  position: absolute;
   width: 380px;
   height: 534px;
+  left: 810px;
+  top: 424px;
   background: #F5F8FC;
   border-radius: 20px;
-  float: right;
-  left: -19%;
-  top: -10%;
 }
 #info, #tier, #subdao,#community{
   background: white;
