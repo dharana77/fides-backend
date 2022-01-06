@@ -1,7 +1,7 @@
 <template>
     <div id="component2">
-      <img id="chess1" src="../assets/Chess1.png">
-      <img id="chess2" src="../assets/Chess2.png">
+      <img id="chess1" src="../assets/component2/chess1.png">
+      <img id="chess2" src="../assets/component2/chess2.png">
 
       <div id="box1">
         <h1>Lean More About Fides</h1>

@@ -1,62 +1,40 @@
 <template>
     <div id="component6">
-      <img id="chess3" class="chess" src="../assets/Chess3.png">
-      <div id="text-wrapper">
-        <h1>Join Our Community</h1>
-        <p>Learn more about Fides system. chat with us and have your say in the future of the Fides ecosystem</p>
-      </div>
-      <div id="contents-wrapper">
-        <div id="telegram-board">
-          <img id="white-board" class="board" src="../assets/white_rectangle.png">
-          <img id="telegram-image" src="../assets/telegram.png" >
-          <div id="telegram-text-board-wrapper">
-            <h3>Telegram</h3>
-            <p>Join our community</p>
-          </div>
-        </div>
-        <div id="twitter-board">
-          <img id="white-board" class="board" src="../assets/white_rectangle.png">
-          <img id="twitter-image" src="../assets/twitter.png" >
-          <div id="twitter-text-board-wrapper">
-            <h3>Twitter</h3>
-            <p>Follow @fidemeta</p>
-          </div>
-        </div>
-        <div id="discord-board">
-          <img id="white-board" class="board" src="../assets/white_rectangle.png">
-          <img id="discord-image" src="../assets/discord.png" >
-          <div id="discord-text-board-wrapper">
-            <h3>Discord</h3>
-            <p>Join our communityy</p>
-          </div>
-        </div>
-        <div id="github-board">
-          <img id="white-board" class="board" src="../assets/white_rectangle.png">
-          <img id="github-image" src="../assets/github.png" >
-          <div id="github-text-board-wrapper">
-            <h3>Github</h3>
-            <p> Github Contribute to the codebase.</p>
-          </div>
-        </div>
-        <div id="reddit-board">
-          <img id="white-board" class="board" src="../assets/white_rectangle.png">
-          <img id="reddit-image" src="../assets/reddit.png" >
-          <div id="reddit-text-board-wrapper">
-            <h3>Reddit</h3>
-            <p>Reddit Soon updated</p>
-          </div>
-        </div>
-        <div id="blog-board">
-          <img id="white-board" class="board" src="../assets/white_rectangle.png">
-          <img id="blog-image" src="../assets/blog.png" >
-          <div id="blog-text-board-wrapper">
-            <h3>Blog</h3>
-            <p>Blog Learn about Fides</p>
-          </div>
-        </div>
-      </div>
-      <img id="chess4" class="chess" src="../assets/Chess4.png">
+      <img id="component6-chess1" class="chess" src="../assets/component6/chess1.png">
+      <h1 id="component6-title">Join Our Community</h1>
+      <p id="component6-text">Learn more about Fides system. chat with us and have your say in the future of the Fides ecosystem</p>
 
+      <div id="component6-telegram-board"></div>
+      <img id="component6-telegram-icon" src="../assets/component6/telegram.png" >
+      <h3 id="component6-telegram-title">Telegram</h3>
+      <p id="component6-telegram-content">Join our community</p>
+
+      <div id="component6-twitter-board"></div>
+      <img id="component6-twitter-icon" src="../assets/component6/twitter.png" >
+      <h3 id="component6-twitter-title">Twitter</h3>
+      <p id="component6-twitter-content">Follow @fidesFinance</p>
+
+      <div id="component6-discord-board"></div>
+      <img id="component6-discord-icon" src="../assets/component6/discord.png" >
+      <h3 id="component6-discord-title">Discord</h3>
+      <p id="component6-discord-content">Ask your question</p>
+
+      <div id="component6-github-board"></div>
+      <img id="component6-github-icon" src="../assets/component6/github.png" >
+      <h3 id="component6-github-title">Github</h3>
+      <p id="component6-github-content"> Github Contribute to the codebase.</p>
+
+      <div id="component6-reddit-board"></div>
+      <img id="component6-reddit-icon" src="../assets/component6/reddit.png" >
+      <h3 id="component6-reddit-title">Reddit</h3>
+      <p id="component6-reddit-content">Reddit Soon updated</p>
+
+      <div id="component6-blog-board"></div>
+      <img id="component6-blog-icon" src="../assets/component6/blog.png" >
+      <h3 id="component6-blog-title">Blog</h3>
+      <p id="component6-blog-content">Learn about Fides</p>
+
+      <img id="component6-chess2" class="chess" src="../assets/component6/chess2.png">
     </div>
 </template>
 
@@ -70,71 +48,347 @@ export default {
 
 <style>
 #component6{
+  position: absolute;
+  width: 1600px;
+  height: 511px;
+  left: 0px;
+  top: 3356px;
   background: #EDEDF2;
-  width: 100%;
-  height: 570px;
 }
-
-#text-wrapper{
-  position: relative;
-  top: -25%;
-}
-#contents-wrapper{
-  position: relative;
-  top: -25%;
-  left: -5%;
-}
-
-#chess3{
-  position: relative;
-  left: -40%;
-  top: -10%;
+#component6-chess1{
+  position: absolute;
   height: 165.5461126167448px;
   width: 122.04705088612502px;
+  left: 149px;
+  top: -48.7153320313px;
   border-radius: 0px;
 }
-
-#chess4{
-  position: relative;
-  left: 40%;
-  top: -20%;
+#component6-chess2{
+  position:absolute;
   height: 216.23389008128223px;
   width: 126.44475752047089px;
+  left: 1424.5087890625px;
+  top: 427.291992188px;
   border-radius: 0px;
 }
-
 .chess{
   background: rgba( 255, 255, 255, 0 );
 }
-
-#telegram-board,#discord-board,#reddit-board{
-  float:right;
+#component6-title{
+  position: absolute;
+  width: 278px;
+  height: 30px;
+  left: 661px;
+  top: 44px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #000000;
 }
-#telegram-board,#discord-board,#reddit-board,#github-board,#blog-board{
-  position: relative;
+#component6-text{
+  position: absolute;
+  width: 714px;
+  height: 18px;
+  left: 443px;
+  top: 90px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #606060;
 }
-#telegram-image, #twitter-image, #blog-image, #github-image, #reddit-image, #discord-image{
-  background: rgba( 255, 255, 255, 0 );
-  position : absolute;
-  left: 15%;
-}
-#twitter-image, #blog-image,#github-image{
-  left: 25%;
-  top: 25%;
-}
-#twitter-image{
-  top:10%;
-}
-#twitter-text-board-wrapper,#telegram-text-board-wrapper,#discord-text-board-wrapper,#github-text-board-wrapper,
-#blog-text-board-wrapper,#reddit-text-board-wrapper{
-  position:absolute;
-  top: 0%;
-  left: 35%;
-}
-.board{
-  height: 95px;
+#component6-telegram-board{
+  position: absolute;
   width: 380px;
+  height: 95px;
+  left: 410px;
+  top: 132px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  background: rgba( 255, 255, 255, 0 );
 }
+#component6-telegram-icon{
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  left: 430px;
+  top: 154px;
+  border-radius: 0px;
+}
+#component6-telegram-title{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 482px;
+  top: 138px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  color: #000000;
+  text-align:left;
+}
+#component6-telegram-content{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 482px;
+  top: 162px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+  color: #606060;
+  background: rgba( 255, 255, 255, 0 );
+  text-align:left;
+}
+#component6-twitter-board{
+  position: absolute;
+  width: 380px;
+  height: 95px;
+  left: 810px;
+  top: 132px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#component6-twitter-icon{
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  left: 831px;
+  top: 154px;
+  border-radius: 0px;
+}
+#component6-twitter-title{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 883px;
+  top: 138px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  color: #000000;
+  text-align:left;
+}
+#component6-twitter-content{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 883px;
+  top: 162px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+  color: #606060;
+  text-align:left;
+}
+#component6-discord-board{
+  position: absolute;
+  width: 380px;
+  height: 95px;
+  left: 410px;
+  top: 247px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#component6-github-board{
+  position: absolute;
+  width: 380px;
+  height: 95px;
+  left: 810px;
+  top: 247px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#component6-reddit-board{
+  position: absolute;
+  width: 380px;
+  height: 95px;
+  left: 410px;
+  top: 362px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#component6-blog-board{
+  position: absolute;
+  width: 380px;
+  height: 95px;
+  left: 810px;
+  top: 362px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+#component6-discord-icon{
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  left: 430px;
+  top: 272px;
+  border-radius: 0px;
+}
+#component6-github-icon{
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  left: 831px;
+  top: 272px;
+  border-radius: 0px;
+}
+#component6-reddit-icon{
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  left: 430px;
+  top: 391px;
+  border-radius: 0px;
+}
+#component6-blog-icon{
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  left: 831px;
+  top: 391px;
+  border-radius: 0px;
+}
+#component6-discord-title{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 482px;
+  top: 256px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  text-align:left;
+}
+#component6-github-title{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 883px;
+  top: 255px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  color: #000000;
+  text-align:left;
+}
+#component6-reddit-title{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 482px;
+  top: 375px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  color: #000000;
+  text-align:left;
+}
+#component6-blog-title{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 883px;
+  top: 375px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  color: #000000;
+  text-align:left;
+}
+#component6-discord-content{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 482px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+  color: #606060;
+  text-align: left;
+}
+#component6-github-content{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 883px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+  color: #606060;
+  text-align: left;
+}
+#component6-reddit-content{
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 482px;
+  top: 399px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+  color: #606060;
+  text-align:left;
+}
+#component6-blog-content{
+   position: absolute;
+   width: 280px;
+   height: 17px;
+   left: 882px;
+   top: 399px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 18px;
+   /* or 112% */
+   color: #606060;
+   text-align:left;
+ }
 </style>
