@@ -21,6 +21,7 @@ export default {
 <style>
 #layer2 img{
   width: 100%;
+  max-width:100%; height:auto;
   height: 595px;
   top: 42px;
   background-color: #FFFFFF;
@@ -41,7 +42,7 @@ export default {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 54px;
+  font-size: 3.375rem;
   line-height: 60px;
   /* or 111% */
   color: #000000;

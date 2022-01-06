@@ -37,20 +37,21 @@ export default {
 #content-wrapper{
   position: absolute;
   background: rgba( 255, 255, 255, 0 );
-  top: 25%;
+  top: 10%;
   left: 30%;
-  text-align: center;
+  right:30%;
 }
-#connectos{
+#connectors{
   position: relative;
   background: rgba( 255, 255, 255, 0 );
-  top: 25%;
-  left: 30%;
+  top: 50%;
 }
+
 #connect_content{
   position: absolute;
   top: 60%;
-  left: 36%;
+  left: 30%;
+  right:30%;
 }
 #start-title{
   font-family: Roboto;
@@ -73,17 +74,27 @@ export default {
   color: #FFFFFF;
 }
 #connect{
-  height: 48px;
-  width: 210px;
+  height: 7.5vh;
+  width: 20vw;
   border-radius: 30px;
+  right: 30%;
+  left: 30%;
+  background: rgba( 255, 255, 255, 0 );
+}
+#connect_content{
+  position: absolute;
+  background: rgba( 255, 255, 255, 0 );
+  width: 40%;
+  top: -28%;
 }
 #connect_text{
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 150%;
   line-height: 20px;
-  color: #FFFFFF;
+  color: white;
   text-align:center;
+
 }
 </style>
