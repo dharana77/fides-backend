@@ -27,12 +27,13 @@ export default {
 #component8{
   position: relative;
   width: 100%;
+  height: 300px;
   background-color: #FFFFFF;
   text-align: center;
 }
 #getstart{
   width: 100%;
-  height: 300px;
+  height: 100%;
 }
 #content-wrapper{
   position: absolute;
