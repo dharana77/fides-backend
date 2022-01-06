@@ -1,34 +1,26 @@
 <template>
     <div id="component5">
-      <div id="wrapper">
-        <div id="text-wrapper">
-          <h1 id="text-title">The Fides Blog</h1>
-          <p id="text-body">
-          Learn more about Fides coummnity.
-          This will help your  investing life for crypto asset
-          </p>
-        </div>
-        <div id="image-wrapper">
-          <div id="image-wrapper-blog1">
-            <img id="fides-blog-1" src="../assets/fides-blog-1.png">
-            <p>MakerDAO Intergrates Fides’s Staked ETF
-               (wstETF)  as Collateral Asset</p>
-            <p class="date">November 25</p>
-          </div>
-          <div id="image-wrapper-blog2">
-            <img id="fides-blog-2" src="../assets/fides-blog-2.png">
-            <p>MakerDAO Intergrates Fides’s Staked ETF
-               (wstETF)  as Collateral Asset</p>
-            <p class="date">November 25</p>
-          </div>
-          <div id="image-wrapper-blog3">
-            <img id="fides-blog-3" src="../assets/fides-blog-3.png">
-            <p>MakerDAO Intergrates Fides’s Staked ETF
-               (wstETF)  as Collateral Asset</p>
-            <p class="date">November 25</p>
-          </div>
-        </div>
-      </div>
+      <h1 id="component5-text-title">The Fides Blog</h1>
+      <p id="component5-text-body">Learn more about Fides coummnity.
+      This will help your investing life for crypto asset</p>
+
+      <div id="component5-blog1-box"></div>
+      <img id="component5-blog1-upper" src="../assets/component5/blog1.png">
+      <p id="component5-blog1-text">MakerDAO Intergrates Fides’s Staked ETF
+         (wstETF)  as Collateral Asset</p>
+      <p id="component5-blog1-date">November 25</p>
+
+      <div id="component5-blog2-box"></div>
+      <img id="component5-blog2-upper" src="../assets/component5/blog2.png">
+      <p id="component5-blog2-text">MakerDAO Intergrates Fides’s Staked ETF
+         (wstETF)  as Collateral Asset</p>
+      <p id="component5-blog2-date">November 25</p>
+
+      <div id="component5-blog3-box"></div>
+      <img id="component5-blog3-upper" src="../assets/component5/blog3.png">
+      <p id="component5-blog3-text">MakerDAO Intergrates Fides’s Staked ETF
+         (wstETF)  as Collateral Asset</p>
+      <p id="component5-blog3-date">November 25</p>
     </div>
 </template>
 
@@ -42,40 +34,188 @@ export default {
 
 <style>
 #component5{
-  background:white;
+  position: absolute;
+  width: 1600px;
   height: 572px;
-}
-
-#wrapper{
-  top:2810px;
-}
-
-#text-wrapper{
-  top: 2810px;
-}
-
-#image-wrapper{
-  display: inline-block;
-  width: 100%;
-  height: 100%;
+  left: 0px;
+  top: 2735px;
   background: #FFFFFF;
 }
 
-#image-wrapper-blog1, #image-wrapper-blog2, #image-wrapper-blog3{
-  display:inline-block;
-  background: #FFFFFF;
-  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.2);
-  border-radius: 20px 20px 20px 20px;
+#component5-text-title{
+  position: absolute;
+  width: 210px;
+  height: 26px;
+  left: 695px;
+  top: 52px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
 }
-
-#fides-blog-1, #fides-blog-2, #fides-blog-3{
+#component5-text-body{
+  position: absolute;
+  width: 606px;
+  height: 18px;
+  left: 497px;
+  top: 98px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #606060;
+}
+#component5-blog1-upper{
+  position: absolute;
+  width: 380px;
   height: 220px;
-  width: 100%;
   left: 210px;
+  top: 156px;
   background: #FFFFFF;
-  display:inline-block;
+  border-radius: 20px 20px 0px 0px;
 }
-.date{
+#component5-blog1-box{
+  position: absolute;
+  width: 380px;
+  height: 338px;
+  left: 210px;
+  top: 156px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+#component5-blog2-box{
+  position: absolute;
+  width: 380px;
+  height: 338px;
+  left: 610px;
+  top: 156px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+#component5-blog3-box{
+  position:absolute;
+  width: 380px;
+  height: 338px;
+  left: 1010px;
+  top: 156px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+#component5-blog2-upper{
+  position: absolute;
+  width: 380px;
+  height: 220px;
+  left: 610px;
+  top: 156px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+}
+#component5-blog3-upper{
+  position: absolute;
+  width: 380px;
+  height: 220px;
+  left: 1010px;
+  top: 156px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+}
+#component5-blog1-text{
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  left: 230px;
+  top: 396px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #000000;
+  text-align:left;
+}
+#component5-blog2-text{
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  left: 630px;
+  top: 396px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #000000;
+  text-align:left;
+}
+#component5-blog3-text{
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  left: 1030px;
+  top: 396px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #000000;
+  text-align:left;
+}
+#component5-blog1-date{
+  position: absolute;
+  width: 340px;
+  height: 20px;
+  left: 230px;
+  top: 454px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
   color: #8E8E8E;
+  text-align:left;
+}
+#component5-blog2-date{
+  position: absolute;
+  width: 340px;
+  height: 20px;
+  left: 630px;
+  top: 454px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #8E8E8E;
+  text-align:left;
+}
+#component5-blog3-date{
+  position: absolute;
+  width: 340px;
+  height: 20px;
+  left: 1030px;
+  top: 454px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #8E8E8E;
+  text-align:left;
 }
 </style>
