@@ -1,14 +1,12 @@
 <template>
     <div id="component4">
-      <div id="wrap-contents">
-        <img id="why-fides" src="../assets/why-fides.png">
-        <div id = "wrap-contents-box">
-          <div id= "wrap-text">
-            <h1 id="why-fides-text-title">Why Fides?</h1>
-            <p id="why-fides-text-body">Fides is the new wave for Investing crypto asset, We can
-            devide the right and the seed money.
-            And then we share our profits with less capital</p>
-          </div>
+      <img id="component4-background" src="../assets/component4/background.png">
+      <div id= "component4-wrapper">
+        <div id="component4-textbox">
+          <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>
+          Fides is the new wave for Investing crypto asset, We can
+          devide the right and the seed money.<br>
+          And then we share our profits with less capital</p>
         </div>
       </div>
     </div>
@@ -23,32 +21,50 @@ export default {
 </script>
 
 <style>
-#wrap-contents{
-  clear: both;
-  position: relative;
+#component4{
+
 }
-#wrap-contents-box{
+
+#component4-background {
+  position:absolute;
+  width: 1600px;
+  height: 458px;
+  left: 0px;
+  top: 2277px;
+}
+#component4-wrapper{
   position: absolute;
-  top: 33%;
-  left: 20%;
   width: 900px;
   height: 200px;
-
+  left: 350px;
+  top: 2406px;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(20px);
-
+  /* Note: backdrop-filter has minimal browser support */
   border-radius: 24px;
 }
-#why-fides {
-  width: 100%;
-  height: 595px;
-  top: 42px;
+#component4-textbox{
+  position: absolute;
+  width: 780px;
+  left: 60px;
+  height: 142px;
+  text-align:left;
 }
-
-#why-fides-text-title, #why-fides-text-body{
+.component4-text-style{
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
+#component4-text-title{
   text-align: center;
-  top: 25%;
-  left: 25%;
-  padding: 5px 10px;
+  /* or 120% */
+  color: #E4297E;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+  font-weight: 900;
+}
+#component4-text-content{
+
 }
 </style>
