@@ -25,9 +25,11 @@ export default {
 
 <style>
 #component8{
-  position: relative;
-  width: 100%;
+  position: absolute;
+  width: 1600px;
   height: 300px;
+  left: 0px;
+  top: 4397px;
   background-color: #FFFFFF;
   text-align: center;
 }
@@ -75,12 +77,13 @@ export default {
   color: #FFFFFF;
 }
 #connect{
-  height: 7.5vh;
-  width: 20vw;
+  position: absolute;
+  width: 210px;
+  height: 48px;
+  top: 15px;
+  left: 215px;
+  background: #E9863B;
   border-radius: 30px;
-  right: 30%;
-  left: 30%;
-  background: rgba( 255, 255, 255, 0 );
 }
 #connect_content{
   position: absolute;
@@ -96,6 +99,5 @@ export default {
   line-height: 20px;
   color: white;
   text-align:center;
-
 }
 </style>
