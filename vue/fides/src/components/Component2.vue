@@ -1,36 +1,38 @@
 <template>
     <div id="component2">
-      <img id="chess1" src="../assets/component2/chess1.png">
-      <img id="chess2" src="../assets/component2/chess2.png">
+      <img id="component2-chess1" src="../assets/component2/chess1.png">
+      <img id="component2-chess2" src="../assets/component2/chess2.png">
 
-      <div id="box1">
-        <h1>Lean More About Fides</h1>
-        <p>Fides is the new wave for Investing crypto asset, We can devide the right
+      <div id="component2-box1">
+        <h1 id="component2-box1-title">Lean More About Fides</h1>
+        <p id="component2-box1-text">Fides is the new wave for Investing crypto asset, We can devide the right
            and the seed money</p>
-        <img id ="info" src="../assets/arrow_button.png">
-        <img id = "info_icon" src="../assets/info_icon.png">
-      </div>
-      <div id="box2">
-        <h1>Become Speaker Tier</h1>
-        <p>Fides is the new wave for Investing crypto asset, We can devide the right
-           and the seed money</p>
-        <img id ="tier" src="../assets/arrow_button.png">
-        <img id = "tier_icon" src="../assets/tier_icon.png">
+        <img id ="component2-box1-button" src="../assets/component2/button.png">
+        <img id = "component2-box1-icon" src="../assets/component2/box1-icon.png">
       </div>
 
-      <div id="box3">
-        <h1>Build Your Community</h1>
-        <p>Fides is the new wave for Investing crypto asset, We can devide the right
+      <div id="component2-box2">
+        <h1 id="component2-box2-title">Become Speaker Tier</h1>
+        <p id="component2-box2-text">Fides is the new wave for Investing crypto asset, We can devide the right
            and the seed money</p>
-        <img id ="subdao" src="../assets/arrow_button.png">
-        <img id = "subdao_icon" src="../assets/subdao_icon.png">
+        <img id ="component2-box2-button" src="../assets/component2/button.png">
+        <img id = "component2-box2-icon" src="../assets/component2/box2-icon.png">
       </div>
-      <div id="box4">
-        <h1>Join Out Community</h1>
-        <p>Fides is the new wave for Investing crypto asset, We can devide the right
+
+      <div id="component2-box3">
+        <h1 id="component2-box3-title">Build Your Community</h1>
+        <p id="component2-box3-text">Fides is the new wave for Investing crypto asset, We can devide the right
            and the seed money</p>
-        <img id="community" src="../assets/arrow_button.png">
-        <img id="community_icon" src="../assets/community_icon.png">
+        <img id ="component2-box3-button" src="../assets/component2/button.png">
+        <img id = "component2-box3-icon" src="../assets/component2/box3-icon.png">
+      </div>
+
+      <div id="component2-box4">
+        <h1 id="component2-box4-title">Join Out Community</h1>
+        <p id="component2-box4-text">Fides is the new wave for Investing crypto asset, We can devide the right
+           and the seed money</p>
+        <img id="component2-box4-button" src="../assets/component2/button.png">
+        <img id="component2-box4-icon" src="../assets/component2/box4-icon.png">
       </div>
     </div>
 </template>
@@ -52,18 +54,17 @@ export default {
   top: 615px;
   background: #EDEDF2;
 }
-#chess1 {
- position: absolute;
- height: 267.17490145529985px;
- width: 113.27063209377528px;
- left: 1436.8583984375px;
- top: 104.300537109375px;
- border-radius: 0px;
-
- background: rgba( 255, 255, 255, 0 );
+#component2-chess1 {
+   position: absolute;
+   height: 267.17490145529985px;
+   width: 113.27063209377528px;
+   left: 1436.8583984375px;
+   top: 104.300537109375px;
+   border-radius: 0px;
+   background: rgba( 255, 255, 255, 0 );
 }
 
-#chess2 {
+#component2-chess2 {
   position: absolute;
   height: 247.28165346559211px;
   width: 119.18116349536974px;
@@ -73,7 +74,7 @@ export default {
   background: rgba( 255, 255, 255, 0 );
 }
 
-#box1{
+#component2-box1{
   position: absolute;
   width: 380px;
   height: 530px;
@@ -82,7 +83,7 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
-#box2{
+#component2-box2{
   position: absolute;
   height: 346px;
   width: 380px;
@@ -91,7 +92,7 @@ export default {
   border-radius: 20px;
   background: #F5F8FC;
 }
-#box3{
+#component2-box3{
   position: absolute;
   width: 380px;
   height: 346px;
@@ -100,7 +101,7 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
-#box4{
+#component2-box4{
   position: absolute;
   width: 380px;
   height: 534px;
@@ -109,41 +110,186 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
-#info, #tier, #subdao,#community{
-  background: white;
+#component2-box1-title{
+  position: absolute;
+  width: 280px;
+  height: 16px;
+  left: 50px;
+  top: 44px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 16px;
+  /* identical to box height, or 73% */
+  color: #000000;
 }
-#info_icon, #tier_icon, #subdao_icon, #community_icon{
-  background:white;
+#component2-box1-text{
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  left: 50px;
+  top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #606060;
+
 }
-#info_icon{
+#component2-box1-button{
+  position: absolute;
+  width: 70px;
+  height: 38px;
+  left: 50px;
+  top: 160px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+#component2-box1-icon{
+  position: absolute;
   width: 308.18px;
   height: 205.1px;
-  left: 460.36px;
-  top: 947px;
-  transform: rotate(10.78deg);
+  left: 12px;
+  top: 266px;
 }
-#tier_icon{
+#component2-box2-title{
+  position: absolute;
+  width: 280px;
+  height: 16px;
+  left: 50px;
+  top: 44px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 16px;
+  /* identical to box height, or 73% */
+  color: #000000;
+}
+#component2-box2-text{
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  left: 50px;
+  top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #606060;
+}
+#component2-box2-button{
+  position: absolute;
+  width: 70px;
+  height: 38px;
+  left: 50px;
+  top: 160px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+#component2-box2-icon{
+  position: absolute;
   width: 235.78px;
   height: 183.26px;
-  left: 922px;
-  top: 855.56px;
-  transform: rotate(deg);
+  left: 112px;
+  top: 162.746px;
 }
-#subdao_icon{
-  left: 35.25%;
-  right: 48.35%;
-  top: 30.56%;
-  bottom: 65.52%;
-  height: 184.4870147705078px;
+
+#component2-box3-title{
+  position: absolute;
+  width: 280px;
+  height: 16px;
+  left: 50px;
+  top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 16px;
+  /* identical to box height, or 73% */
+  color: #000000;
+}
+#component2-box3-text{
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  left: 50px;
+  top: 76px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #606060;
+}
+#component2-box3-button{
+  position: absolute;
+  width: 70px;
+  height: 38px;
+  left: 50px;
+  top: 156px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+#component2-box3-icon{
+  position: absolute;
+  height: 154.47857666015625px;
   width: 262.3983459472656px;
-  left: 564px;
-  top: 1439px;
+  left: 117.46px;
+  top: 190px;
   border-radius: 0px;
 }
-#community_icon{
+#component2-box4-title{
+  position: absolute;
+  width: 280px;
+  height: 16px;
+  left: 50px;
+  top: 44px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 16px;
+}
+#component2-box4-text{
+  position: absolute;
+  width: 280px;
+  height: 60px;
+  left: 50px;
+  top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  color: #606060;
+}
+#component2-box4-button{
+  position: absolute;
+  width: 70px;
+  height: 38px;
+  left: 50px;
+  top: 160px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+#component2-box4-icon{
+  position: absolute;
   width: 303.36px;
   height: 190.28px;
-  left: 860px;
-  top: 1373px;
+  left: 50px;
+  top: 312px;
 }
 </style>

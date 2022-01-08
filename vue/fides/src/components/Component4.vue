@@ -22,7 +22,7 @@ export default {
 
 <style>
 #component4{
-
+  text-align: center;
 }
 
 #component4-background {
@@ -56,10 +56,10 @@ export default {
   font-style: normal;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 500;
 }
 #component4-text-title{
   text-align: center;
-  /* or 120% */
   color: #E4297E;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
   font-weight: 900;

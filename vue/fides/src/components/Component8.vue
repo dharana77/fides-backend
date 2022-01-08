@@ -5,7 +5,7 @@
       <p id="component8-explain">Connect your crypto wallet to start our application immediately
          No registration needed.</p>
       <img id="component8-connect-img" src="../assets/component8/connect.png">
-      <h4 id="component8-connect_text">Connect Wallet</h4>
+      <h4 id="component8-connect-text">Connect Wallet</h4>
     </div>
 </template>
 
@@ -34,22 +34,36 @@ export default {
   left: 0px;
 }
 #component8-title{
+  position: absolute;
+  width: 326px;
+  height: 30px;
+  left: 639px;
+  top: 50px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
   /* identical to box height, or 100% */
+
   text-align: center;
+
   color: #FFFFFF;
 }
 #component8-explain{
+  position: absolute;
+  width: 450px;
+  height: 34px;
+  left: 575px;
+  top: 127px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   /* or 125% */
+
   text-align: center;
   color: #FFFFFF;
 }
@@ -57,15 +71,25 @@ export default {
   position: absolute;
   width: 210px;
   height: 48px;
-  top: 15px;
-  left: 215px;
+  left: 695px;
+  top: 198px;
   background: #E9863B;
   border-radius: 30px;
 }
 #component8-connect-text{
   position: absolute;
-  background: rgba( 255, 255, 255, 0 );
-  width: 40%;
-  top: -28%;
+  width: 168px;
+  height: 18px;
+  left: 716px;
+  top: 180px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 1500;
+  font-size: 24px;
+  line-height: 20px;
+  /* or 83% */
+  text-align: center;
+  color: #FFFFFF;
 }
 </style>
