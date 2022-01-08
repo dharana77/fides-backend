@@ -242,7 +242,7 @@ export default {
   position: absolute;
   width: 272px;
   height: 19px;
-  left: 833px;
+  left: 838px;
   top: 387px;
   font-family: Roboto;
   font-style: normal;
