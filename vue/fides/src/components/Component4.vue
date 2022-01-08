@@ -1,6 +1,7 @@
 <template>
     <div id="component4">
       <img id="component4-background" src="../assets/component4/background.png">
+      <img id="component4-chess" src="../assets/component4/chess.png">
       <div id= "component4-wrapper">
         <div id="component4-textbox">
           <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>
@@ -31,6 +32,14 @@ export default {
   height: 458px;
   left: 0px;
   top: 2277px;
+}
+#component4-chess{
+  position: absolute;
+  height: 178.71096394199824px;
+  width: 105.02826451152384px;
+  left: 1359.1484375px;
+  top: 2191px;
+  border-radius: 0px;
 }
 #component4-wrapper{
   position: absolute;
