@@ -123,6 +123,7 @@ export default {
   line-height: 16px;
   /* identical to box height, or 73% */
   color: #000000;
+  text-align: left;
 }
 #component2-box1-text{
   position: absolute;
@@ -137,16 +138,17 @@ export default {
   line-height: 20px;
   /* or 125% */
   color: #606060;
-
+  text-align: left;
 }
 #component2-box1-button{
   position: absolute;
   width: 70px;
   height: 38px;
   left: 50px;
-  top: 160px;
+  top: 180px;
   box-sizing: border-box;
   border-radius: 20px;
+  text-align: left;
 }
 #component2-box1-icon{
   position: absolute;
@@ -168,6 +170,7 @@ export default {
   line-height: 16px;
   /* identical to box height, or 73% */
   color: #000000;
+  text-align: left;
 }
 #component2-box2-text{
   position: absolute;
@@ -182,13 +185,14 @@ export default {
   line-height: 20px;
   /* or 125% */
   color: #606060;
+  text-align: left;
 }
 #component2-box2-button{
   position: absolute;
   width: 70px;
   height: 38px;
   left: 50px;
-  top: 160px;
+  top: 180px;
   box-sizing: border-box;
   border-radius: 20px;
 }
@@ -213,6 +217,7 @@ export default {
   line-height: 16px;
   /* identical to box height, or 73% */
   color: #000000;
+  text-align: left;
 }
 #component2-box3-text{
   position: absolute;
@@ -227,13 +232,14 @@ export default {
   line-height: 20px;
   /* or 125% */
   color: #606060;
+  text-align: left;
 }
 #component2-box3-button{
   position: absolute;
   width: 70px;
   height: 38px;
   left: 50px;
-  top: 156px;
+  top: 176px;
   box-sizing: border-box;
   border-radius: 20px;
 }
@@ -251,12 +257,12 @@ export default {
   height: 16px;
   left: 50px;
   top: 44px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 16px;
+  text-align: left;
 }
 #component2-box4-text{
   position: absolute;
@@ -271,13 +277,14 @@ export default {
   line-height: 20px;
   /* or 125% */
   color: #606060;
+  text-align: left;
 }
 #component2-box4-button{
   position: absolute;
   width: 70px;
   height: 38px;
   left: 50px;
-  top: 160px;
+  top: 180px;
   box-sizing: border-box;
   border-radius: 20px;
 }
