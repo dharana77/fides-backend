@@ -145,7 +145,6 @@ export default {
   height: 38px;
   left: 50px;
   top: 160px;
-  border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 20px;
 }
@@ -190,7 +189,6 @@ export default {
   height: 38px;
   left: 50px;
   top: 160px;
-  border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 20px;
 }
@@ -236,7 +234,6 @@ export default {
   height: 38px;
   left: 50px;
   top: 156px;
-  border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 20px;
 }
@@ -281,7 +278,6 @@ export default {
   height: 38px;
   left: 50px;
   top: 160px;
-  border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 20px;
 }
