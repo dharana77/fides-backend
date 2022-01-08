@@ -1,17 +1,11 @@
 <template>
     <div id="component8">
-      <img id="getstart" src="../assets/start/back1.png">
-      <div id="content-wrapper">
-        <h3 id="start-title">Get started immediately</h3>
-        <p id="start-explain">Connect your crypto wallet to start our application immediately
-           No registration needed.</p>
-       <div id="connectors">
-         <img id="connect" src="../assets/start/connect.png">
-         <div id="connect_content">
-           <h4 id="connect_text">Connect Wallet</h4>
-         </div>
-       </div>
-      </div>
+      <img id="component8-background" src="../assets/component8/background1.png">
+      <h3 id="component8-title">Get started immediately</h3>
+      <p id="component8-explain">Connect your crypto wallet to start our application immediately
+         No registration needed.</p>
+      <img id="component8-connect-img" src="../assets/component8/connect.png">
+      <h4 id="component8-connect_text">Connect Wallet</h4>
     </div>
 </template>
 
@@ -33,30 +27,13 @@ export default {
   background-color: #FFFFFF;
   text-align: center;
 }
-#getstart{
-  width: 100%;
-  height: 100%;
-}
-#content-wrapper{
+#component8-background{
   position: absolute;
-  background: rgba( 255, 255, 255, 0 );
-  top: 10%;
-  left: 30%;
-  right:30%;
+  width: 1600px;
+  height: 300px;
+  left: 0px;
 }
-#connectors{
-  position: relative;
-  background: rgba( 255, 255, 255, 0 );
-  top: 50%;
-}
-
-#connect_content{
-  position: absolute;
-  top: 60%;
-  left: 30%;
-  right:30%;
-}
-#start-title{
+#component8-title{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -66,7 +43,7 @@ export default {
   text-align: center;
   color: #FFFFFF;
 }
-#start-explain{
+#component8-explain{
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -76,7 +53,7 @@ export default {
   text-align: center;
   color: #FFFFFF;
 }
-#connect{
+#component8-connect-img{
   position: absolute;
   width: 210px;
   height: 48px;
@@ -85,19 +62,10 @@ export default {
   background: #E9863B;
   border-radius: 30px;
 }
-#connect_content{
+#component8-connect-text{
   position: absolute;
   background: rgba( 255, 255, 255, 0 );
   width: 40%;
   top: -28%;
-}
-#connect_text{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 130%;
-  line-height: 20px;
-  color: white;
-  text-align:center;
 }
 </style>
