@@ -22,7 +22,7 @@ export default {
 }
 #background_img{
   position: absolute;
-  width: 100%;
+  width: 1600px;
   height: 530px;
   left: 0px;
   top: 85px;
