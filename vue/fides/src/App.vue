@@ -41,9 +41,7 @@ export default {
 
 <style>
 #app {
-  width: 100%;
-  text-align: center;
-  left: 50%;
-  overflow-x: hidden;
+  position: absolute;
+  left:50%;
 }
 </style>
