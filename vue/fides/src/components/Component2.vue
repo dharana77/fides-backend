@@ -50,7 +50,7 @@ export default {
   position: absolute;
   width: 1600px;
   height: 1040px;
-  left: 0px;
+  left: -800px;
   top: 615px;
   background: #EDEDF2;
 }

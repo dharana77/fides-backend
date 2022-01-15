@@ -43,7 +43,7 @@ export default {
 #component7{
   position: absolute;
   height: 530px;
-  left: 0px;
+  left: -800px;
   top: 3867px;
   background: #FFFFFF;
 }

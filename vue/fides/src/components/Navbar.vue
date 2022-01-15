@@ -1,5 +1,5 @@
 <template>
-    <nav id="vue">
+    <nav id="navigation_bar">
         <img id="fides_icon" src="../assets/nav/fides_icon.png">
         <div class="nav" id="nav-home"><router-link to="/">Home</router-link></div>
         <div class="nav" id="nav-using"><router-link to="/using">Using fides</router-link></div>
@@ -18,6 +18,11 @@ export default {
 </script>
 
 <style>
+#navigation_bar{
+  position: absolute;
+  width: 1600px;
+  left: -800px;
+}
 #fides_icon{
   position: absolute;
   width: 40px;

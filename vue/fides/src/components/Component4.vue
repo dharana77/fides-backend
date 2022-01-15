@@ -23,6 +23,9 @@ export default {
 
 <style>
 #component4{
+  position: absolute;
+  width: 1600px;
+  left: -800px;
   text-align: center;
 }
 

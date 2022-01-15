@@ -18,11 +18,13 @@ export default {
 
 <style>
 #component1{
-  width: 100%;
+  position: absolute;
+  width: 1600px;
+  left: -800px;
 }
 #background_img{
   position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 530px;
   left: 0px;
   top: 85px;

@@ -51,7 +51,7 @@ export default {
   position: absolute;
   width: 1600px;
   height: 511px;
-  left: 0px;
+  left: -800px;
   top: 3356px;
   background: #EDEDF2;
 }

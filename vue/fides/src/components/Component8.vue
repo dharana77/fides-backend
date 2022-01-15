@@ -22,7 +22,7 @@ export default {
   position: absolute;
   width: 1600px;
   height: 300px;
-  left: 0px;
+  left: -800px;
   top: 4397px;
   background-color: #FFFFFF;
   text-align: center;

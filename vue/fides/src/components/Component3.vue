@@ -52,6 +52,9 @@ export default {
 
 <style>
 #component3{
+  position: absolute;
+  width: 1600px;
+  left: -800px;
 }
 
 #component3-explain-box{

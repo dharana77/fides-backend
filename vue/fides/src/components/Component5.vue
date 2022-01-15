@@ -37,7 +37,7 @@ export default {
   position: absolute;
   width: 1600px;
   height: 572px;
-  left: 0px;
+  left: -800px;
   top: 2735px;
   background: #FFFFFF;
 }
