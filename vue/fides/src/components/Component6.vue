@@ -57,10 +57,10 @@ export default {
 }
 #component6-chess1{
   position: absolute;
-  height: 165.5461126167448px;
-  width: 122.04705088612502px;
-  left: 149px;
-  top: -48.7153320313px;
+  height: 166px;
+  width: 122px;
+  left: 150px;
+  top: -48px;
   border-radius: 0px;
 }
 #component6-chess2{
@@ -118,7 +118,7 @@ export default {
   height: 36px;
   width: 36px;
   left: 430px;
-  top: 154px;
+  top: 162px;
   border-radius: 0px;
 }
 #component6-telegram-title{
@@ -126,7 +126,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 482px;
-  top: 138px;
+  top: 140px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -141,7 +141,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 482px;
-  top: 162px;
+  top: 168px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -167,7 +167,7 @@ export default {
   height: 36px;
   width: 36px;
   left: 831px;
-  top: 154px;
+  top: 162px;
   border-radius: 0px;
 }
 #component6-twitter-title{
@@ -175,7 +175,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 883px;
-  top: 138px;
+  top: 140px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -190,7 +190,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 883px;
-  top: 162px;
+  top: 168px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -245,7 +245,7 @@ export default {
   height: 36px;
   width: 36px;
   left: 430px;
-  top: 272px;
+  top: 276px;
   border-radius: 0px;
 }
 #component6-github-icon{
@@ -253,7 +253,7 @@ export default {
   height: 36px;
   width: 36px;
   left: 831px;
-  top: 272px;
+  top: 276px;
   border-radius: 0px;
 }
 #component6-reddit-icon{
@@ -261,7 +261,7 @@ export default {
   height: 36px;
   width: 36px;
   left: 430px;
-  top: 391px;
+  top: 390px;
   border-radius: 0px;
 }
 #component6-blog-icon{
@@ -269,7 +269,7 @@ export default {
   height: 36px;
   width: 36px;
   left: 831px;
-  top: 391px;
+  top: 390px;
   border-radius: 0px;
 }
 #component6-discord-title{
@@ -277,7 +277,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 482px;
-  top: 256px;
+  top: 254px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -291,7 +291,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 883px;
-  top: 255px;
+  top: 254px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -306,7 +306,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 482px;
-  top: 375px;
+  top: 368px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -321,7 +321,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 883px;
-  top: 375px;
+  top: 368px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -336,7 +336,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 482px;
-  top: 280px;
+  top: 282px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -351,7 +351,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 883px;
-  top: 280px;
+  top: 282px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -366,7 +366,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 482px;
-  top: 399px;
+  top: 396px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -381,7 +381,7 @@ export default {
    width: 280px;
    height: 17px;
    left: 882px;
-   top: 399px;
+   top: 396px;
    font-family: Roboto;
    font-style: normal;
    font-weight: normal;
