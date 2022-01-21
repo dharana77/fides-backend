@@ -49,10 +49,10 @@ export default {
 }
 #component7-whitepaper-img{
   position: absolute;
-  width: 250.93px;
-  height: 308.09px;
+  width: 380px;
+  height: 370px;
   left: 310px;
-  top: 119.83px;
+  top: 88px;
 }
 
 #component7-titles{

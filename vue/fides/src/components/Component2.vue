@@ -56,20 +56,20 @@ export default {
 }
 #component2-chess1 {
    position: absolute;
-   height: 267.17490145529985px;
-   width: 113.27063209377528px;
-   left: 1436.8583984375px;
-   top: 104.300537109375px;
+   height: 268px;
+   width: 114px;
+   left: 1436px;
+   top: 105px;
    border-radius: 0px;
    background: rgba( 255, 255, 255, 0 );
 }
 
 #component2-chess2 {
   position: absolute;
-  height: 247.28165346559211px;
-  width: 119.18116349536974px;
+  height: 248px;
+  width: 120px;
   left: 150px;
-  top: 848.837646484375px;
+  top: 848px;
   border-radius: 0px;
   background: rgba( 255, 255, 255, 0 );
 }
