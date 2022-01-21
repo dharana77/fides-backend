@@ -94,7 +94,7 @@ export default {
   width: 714px;
   height: 18px;
   left: 443px;
-  top: 70px;
+  top: 72px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
