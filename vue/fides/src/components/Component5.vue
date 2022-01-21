@@ -133,7 +133,7 @@ export default {
   width: 340px;
   height: 40px;
   left: 230px;
-  top: 396px;
+  top: 382px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -148,7 +148,7 @@ export default {
   width: 340px;
   height: 40px;
   left: 630px;
-  top: 396px;
+  top: 382px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -163,7 +163,7 @@ export default {
   width: 340px;
   height: 40px;
   left: 1030px;
-  top: 396px;
+  top: 382px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -178,7 +178,7 @@ export default {
   width: 340px;
   height: 20px;
   left: 230px;
-  top: 454px;
+  top: 440px;
 
   font-family: Roboto;
   font-style: normal;
@@ -194,7 +194,7 @@ export default {
   width: 340px;
   height: 20px;
   left: 630px;
-  top: 454px;
+  top: 440px;
 
   font-family: Roboto;
   font-style: normal;
@@ -210,7 +210,7 @@ export default {
   width: 340px;
   height: 20px;
   left: 1030px;
-  top: 454px;
+  top: 440px;
 
   font-family: Roboto;
   font-style: normal;

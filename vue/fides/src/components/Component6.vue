@@ -79,7 +79,7 @@ export default {
   width: 278px;
   height: 30px;
   left: 661px;
-  top: 44px;
+  top: 22px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -94,7 +94,7 @@ export default {
   width: 714px;
   height: 18px;
   left: 443px;
-  top: 90px;
+  top: 70px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
