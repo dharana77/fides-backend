@@ -3,7 +3,7 @@
       <img id="background_img" src="../assets/component1/background.png">
       <h1 id="component1_title">The most progressive investment guild</h1>
       <p id="component1_contents">Fides is The <span class="most">Most</span> progressive<br>
-      <span class="guild"> nvestment Guild,</span> We seek more profits<br>
+      <span class="guild"> Investment Guild,</span> We seek more profits<br>
       with less capital</p>
     </div>
 </template>
