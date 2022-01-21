@@ -62,10 +62,9 @@ export default {
   left: 810px;
   top: 81px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 38px;
   /* or 120% */
   color: #3B7E74;
   text-align:left;
@@ -85,7 +84,7 @@ export default {
   height: 18px;
   width: 18px;
   left: 810px;
-  top: 287px;
+  top: 234px;
   border-radius: 0px;
   display:inline;
 }
@@ -94,7 +93,7 @@ export default {
   width: 103px;
   height: 19px;
   left: 840px;
-  top: 253px;
+  top: 232px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -108,7 +107,7 @@ export default {
   width: 30px;
   height: 19px;
   left: 1260px;
-  top: 253px;
+  top: 232px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -130,7 +129,7 @@ export default {
   width: 203px;
   height: 19px;
   left: 836px;
-  top: 286px;
+  top: 264px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +143,7 @@ export default {
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 286px;
+  top: 266px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -159,7 +158,7 @@ export default {
   height: 18px;
   width: 18px;
   left: 810px;
-  top: 354px;
+  top: 332px;
   border-radius: 0px;
 }
 
@@ -168,7 +167,7 @@ export default {
   width: 139px;
   height: 19px;
   left: 840px;
-  top: 321px;
+  top: 300px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -182,7 +181,7 @@ export default {
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 321px;
+  top: 300px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -197,7 +196,7 @@ export default {
   height: 18px;
   width: 18px;
   left: 810px;
-  top: 387px;
+  top: 364px;
   border-radius: 0px;
 }
 #component7-icon4-title{
@@ -205,7 +204,7 @@ export default {
   width: 117px;
   height: 19px;
   left: 840px;
-  top: 354px;
+  top: 334px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -219,7 +218,7 @@ export default {
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 354px;
+  top: 334px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
