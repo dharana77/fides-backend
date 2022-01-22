@@ -41,7 +41,6 @@ export default {
   top: 2735px;
   background: #FFFFFF;
 }
-
 #component5-text-title{
   position: absolute;
   width: 210px;
@@ -85,9 +84,8 @@ export default {
   top: 156px;
   background: #FFFFFF;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;  
+  border-radius: 20px;
 }
-
 #component5-blog2-box{
   position: absolute;
   width: 380px;
@@ -98,7 +96,6 @@ export default {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
-
 #component5-blog3-box{
   position:absolute;
   width: 380px;

@@ -38,10 +38,10 @@ export default {
 }
 #component4-chess{
   position: absolute;
-  height: 178.71096394199824px;
-  width: 105.02826451152384px;
-  left: 1359.1484375px;
-  top: 2191px;
+  height: 180px;
+  width: 120px;
+  left: 1430px;
+  top: 2190px;
   border-radius: 0px;
 }
 #component4-wrapper{
