@@ -73,7 +73,6 @@ export default {
   border-radius: 0px;
   background: rgba( 255, 255, 255, 0 );
 }
-
 #component2-box1{
   position: absolute;
   width: 380px;
@@ -83,6 +82,9 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
+#component2-box1:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box2{
   position: absolute;
   height: 346px;
@@ -92,6 +94,9 @@ export default {
   border-radius: 20px;
   background: #F5F8FC;
 }
+#component2-box2:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box3{
   position: absolute;
   width: 380px;
@@ -101,6 +106,9 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
+#component2-box3:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box4{
   position: absolute;
   width: 380px;
@@ -110,6 +118,9 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
+#component2-box4:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box1-title{
   position: absolute;
   width: 280px;

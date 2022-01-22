@@ -90,7 +90,6 @@ export default {
   line-height: 36px;
   color: black;
 }
-
 #component3-explain-contents1{
  position: absolute;
  width: 380px;
@@ -100,16 +99,21 @@ export default {
  background: #F9F9F9;
  border-radius: 20px;
  }
+ #component3-explain-contents1:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 12px;
+ }
 #component3-explain-contents2{
   position: absolute;
   width: 380px;
   height: 290px;
   left: 610px;
   top: 1917px;
-
   background: #F9F9F9;
   border-radius: 20px;
 }
+ #component3-explain-contents2:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 12px;
+ }
 #component3-explain-contents3{
   position: absolute;
   width: 380px;
@@ -119,6 +123,9 @@ export default {
   background: #F9F9F9;
   border-radius: 20px;
 }
+#component3-explain-contents3:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 12px;
+ }
 .contents1-title, .contents2-title, .contents3-title{
   font-family: Roboto;
   font-style: normal;
