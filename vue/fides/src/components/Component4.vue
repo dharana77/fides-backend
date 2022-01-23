@@ -38,9 +38,9 @@ export default {
 }
 #component4-chess{
   position: absolute;
-  height: 180px;
-  width: 120px;
-  left: 1430px;
+  height: 200px;
+  width: 140px;
+  left: 1360px;
   top: 2190px;
   border-radius: 0px;
 }

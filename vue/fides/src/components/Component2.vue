@@ -58,7 +58,7 @@ export default {
    position: absolute;
    height: 268px;
    width: 134px;
-   left: 1436px;
+   left: 1300px;
    top: 105px;
    border-radius: 0px;
    background: rgba( 255, 255, 255, 0 );

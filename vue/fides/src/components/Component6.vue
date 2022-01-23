@@ -65,9 +65,9 @@ export default {
 }
 #component6-chess2{
   position:absolute;
-  height: 216px;
-  width: 126px;
-  left: 1424px;
+  height: 230px;
+  width: 140px;
+  left: 1340px;
   top: 428px;
   border-radius: 0px;
 }
