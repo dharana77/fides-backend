@@ -19,20 +19,20 @@
       <h3 id="component6-discord-title">Discord</h3>
       <p id="component6-discord-content">Ask your question</p>
 
-      <div id="component6-github-board"></div>
-      <img id="component6-github-icon" src="../assets/component6/github.png" >
-      <h3 id="component6-github-title">Github</h3>
-      <p id="component6-github-content"> Github Contribute to the codebase.</p>
+      <div id="component6-blog-board"></div>
+      <img id="component6-blog-icon" src="../assets/component6/blog.png" >
+      <h3 id="component6-blog-title">Blog</h3>
+      <p id="component6-blog-content">Learn about Fides</p>
 
       <div id="component6-reddit-board"></div>
       <img id="component6-reddit-icon" src="../assets/component6/reddit.png" >
       <h3 id="component6-reddit-title">Reddit</h3>
       <p id="component6-reddit-content">Reddit Soon updated</p>
 
-      <div id="component6-blog-board"></div>
-      <img id="component6-blog-icon" src="../assets/component6/blog.png" >
-      <h3 id="component6-blog-title">Blog</h3>
-      <p id="component6-blog-content">Learn about Fides</p>
+      <div id="component6-github-board"></div>
+      <img id="component6-github-icon" src="../assets/component6/github.png" >
+      <h3 id="component6-github-title">Github</h3>
+      <p id="component6-github-content"> Github Contribute to the codebase.</p>
 
       <img id="component6-chess2" class="chess" src="../assets/component6/chess2.png">
     </div>
@@ -65,10 +65,10 @@ export default {
 }
 #component6-chess2{
   position:absolute;
-  height: 216.23389008128223px;
-  width: 126.44475752047089px;
-  left: 1424.5087890625px;
-  top: 427.291992188px;
+  height: 216px;
+  width: 126px;
+  left: 1424px;
+  top: 428px;
   border-radius: 0px;
 }
 .chess{
@@ -113,6 +113,9 @@ export default {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
+#component6-telegram-board:hover{
+ box-shadow: 0px 0px 20px rgba(133, 149, 172, 0.5);
+ }
 #component6-telegram-icon{
   position: absolute;
   height: 36px;
@@ -162,6 +165,9 @@ export default {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
+#component6-twitter-board:hover{
+ box-shadow: 0px 0px 20px rgba(133, 149, 172, 0.5);
+ }
 #component6-twitter-icon{
   position: absolute;
   height: 36px;
@@ -210,16 +216,22 @@ export default {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
+#component6-discord-board:hover{
+ box-shadow: 0px 0px 20px rgba(133, 149, 172, 0.5);
+ }
 #component6-github-board{
   position: absolute;
   width: 380px;
   height: 95px;
   left: 810px;
-  top: 247px;
+  top: 362px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
+#component6-github-board:hover{
+ box-shadow: 0px 0px 20px rgba(133, 149, 172, 0.5);
+ }
 #component6-reddit-board{
   position: absolute;
   width: 380px;
@@ -230,16 +242,30 @@ export default {
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
+#component6-reddit-board:hover{
+ box-shadow: 0px 0px 20px rgba(133, 149, 172, 0.5);
+ }
+ #component6-blog-icon{
+  position: absolute;
+  height: 36px;
+  width: 36px;
+  left: 831px;
+  top: 276px;
+  border-radius: 0px;
+}
 #component6-blog-board{
   position: absolute;
   width: 380px;
   height: 95px;
   left: 810px;
-  top: 362px;
+  top: 247px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
+#component6-blog-board:hover{
+ box-shadow: 0px 0px 20px rgba(133, 149, 172, 0.5);
+ }
 #component6-discord-icon{
   position: absolute;
   height: 36px;
@@ -253,7 +279,7 @@ export default {
   height: 36px;
   width: 36px;
   left: 831px;
-  top: 276px;
+  top: 390px;
   border-radius: 0px;
 }
 #component6-reddit-icon{
@@ -261,14 +287,6 @@ export default {
   height: 36px;
   width: 36px;
   left: 430px;
-  top: 390px;
-  border-radius: 0px;
-}
-#component6-blog-icon{
-  position: absolute;
-  height: 36px;
-  width: 36px;
-  left: 831px;
   top: 390px;
   border-radius: 0px;
 }
@@ -291,7 +309,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 883px;
-  top: 254px;
+  top: 368px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -321,7 +339,7 @@ export default {
   width: 280px;
   height: 17px;
   left: 883px;
-  top: 368px;
+  top: 254px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -350,8 +368,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
-  top: 282px;
+  left: 882px;
+  top: 396px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -359,7 +377,7 @@ export default {
   line-height: 18px;
   /* or 112% */
   color: #606060;
-  text-align: left;
+  text-align:left;
 }
 #component6-reddit-content{
   position: absolute;
@@ -377,18 +395,18 @@ export default {
   text-align:left;
 }
 #component6-blog-content{
-   position: absolute;
-   width: 280px;
-   height: 17px;
-   left: 882px;
-   top: 396px;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 18px;
-   /* or 112% */
-   color: #606060;
-   text-align:left;
+  position: absolute;
+  width: 280px;
+  height: 17px;
+  left: 883px;
+  top: 282px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+  color: #606060;
+  text-align: left;
  }
 </style>

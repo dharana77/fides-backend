@@ -86,6 +86,9 @@ export default {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+#component5-blog1-box:hover{
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+ }
 #component5-blog2-box{
   position: absolute;
   width: 380px;
@@ -96,6 +99,9 @@ export default {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+#component5-blog2-box:hover{
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+ }
 #component5-blog3-box{
   position:absolute;
   width: 380px;
@@ -106,7 +112,9 @@ export default {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
-
+#component5-blog3-box:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+ }
 #component5-blog2-upper{
   position: absolute;
   width: 380px;
