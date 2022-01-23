@@ -52,8 +52,8 @@ export default {
 #nav-home:after{
   display:block;
   content: '';
-  border-bottom: solid 2px #4D6360;  
-  transform: scaleX(0);  
+  border-bottom: solid 2px #4D6360;
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
 #nav-home:hover:after{
@@ -80,8 +80,8 @@ export default {
 #nav-using:after{
   display:block;
   content: '';
-  border-bottom: solid 2px #4D6360;  
-  transform: scaleX(0);  
+  border-bottom: solid 2px #4D6360;
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
 #nav-using:hover:after{
@@ -109,8 +109,8 @@ export default {
 #nav-community:after{
   display:block;
   content: '';
-  border-bottom: solid 2px #4D6360;  
-  transform: scaleX(0);  
+  border-bottom: solid 2px #4D6360;
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
 #nav-community:hover:after{
