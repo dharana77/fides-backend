@@ -5,38 +5,38 @@
        <span id="component7-contents">Our Fides is more advanced and<br>
        democratic investment guild for<br> capital increase</span></p>
       <div id="system" class="under">
-      <img id="component7-icon1" src="../assets/component7/icon1.png">
-      <h5 id="component7-icon1-title">1/n System</h5>
-      <h5 id="component7-icon1-page">p.2</h5>
+        <img id="component7-icon1" src="../assets/component7/icon1.png">
+        <h5 id="component7-icon1-title">1/n System</h5>
+        <h5 id="component7-icon1-page">p.2</h5>
       </div>
 
       <div id="community">
-      <img id="component7-icon2" src="../assets/component7/icon2.png">
-      <h5 id="component7-icon2-title">Tiered dao community</h5>
-      <h5 id="component7-icon2-page">p.3</h5>
+        <img id="component7-icon2" src="../assets/component7/icon2.png">
+        <h5 id="component7-icon2-title">Tiered dao community</h5>
+        <h5 id="component7-icon2-page">p.3</h5>
       </div>
 
       <div id="subdao">
-      <img class="icons" id="component7-icon3" src="../assets/component7/icon3.png">
-      <h5 id="component7-icon3-title">Subdao system</h5>
-      <h5 id="component7-icon3-page">p.4</h5>
+        <img class="icons" id="component7-icon3" src="../assets/component7/icon3.png">
+        <h5 id="component7-icon3-title">Subdao system</h5>
+        <h5 id="component7-icon3-page">p.4</h5>
       </div>
       <div id="lend">
-      <img id="component7-icon4" src="../assets/component7/icon4.png">
-      <h5 id="component7-icon4-title">Lend system</h5>
-      <h5 id="component7-icon4-page">p.5</h5>
+        <img id="component7-icon4" src="../assets/component7/icon4.png">
+        <h5 id="component7-icon4-title">Lend system</h5>
+        <h5 id="component7-icon4-page">p.5</h5>
       </div>
 
       <div id="dao">
-      <img id="component7-icon5" src="../assets/component7/icon5.png">
-      <h5 id="component7-icon5-title">Dao driven investment system</h5>
-      <h5 id="component7-icon5-page">p.6</h5>
+        <img id="component7-icon5" src="../assets/component7/icon5.png">
+        <h5 id="component7-icon5-title">Dao driven investment system</h5>
+        <h5 id="component7-icon5-page">p.6</h5>
       </div>
 
       <div id="bounty">
-      <img id="component7-icon6" src="../assets/component7/icon6.png">
-      <h5 id="component7-icon6-title">Bounty system</h5>
-      <h5 id="component7-icon6-page">p.7</h5>
+        <img id="component7-icon6" src="../assets/component7/icon6.png">
+        <h5 id="component7-icon6-title">Bounty system</h5>
+        <h5 id="component7-icon6-page">p.7</h5>
       </div>
     </div>
 </template>
