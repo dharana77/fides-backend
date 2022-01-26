@@ -37,7 +37,7 @@ export default {
   position: absolute;
   width: 326px;
   height: 30px;
-  left: 639px;
+  left: 642px;
   top: 50px;
 
   font-family: Roboto;
@@ -55,8 +55,8 @@ export default {
   position: absolute;
   width: 450px;
   height: 34px;
-  left: 575px;
-  top: 127px;
+  left: 580px;
+  top: 116px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;

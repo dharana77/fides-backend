@@ -33,7 +33,8 @@ export default {
 }
 #nav-home{
   position: absolute;
-  width: 50px;
+  display:inline-block;
+  width: 54px;
   height: 16px;
   left: 488px;
   top: 47px;
@@ -46,10 +47,24 @@ export default {
   /* or 100% */
   color: #4D6360;
   background: rgba( 255, 255, 255, 0 );
+  text-transform:uppercase;
+}
+#nav-home:after{
+  display:block;
+  content: '';
+  border-bottom: solid 2px #4D6360;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+#nav-home:hover:after{
+  transform: scaleX(1);
+}
+#nav-home:after{
+  transform-origin:  0% 50%;
 }
 #nav-using{
   position: absolute;
-  width: 94px;
+  width: 92px;
   height: 16px;
   left: 568px;
   top: 47px;
@@ -62,9 +77,22 @@ export default {
   color: #4D6360;
   background: rgba( 255, 255, 255, 0 );
 }
+#nav-using:after{
+  display:block;
+  content: '';
+  border-bottom: solid 2px #4D6360;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+#nav-using:hover:after{
+  transform: scaleX(1);
+}
+#nav-using:after{
+  transform-origin:  0% 50%;
+}
 #nav-community{
   position: absolute;
-  width: 94px;
+  width: 106px;
   height: 16px;
   left: 692px;
   top: 47px;
@@ -76,8 +104,21 @@ export default {
   /* or 100% */
   color: #4D6360;
   background: rgba( 255, 255, 255, 0 );
+  text-transform:uppercase;
 }
-
+#nav-community:after{
+  display:block;
+  content: '';
+  border-bottom: solid 2px #4D6360;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+#nav-community:hover:after{
+  transform: scaleX(1);
+}
+#nav-community:after{
+  transform-origin:  0% 50%;
+}
 nav .nav.active,
 .nav a {
   color: inherit;

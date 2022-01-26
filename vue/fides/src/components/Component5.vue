@@ -40,7 +40,6 @@ export default {
   top: 2735px;
   background: #FFFFFF;
 }
-
 #component5-text-title{
   position: absolute;
   width: 360px;
@@ -86,6 +85,9 @@ export default {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+#component5-blog1-box:hover{
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+ }
 #component5-blog2-box{
   position: absolute;
   width: 380px;
@@ -96,6 +98,9 @@ export default {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+#component5-blog2-box:hover{
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+ }
 #component5-blog3-box{
   position:absolute;
   width: 380px;
@@ -106,6 +111,9 @@ export default {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
+#component5-blog3-box:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+ }
 #component5-blog2-upper{
   position: absolute;
   width: 380px;
@@ -129,7 +137,7 @@ export default {
   width: 340px;
   height: 40px;
   left: 230px;
-  top: 396px;
+  top: 382px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +152,7 @@ export default {
   width: 340px;
   height: 40px;
   left: 630px;
-  top: 396px;
+  top: 382px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -159,7 +167,7 @@ export default {
   width: 340px;
   height: 40px;
   left: 1030px;
-  top: 396px;
+  top: 382px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -174,7 +182,7 @@ export default {
   width: 340px;
   height: 20px;
   left: 230px;
-  top: 454px;
+  top: 440px;
 
   font-family: Roboto;
   font-style: normal;
@@ -190,7 +198,7 @@ export default {
   width: 340px;
   height: 20px;
   left: 630px;
-  top: 454px;
+  top: 440px;
 
   font-family: Roboto;
   font-style: normal;
@@ -206,7 +214,7 @@ export default {
   width: 340px;
   height: 20px;
   left: 1030px;
-  top: 454px;
+  top: 440px;
 
   font-family: Roboto;
   font-style: normal;

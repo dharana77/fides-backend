@@ -57,24 +57,23 @@ export default {
 }
 #component2-chess1 {
    position: absolute;
-   height: 267.17490145529985px;
-   width: 113.27063209377528px;
-   left: 1436.8583984375px;
-   top: 104.300537109375px;
+   height: 268px;
+   width: 134px;
+   left: 1300px;
+   top: 105px;
    border-radius: 0px;
    background: rgba( 255, 255, 255, 0 );
 }
 
 #component2-chess2 {
   position: absolute;
-  height: 247.28165346559211px;
-  width: 119.18116349536974px;
+  height: 248px;
+  width: 144px;
   left: 150px;
-  top: 848.837646484375px;
+  top: 848px;
   border-radius: 0px;
   background: rgba( 255, 255, 255, 0 );
 }
-
 #component2-box1{
   position: absolute;
   width: 380px;
@@ -84,6 +83,9 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
+#component2-box1:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box2{
   position: absolute;
   height: 346px;
@@ -93,6 +95,9 @@ export default {
   border-radius: 20px;
   background: #F5F8FC;
 }
+#component2-box2:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box3{
   position: absolute;
   width: 380px;
@@ -102,6 +107,9 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
+#component2-box3:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box4{
   position: absolute;
   width: 380px;
@@ -111,6 +119,9 @@ export default {
   background: #F5F8FC;
   border-radius: 20px;
 }
+#component2-box4:hover{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 18px;
+ }
 #component2-box1-title{
   position: absolute;
   width: 280px;
