@@ -1,32 +1,32 @@
 <template>
     <div id="component7">
       <img id="component7-whitepaper-img" src="../assets/component7/whitepaper.png">
-      <p id="component7-titles">More Information<br>
+      <p id="component7-titles">더 많은 정보를 얻으려면<br>
        <span id="component7-contents">Our Fides is more advanced and<br>
        democratic investment guild for<br> capital increase</span></p>
 
       <img id="component7-icon1" src="../assets/component7/icon1.png">
-      <h5 id="component7-icon1-title">1/n System</h5>
+      <h5 id="component7-icon1-title">자체 프로젝트 런칭 및 타 프로젝트 IDO 참여</h5>
       <h5 id="component7-icon1-page">p.2</h5>
 
       <img id="component7-icon2" src="../assets/component7/icon2.png">
-      <h5 id="component7-icon2-title">Tiered dao community</h5>
+      <h5 id="component7-icon2-title">티어 다오 커뮤니티 및 게임파이, 길드화</h5>
       <h5 id="component7-icon2-page">p.3</h5>
 
       <img class="icons" id="component7-icon3" src="../assets/component7/icon3.png">
-      <h5 id="component7-icon3-title">Subdao system</h5>
+      <h5 id="component7-icon3-title">베타 및 알파 수익 추구 시스템</h5>
       <h5 id="component7-icon3-page">p.4</h5>
 
       <img id="component7-icon4" src="../assets/component7/icon4.png">
-      <h5 id="component7-icon4-title">Lend system</h5>
+      <h5 id="component7-icon4-title">바운티 시스템</h5>
       <h5 id="component7-icon4-page">p.5</h5>
 
       <img id="component7-icon5" src="../assets/component7/icon5.png">
-      <h5 id="component7-icon5-title">Dao driven investment system</h5>
+      <h5 id="component7-icon5-title">리서치 센터 및 분기 보고서</h5>
       <h5 id="component7-icon5-page">p.6</h5>
 
       <img id="component7-icon6" src="../assets/component7/icon6.png">
-      <h5 id="component7-icon6-title">Bounty system</h5>
+      <h5 id="component7-icon6-title">N분의 1시스템, 마켓플레이스</h5>
       <h5 id="component7-icon6-page">p.7</h5>
     </div>
 </template>
@@ -91,7 +91,7 @@ export default {
 }
 #component7-icon1-title{
   position: absolute;
-  width: 103px;
+  width: 700px;
   height: 19px;
   left: 840px;
   top: 253px;
@@ -127,7 +127,7 @@ export default {
 }
 #component7-icon2-title{
   position: absolute;
-  width: 203px;
+  width: 500px;
   height: 19px;
   left: 836px;
   top: 286px;
@@ -165,7 +165,7 @@ export default {
 
 #component7-icon3-title{
   position: absolute;
-  width: 139px;
+  width: 500px;
   height: 19px;
   left: 840px;
   top: 321px;
@@ -202,7 +202,7 @@ export default {
 }
 #component7-icon4-title{
   position: absolute;
-  width: 117px;
+  width: 500px;
   height: 19px;
   left: 840px;
   top: 354px;
@@ -285,7 +285,7 @@ export default {
 }
 #component7-icon6-title{
   position: absolute;
-  width: 134px;
+  width: 500px;
   height: 19px;
   left: 840px;
   top: 422px;

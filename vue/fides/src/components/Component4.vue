@@ -4,10 +4,9 @@
       <img id="component4-chess" src="../assets/component4/chess.png">
       <div id= "component4-wrapper">
         <div id="component4-textbox">
-          <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>
-          Fides is the new wave for Investing crypto asset, We can
-          devide the right and the seed money.<br>
-          And then we share our profits with less capital</p>
+          <p class="component4-text-style"><span id="component4-text-title">피데스는..</span><br>
+          피데스는 벤쳐 캐피탈의 탈중앙화를 통해 오픈된 커뮤니티를 지원하고, 수익을 커뮤니티에 환원할 것입니다.
+          또한 길드, 게임파이 등 여러 기능을 런칭하는 것을 기대하고 있습니다.</p>
         </div>
       </div>
     </div>

@@ -1,38 +1,38 @@
 <template>
     <div id="component6">
       <img id="component6-chess1" class="chess" src="../assets/component6/chess1.png">
-      <h1 id="component6-title">Join Our Community</h1>
-      <p id="component6-text">Learn more about Fides system. chat with us and have your say in the future of the Fides ecosystem</p>
+      <h1 id="component6-title">커뮤니티에 참여</h1>
+      <p id="component6-text">피데스가 어떤 것인지 확인하고 커뮤니티에서 함께 프로젝트의 일원으로 투자 수익을 높이기 위한 더 높은 실력을 쌓아보세요!</p>
 
       <div id="component6-telegram-board"></div>
       <img id="component6-telegram-icon" src="../assets/component6/telegram.png" >
-      <h3 id="component6-telegram-title">Telegram</h3>
-      <p id="component6-telegram-content">Join our community</p>
+      <h3 id="component6-telegram-title">텔레그램</h3>
+      <p id="component6-telegram-content">공지 및 정보 알림 획득</p>
 
       <div id="component6-twitter-board"></div>
       <img id="component6-twitter-icon" src="../assets/component6/twitter.png" >
-      <h3 id="component6-twitter-title">Twitter</h3>
-      <p id="component6-twitter-content">Follow @fidesFinance</p>
+      <h3 id="component6-twitter-title">트위터</h3>
+      <p id="component6-twitter-content">@fidesFinance를 팔로우해보세요</p>
 
       <div id="component6-discord-board"></div>
       <img id="component6-discord-icon" src="../assets/component6/discord.png" >
-      <h3 id="component6-discord-title">Discord</h3>
-      <p id="component6-discord-content">Ask your question</p>
+      <h3 id="component6-discord-title">디스코드</h3>
+      <p id="component6-discord-content">커뮤니티 논의, 토론 및 거버넌스를 통해<br> '투자' 생태계를 발전시켜보세요</p>
 
       <div id="component6-github-board"></div>
       <img id="component6-github-icon" src="../assets/component6/github.png" >
-      <h3 id="component6-github-title">Github</h3>
-      <p id="component6-github-content"> Github Contribute to the codebase.</p>
+      <h3 id="component6-github-title">깃허브</h3>
+      <p id="component6-github-content">개발에 참여하거나 ui, ux에 기여해보세요.</p>
 
       <div id="component6-reddit-board"></div>
       <img id="component6-reddit-icon" src="../assets/component6/reddit.png" >
-      <h3 id="component6-reddit-title">Reddit</h3>
-      <p id="component6-reddit-content">Reddit Soon updated</p>
+      <h3 id="component6-reddit-title">레딧</h3>
+      <p id="component6-reddit-content">더 넓은 커뮤니티 및 생태계를 위한 토론 및 정보 의견 획득</p>
 
       <div id="component6-blog-board"></div>
       <img id="component6-blog-icon" src="../assets/component6/blog.png" >
-      <h3 id="component6-blog-title">Blog</h3>
-      <p id="component6-blog-content">Learn about Fides</p>
+      <h3 id="component6-blog-title">미디엄</h3>
+      <p id="component6-blog-content">핵심 정보, 소식들을 구체화하여 공유, 작성합니다</p>
 
       <img id="component6-chess2" class="chess" src="../assets/component6/chess2.png">
     </div>
@@ -91,9 +91,9 @@ export default {
 }
 #component6-text{
   position: absolute;
-  width: 714px;
+  width: 800px;
   height: 18px;
-  left: 443px;
+  left: 418px;
   top: 90px;
   font-family: Roboto;
   font-style: normal;

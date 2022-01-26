@@ -4,33 +4,34 @@
       <img id="component2-chess2" src="../assets/component2/chess2.png">
 
       <div id="component2-box1">
-        <h1 id="component2-box1-title">Lean More About Fides</h1>
-        <p id="component2-box1-text">Fides is the new wave for Investing crypto asset, We can devide the right
-           and the seed money</p>
+        <h1 id="component2-box1-title">피데스란?</h1>
+        <p id="component2-box1-text">Fides는 투자를 게임처럼 즐기고 커뮤니티의 기능을 적극적으로 활용하며 투자에 대한 다양한 기능을 적용할 수 있도록
+        핵심 기능들을 선보일 예정입니다.</p>
         <img id ="component2-box1-button" src="../assets/component2/button.png">
         <img id = "component2-box1-icon" src="../assets/component2/box1-icon.png">
       </div>
 
       <div id="component2-box2">
-        <h1 id="component2-box2-title">Become Speaker Tier</h1>
-        <p id="component2-box2-text">Fides is the new wave for Investing crypto asset, We can devide the right
-           and the seed money</p>
+        <h1 id="component2-box2-title">당신의 차별화된 장점을 Tier 제도로 살려보세요</h1>
+        <p id="component2-box2-text">피데스는 다양한 티어제도를 도입하여 당신의 역량을 살리고, 투자 능력을 더 발휘할 수 있도록 돕습니다. 또한 이를 통해
+        DAO에서 더 효율적인 의사소통을 가능하도록 할 것입니다.</p>
         <img id ="component2-box2-button" src="../assets/component2/button.png">
         <img id = "component2-box2-icon" src="../assets/component2/box2-icon.png">
       </div>
 
       <div id="component2-box3">
-        <h1 id="component2-box3-title">Build Your Community</h1>
-        <p id="component2-box3-text">Fides is the new wave for Investing crypto asset, We can devide the right
-           and the seed money</p>
+        <h1 id="component2-box3-title">벤쳐 캐피탈의 일원으로서 프로젝트에 투자자, 테스터, 창립멤버로 참여</h1>
+        <p id="component2-box3-text">직접적인 투자 뿐 아니라 간접적인 투자로 진행하며, 협의에 따른 토크노믹스의 일정 비율 혹은 멤버 혹은 기여자로 참여할 수 있는
+        기회를 얻게됩니다.</p>
         <img id ="component2-box3-button" src="../assets/component2/button.png">
         <img id = "component2-box3-icon" src="../assets/component2/box3-icon.png">
       </div>
 
       <div id="component2-box4">
-        <h1 id="component2-box4-title">Join Out Community</h1>
-        <p id="component2-box4-text">Fides is the new wave for Investing crypto asset, We can devide the right
-           and the seed money</p>
+        <h1 id="component2-box4-title">투자에 대한 정보 탐색과 논의, 토론</h1>
+        <p id="component2-box4-text">DAO의 활성화는 단순 투표가 아닌 적극적인 논의와 토론을 통해 가능하진다고 생각합니다. 토론과 정보 굥유, 의논을 통해
+        길드 내에서 확실한 성과 창출이 가능할 것이며 이를 통해 더 빠른 성장을 도모할 수 있습니다. 커뮤니티에서 다양한 기능과 게임파이를 통해 성과 뿐 아니라 재미와
+        효율적으로 갖출 수 있는 시스템을 도입할 것입니다.</p>
         <img id="component2-box4-button" src="../assets/component2/button.png">
         <img id="component2-box4-icon" src="../assets/component2/box4-icon.png">
       </div>

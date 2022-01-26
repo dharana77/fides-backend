@@ -1,41 +1,35 @@
 <template>
     <div id="component3">
           <div id="component3-explain-box">
-            <span class="fides-explain-title">Why Fides?</span><br>
-            <span class="fides-explain-text">Fides is the new wave for Investing crypto asset, We can
-            devide the right and the seed money.<br>
-            And then we share our profits with less capital</span>
+            <span class="fides-explain-title">피데스 주요 기능</span><br>
+            <span class="fides-explain-text">피데스는 벤쳐 캐피탈을 탈중앙화하여 수익을 프로젝트 일원에게 환원하는 것을 목표로 합니다.<br>
+            개발 기능 중 일부는 다음과 같습니다.</span>
           </div>
 
           <div id="component3-explain-contents1">
-            <h1 class="contents1-title" id="component3-box1-title">1/N Investment</h1>
-            <p class="contents1-text" id="component3-box1-text">Fides is the new wave for Investing crypto
-            asset, Our strong point is our App can devide
-            the right and the seed money of the investment ,
-            At last we can share risk and advantage of
-            investment.</p>
+            <h1 class="contents1-title" id="component3-box1-title">베타 수익</h1>
+            <p class="contents1-text" id="component3-box1-text">펀드 시스템 중 일부인 베타 수익에서, 피데스는
+            최소 시장의 성장 만큼의 이윤을 얻기 위한 성장 방법을 고안합니다.
+            시장 하락에 대한 리스크를 방지할 수 있고 꾸준한 수익을 통해 성장을 고안할 수 있습니다.</p>
             <h3 class="detail" id="component3-box1-detail">View Detail</h3>
             <img id="component3-line1">
           </div>
 
           <div id="component3-explain-contents2">
-            <h1 class="contents2-title" id="component3-box2-title">Tiered Dao System</h1>
-            <p class="contents2-text" id="component3-box2-text">Fides is the new wave for Investing crypto
-            asset, Our strong point is our App can devide
-            the right and the seed money of the investment ,
-            At last we can share risk and advantage of
-            investment.</p>
+            <h1 class="contents2-title" id="component3-box2-title">N분의1 투자</h1>
+            <p class="contents2-text" id="component3-box2-text">시스템을 통해 투자 자산에 대한 n분의 1투자를 진행할 수 있습니다.
+            마켓플레이스가 형성되며, 보유자들은 해당 권리를 마켓 플레이스에서 매수 매도 할 수 있습니다.
+            </p>
             <h3 class="detail" id="component3-box2-detail">View Detail</h3>
             <img id="component3-line2">
           </div>
 
           <div id="component3-explain-contents3">
-            <h1 class="contents3-title" id="component3-box3-title">Lend System</h1>
-            <p class="contents3-text" id="component3-box3-text">Fides is the new wave for Investing crypto
-            asset, Our strong point is our App can devide
-            the right and the seed money of the investment ,
-            At last we can share risk and advantage of
-            investment.</p>
+            <h1 class="contents3-title" id="component3-box3-title">프로젝트 런칭 및 IDO</h1>
+            <p class="contents3-text" id="component3-box3-text">자체 프로젝트 런칭 및 타 프로젝트 IDO 참여가 있으며,
+            투자여부에 따른 베타테스터 권한을 얻게됩니다. 정보를 선점할 수 있으며 차후 성장에 따라 대형 벤쳐캐피탈 만큼의 좋은 조건에서
+            초기 선점 및 투자를 가능하게 만들고 이를 사용자들에게 배분하는 것이 목표입니다.
+            </p>
             <h3 class="detail" id="component3-box3-detail">View Detail</h3>
             <img id="component3-line3">
           </div>
