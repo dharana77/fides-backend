@@ -2,9 +2,7 @@
     <div id="component1">
       <img id="background_img" src="../assets/component1/background.png">
       <h1 id="component1_title">World's first web3 venture capital & guild</h1>
-      <p id="component1_contents">Fides is The <span class="most">Most</span> efficient
-      <span class="guild"> Venture Capital</span> for<span class="guild"> web3</span>, We use collective intelligence
-      and functions to search more opportunities.</p>
+      <p id="component1_contents">Fides is <span class="most">innovative venture capital</span> for the cryptocurrency managed by the <span class="most">investor community's</span> collective intelligence </p>
     </div>
 </template>
 
@@ -76,7 +74,7 @@ export default {
   text-align: left;
 }
 .most{
-  color:#1CAE9A;
+  color:#0F8D7C;
 }
 .guild{
   color:#E4297E;
