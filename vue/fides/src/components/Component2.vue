@@ -118,13 +118,13 @@ export default {
  }
 #component2-box1-title{
   position: absolute;
-  width: 280px;
+  width: 300px;
   height: 16px;
-  left: 50px;
-  top: 44px;
+  left: 45px;
+  top: 40px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 1000;
   font-size: 22px;
   line-height: 16px;
   /* identical to box height, or 73% */
@@ -133,12 +133,11 @@ export default {
 }
 #component2-box1-text{
   position: absolute;
-  width: 280px;
+  width: 300px;
   height: 60px;
-  left: 50px;
-  top: 80px;
+  left: 45px;
+  top: 74px;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -146,32 +145,22 @@ export default {
   color: #606060;
   text-align: left;
 }
-#component2-box1-button{
-  position: absolute;
-  width: 70px;
-  height: 38px;
-  left: 50px;
-  top: 180px;
-  box-sizing: border-box;
-  border-radius: 20px;
-  text-align: left;
-}
 #component2-box1-icon{
   position: absolute;
-  width: 308.18px;
-  height: 205.1px;
-  left: 12px;
-  top: 266px;
+  width: 366px;
+  height: 490px;
+  left: 10px;
+  top: 20px;
 }
 #component2-box2-title{
   position: absolute;
-  width: 280px;
+  width: 300px;
   height: 16px;
-  left: 50px;
-  top: 44px;
+  left: 45px;
+  top: 40px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 1000;
   font-size: 22px;
   line-height: 16px;
   /* identical to box height, or 73% */
@@ -180,12 +169,11 @@ export default {
 }
 #component2-box2-text{
   position: absolute;
-  width: 280px;
+  width: 300px;
   height: 60px;
-  left: 50px;
-  top: 80px;
+  left: 45px;
+  top: 74px;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -204,35 +192,33 @@ export default {
 }
 #component2-box2-icon{
   position: absolute;
-  width: 235.78px;
-  height: 183.26px;
-  left: 112px;
-  top: 162.746px;
+  width: 390px;
+  height: 390px;
+  left: 0px;
+  top: 0px;
 }
 
 #component2-box3-title{
   position: absolute;
-  width: 280px;
+  width: 300px;
   height: 16px;
-  left: 50px;
+  left: 45px;
   top: 40px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
+  font-weight: 1000;
   font-size: 22px;
-  line-height: 16px;
+  line-height: 26px;
   /* identical to box height, or 73% */
   color: #0F8D7C;
   text-align: left;
 }
 #component2-box3-text{
   position: absolute;
-  width: 280px;
+  width: 300px;
   height: 60px;
-  left: 50px;
-  top: 76px;
+  left: 45px;
+  top: 104px;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -244,39 +230,38 @@ export default {
   position: absolute;
   width: 70px;
   height: 38px;
-  left: 50px;
+  left: 45px;
   top: 176px;
   box-sizing: border-box;
   border-radius: 20px;
 }
 #component2-box3-icon{
   position: absolute;
-  height: 154.47857666015625px;
-  width: 262.3983459472656px;
-  left: 117.46px;
-  top: 190px;
+  height: 370px;
+  width: 370px;
+  left: 10px;
+  top: 20px;
   border-radius: 0px;
 }
 #component2-box4-title{
   position: absolute;
   width: 280px;
   height: 16px;
-  left: 50px;
-  top: 44px;
+  left: 45px;
+  top: 40px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
+  font-weight: 1000;
   font-size: 22px;
   color: #0F8D7C;
-  line-height: 16px;
+  line-height: 26px;
   text-align: left;
 }
 #component2-box4-text{
   position: absolute;
-  width: 280px;
+  width: 300px;
   height: 60px;
-  left: 50px;
-  top: 80px;
+  left: 45px;
+  top: 104px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -297,9 +282,9 @@ export default {
 }
 #component2-box4-icon{
   position: absolute;
-  width: 303.36px;
-  height: 190.28px;
-  left: 50px;
-  top: 312px;
+  width: 304px;
+  height: 190px;
+  left: 42px;
+  top: 290px;
 }
 </style>
