@@ -18,7 +18,7 @@ You not only can do direct investment but also you can do indirect investment.</
 
       <div id="component2-box3">
         <h1 id="component2-box3-title">Shine your distinctive characters</h1>
-        <p id="component2-box3-text">Fides assists you to maximize your investment capability through the "Tier" system. 
+        <p id="component2-box3-text">Fides assists you to maximize your investment capability through the "Tier" system.
 Also, this will allow us to do more effective communication in DAO.</p>
         <img id = "component2-box3-icon" src="../assets/component2/box3-icon.png">
       </div>
