@@ -22,8 +22,8 @@ export default {
 }
 #background_img{
   position: absolute;
-  width: 100%;
-  height: 530px;
+  width: 1600px;
+  height: 560px;
   left: 0px;
   top: 85px;
   background: #FFFFFF;
@@ -34,10 +34,10 @@ export default {
   width: 536px;
   height: 108px;
   left: 210px;
-  top: 178px;
+  top: 190px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 1200;
   font-size: 54px;
   line-height: 60px;
   /* or 111% */
@@ -47,13 +47,12 @@ export default {
 }
 #component1_contents{
   position: absolute;
-  width: 536px;
+  width: 630px;
   height: 108px;
   left: 210px;
-  top: 316px;
+  top: 330px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: medium;
   font-size: 30px;
   line-height: 36px;
   /* or 120% */
@@ -75,8 +74,6 @@ export default {
 }
 .most{
   color:#0F8D7C;
-}
-.guild{
-  color:#E4297E;
+  font-weight: bold;
 }
 </style>
