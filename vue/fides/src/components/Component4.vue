@@ -4,9 +4,8 @@
       <img id="component4-chess" src="../assets/component4/chess.png">
       <div id= "component4-wrapper">
         <div id="component4-textbox">
-          <p class="component4-text-style"><span id="component4-text-title">피데스는..</span><br>
-          피데스는 벤쳐 캐피탈의 탈중앙화를 통해 오픈된 커뮤니티를 지원하고, 수익을 커뮤니티에 환원할 것입니다.
-          또한 길드, 게임파이 등 여러 기능을 런칭하는 것을 기대하고 있습니다.</p>
+          <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>
+          <span id="component4-text-text">Fides support the open community through decentralization of venture capital, and we will distribute the gain back to the community.</span></p>
         </div>
       </div>
     </div>
@@ -33,7 +32,7 @@ export default {
   width: 1600px;
   height: 458px;
   left: 0px;
-  top: 2277px;
+  top: 2290px;
 }
 #component4-chess{
   position: absolute;
@@ -64,16 +63,16 @@ export default {
 .component4-text-style{
   position: absolute;
   font-family: Roboto;
-  font-style: normal;
   font-size: 30px;
   line-height: 36px;
   font-weight: 500;
+  color: #484848;
 }
 #component4-text-title{
   text-align: center;
-  color: #E4297E;
+  color: #0F8D7C;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
-  font-weight: 900;
+  font-weight: 1000;
 }
 #component4-text-content{
 
