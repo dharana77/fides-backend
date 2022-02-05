@@ -5,7 +5,7 @@
       <div id= "component4-wrapper">
         <div id="component4-textbox">
           <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>
-          <span id="component4-text-text">Fides support the open community through decentralization of venture capital, and we will distribute the gain back to the community.</span></p>
+          <span id="component4-text-text">Fides support the open community through<br> decentralization of venture capital, and we will distribute<br> the gain back to the community.</span></p>
         </div>
       </div>
     </div>
@@ -56,6 +56,7 @@ export default {
 #component4-textbox{
   position: absolute;
   width: 780px;
+  top: 4px;
   left: 60px;
   height: 142px;
   text-align:left;
@@ -63,8 +64,8 @@ export default {
 .component4-text-style{
   position: absolute;
   font-family: Roboto;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 28px;
+  line-height: 34px;
   font-weight: 500;
   color: #484848;
 }

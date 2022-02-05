@@ -1,11 +1,10 @@
 <template>
     <div id="component8">
       <img id="component8-background" src="../assets/component8/background1.png">
-      <h3 id="component8-title">더 많은 정보를 얻으려면</h3>
-      <p id="component8-explain">우리가 하려고 하는 프로젝트와 시작, 프로젝트 내용들을 백서에 기술해두었습니다. 많은 것들이 있지만 프로젝트 성공을
-      통해 윈윈을 달성하고 성공적인 web3의 상징 중 하나가 되길 희망합니다.</p>
+      <h3 id="component8-title">Get started immediately</h3>
+      <p id="component8-explain">Connect your crypto wallet to start our application immediately No registration needed.</p>
       <img id="component8-connect-img" src="../assets/component8/connect.png">
-      <h4 id="component8-connect-text">백서 및 로드맵</h4>
+      <h4 id="component8-connect-text">Read More</h4>
     </div>
 </template>
 

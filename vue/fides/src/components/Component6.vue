@@ -2,7 +2,7 @@
     <div id="component6">
       <img id="component6-chess1" class="chess" src="../assets/component6/chess1.png">
       <h1 id="component6-title">Join Our Community</h1>
-      <p id="component6-text">Join the Fides community and be a part of venture capital<br>to be a better and more productive investor! 
+      <p id="component6-text">Join the Fides community and be a part of venture capital<br>to be a better and more productive investor!
 </p>
 
       <div id="component6-telegram-board"></div>
