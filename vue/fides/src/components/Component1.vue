@@ -1,6 +1,6 @@
 <template>
     <div id="component1">
-      <img id="background_img" src="../assets/component1/background.png">
+      <img id="background_img" src="../assets/component1/background1.png">
       <h1 id="component1_title">World's first web3 venture capital & guild</h1>
       <p id="component1_contents">Fides is <span class="most">innovative venture capital</span> for the cryptocurrency managed by the <span class="most">investor community's</span> collective intelligence </p>
     </div>
@@ -17,13 +17,13 @@ export default {
 <style>
 #component1{
   position: absolute;
-  width: 1600px;
-  left: -800px;
+  width: 2560px;
+  left: -1280px;
 }
 #background_img{
   position: absolute;
-  width: 1600px;
-  height: 560px;
+  width: 2560px;
+  height: 515px;
   left: 0px;
   top: 85px;
   background: #FFFFFF;
@@ -33,7 +33,7 @@ export default {
   position: absolute;
   width: 536px;
   height: 108px;
-  left: 210px;
+  left: 650px;
   top: 190px;
   font-family: Roboto;
   font-style: normal;
@@ -49,7 +49,7 @@ export default {
   position: absolute;
   width: 630px;
   height: 108px;
-  left: 210px;
+  left: 650px;
   top: 330px;
   font-family: Roboto;
   font-weight: medium;

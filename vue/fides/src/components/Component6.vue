@@ -55,9 +55,9 @@ export default {
 <style>
 #component6{
   position: absolute;
-  width: 1600px;
+  width: 2560px;
   height: 538px;
-  left: -800px;
+  left: -1280px;
   top: 3356px;
   background: #EDEDF2;
 }
@@ -65,7 +65,7 @@ export default {
   position: absolute;
   height: 166px;
   width: 122px;
-  left: 150px;
+  left: 630px;
   top: -48px;
   border-radius: 0px;
 }
@@ -73,7 +73,7 @@ export default {
   position:absolute;
   height: 230px;
   width: 140px;
-  left: 1340px;
+  left: 1780px;
   top: 428px;
   border-radius: 0px;
 }
@@ -84,7 +84,7 @@ export default {
   position: absolute;
   width: 300px;
   height: 30px;
-  left: 650px;
+  left: 1130px;
   top: 30px;
   font-family: Roboto;
   font-style: normal;
@@ -99,7 +99,7 @@ export default {
   position: absolute;
   width: 420px;
   height: 35px;
-  left: 584px;
+  left: 1064px;
   top: 76px;
   font-family: Roboto;
   font-style: normal;
@@ -114,7 +114,7 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 410px;
+  left: 890px;
   top: 162px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
@@ -127,7 +127,7 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 430px;
+  left: 910px;
   top: 192px;
   border-radius: 0px;
 }
@@ -135,7 +135,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
+  left: 962px;
   top: 170px;
   font-family: Roboto;
   font-style: normal;
@@ -150,7 +150,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
+  left: 962px;
   top: 198px;
   font-family: Roboto;
   font-style: normal;
@@ -166,7 +166,7 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 810px;
+  left: 1290px;
   top: 162px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
@@ -179,7 +179,7 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 831px;
+  left: 1311px;
   top: 192px;
   border-radius: 0px;
 }
@@ -187,7 +187,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
+  left: 1363px;
   top: 170px;
   font-family: Roboto;
   font-style: normal;
@@ -202,7 +202,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
+  left: 1363px;
   top: 198px;
   font-family: Roboto;
   font-style: normal;
@@ -217,7 +217,7 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 410px;
+  left: 890px;
   top: 276px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
@@ -230,7 +230,7 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 810px;
+  left: 1290px;
   top: 392px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
@@ -243,7 +243,7 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 410px;
+  left: 890px;
   top: 392px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
@@ -256,7 +256,7 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 831px;
+  left: 1311px;
   top: 306px;
   border-radius: 0px;
 }
@@ -264,7 +264,7 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 810px;
+  left: 1290px;
   top: 277px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
@@ -277,7 +277,7 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 430px;
+  left: 910px;
   top: 306px;
   border-radius: 0px;
 }
@@ -285,7 +285,7 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 831px;
+  left: 1311px;
   top: 420px;
   border-radius: 0px;
 }
@@ -293,7 +293,7 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 430px;
+  left: 910px;
   top: 420px;
   border-radius: 0px;
 }
@@ -301,7 +301,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
+  left: 962px;
   top: 284px;
   font-family: Roboto;
   font-style: normal;
@@ -315,7 +315,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
+  left: 1363px;
   top: 398px;
   font-family: Roboto;
   font-style: normal;
@@ -330,7 +330,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
+  left: 962px;
   top: 398px;
   font-family: Roboto;
   font-style: normal;
@@ -345,7 +345,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
+  left: 1363px;
   top: 284px;
   font-family: Roboto;
   font-style: normal;
@@ -360,7 +360,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
+  left: 962px;
   top: 312px;
   font-family: Roboto;
   font-style: normal;
@@ -375,7 +375,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 882px;
+  left: 1362px;
   top: 426px;
   font-family: Roboto;
   font-style: normal;
@@ -390,7 +390,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
+  left: 962px;
   top: 426px;
   font-family: Roboto;
   font-style: normal;
@@ -405,7 +405,7 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
+  left: 1363px;
   top: 312px;
   font-family: Roboto;
   font-style: normal;

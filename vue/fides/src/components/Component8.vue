@@ -1,6 +1,6 @@
 <template>
     <div id="component8">
-      <img id="component8-background" src="../assets/component8/background1.png">
+      <img id="component8-background" src="../assets/component8/background2.png">
       <h3 id="component8-title">Get started immediately</h3>
       <p id="component8-explain">Connect your crypto wallet to start our application immediately No registration needed.</p>
       <img id="component8-connect-img" src="../assets/component8/connect.png">
@@ -19,16 +19,16 @@ export default {
 <style>
 #component8{
   position: absolute;
-  width: 1600px;
+  width: 2560px;
   height: 300px;
-  left: -800px;
+  left: -1280px;
   top: 4397px;
   background-color: #FFFFFF;
   text-align: center;
 }
 #component8-background{
   position: absolute;
-  width: 1600px;
+  width: 2560px;
   height: 300px;
   left: 0px;
 }
@@ -36,7 +36,7 @@ export default {
   position: absolute;
   width: 326px;
   height: 30px;
-  left: 642px;
+  left: 1122px;
   top: 50px;
 
   font-family: Roboto;
@@ -54,7 +54,7 @@ export default {
   position: absolute;
   width: 450px;
   height: 34px;
-  left: 580px;
+  left: 1060px;
   top: 116px;
   font-family: Roboto;
   font-style: normal;
@@ -70,7 +70,7 @@ export default {
   position: absolute;
   width: 210px;
   height: 48px;
-  left: 695px;
+  left: 1175px;
   top: 198px;
   background: #E9863B;
   border-radius: 30px;
@@ -79,7 +79,7 @@ export default {
   position: absolute;
   width: 168px;
   height: 18px;
-  left: 716px;
+  left: 1196px;
   top: 180px;
 
   font-family: Roboto;

@@ -43,9 +43,9 @@ export default {
 <style>
 #component2{
   position: absolute;
-  width: 1600px;
+  width: 2560px;
   height: 1070px;
-  left: -800px;
+  left: -1280px;
   top: 600px;
   background: #EDEDF2;
 }
@@ -53,7 +53,7 @@ export default {
    position: absolute;
    height: 268px;
    width: 134px;
-   left: 1300px;
+   left: 1780px;
    top: 105px;
    border-radius: 0px;
    background: rgba( 255, 255, 255, 0 );
@@ -63,7 +63,7 @@ export default {
   position: absolute;
   height: 248px;
   width: 144px;
-  left: 150px;
+  left: 630px;
   top: 848px;
   border-radius: 0px;
   background: rgba( 255, 255, 255, 0 );
@@ -72,7 +72,7 @@ export default {
   position: absolute;
   width: 390px;
   height: 510px;
-  left: 400px;
+  left: 880px;
   top: 70px;
   background: #F5F8FC;
   border-radius: 20px;
@@ -84,7 +84,7 @@ export default {
   position: absolute;
   height: 390px;
   width: 390px;
-  left: 810px;
+  left: 1290px;
   top: 70px;
   border-radius: 20px;
   background: #F5F8FC;
@@ -96,7 +96,7 @@ export default {
   position: absolute;
   width: 390px;
   height: 390px;
-  left: 400px;
+  left: 880px;
   top: 610px;
   background: #F5F8FC;
   border-radius: 20px;
@@ -108,7 +108,7 @@ export default {
   position: absolute;
   width: 390px;
   height: 510px;
-  left: 810px;
+  left: 1290px;
   top: 490px;
   background: #F5F8FC;
   border-radius: 20px;
