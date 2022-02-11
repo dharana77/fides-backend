@@ -1,11 +1,10 @@
 <template>
     <div id="component8">
-      <img id="component8-background" src="../assets/component8/background1.png">
-      <h3 id="component8-title">더 많은 정보를 얻으려면</h3>
-      <p id="component8-explain">우리가 하려고 하는 프로젝트와 시작, 프로젝트 내용들을 백서에 기술해두었습니다. 많은 것들이 있지만 프로젝트 성공을
-      통해 윈윈을 달성하고 성공적인 web3의 상징 중 하나가 되길 희망합니다.</p>
+      <img id="component8-background" src="../assets/component8/background2.png">
+      <h3 id="component8-title">Get started immediately</h3>
+      <p id="component8-explain">Connect your crypto wallet to start our application immediately No registration needed.</p>
       <img id="component8-connect-img" src="../assets/component8/connect.png">
-      <h4 id="component8-connect-text">백서 및 로드맵</h4>
+      <h4 id="component8-connect-text">Read More</h4>
     </div>
 </template>
 
@@ -20,16 +19,16 @@ export default {
 <style>
 #component8{
   position: absolute;
-  width: 1600px;
+  width: 2560px;
   height: 300px;
-  left: -800px;
+  left: -1280px;
   top: 4397px;
   background-color: #FFFFFF;
   text-align: center;
 }
 #component8-background{
   position: absolute;
-  width: 1600px;
+  width: 2560px;
   height: 300px;
   left: 0px;
 }
@@ -37,7 +36,7 @@ export default {
   position: absolute;
   width: 326px;
   height: 30px;
-  left: 642px;
+  left: 1122px;
   top: 50px;
 
   font-family: Roboto;
@@ -55,7 +54,7 @@ export default {
   position: absolute;
   width: 450px;
   height: 34px;
-  left: 580px;
+  left: 1060px;
   top: 116px;
   font-family: Roboto;
   font-style: normal;
@@ -71,7 +70,7 @@ export default {
   position: absolute;
   width: 210px;
   height: 48px;
-  left: 695px;
+  left: 1175px;
   top: 198px;
   background: #E9863B;
   border-radius: 30px;
@@ -80,7 +79,7 @@ export default {
   position: absolute;
   width: 168px;
   height: 18px;
-  left: 716px;
+  left: 1196px;
   top: 180px;
 
   font-family: Roboto;

@@ -1,28 +1,29 @@
 <template>
     <div id="component6">
       <img id="component6-chess1" class="chess" src="../assets/component6/chess1.png">
-      <h1 id="component6-title">커뮤니티에 참여</h1>
-      <p id="component6-text">피데스가 어떤 것인지 확인하고 커뮤니티에서 함께 프로젝트의 일원으로 투자 수익을 높이기 위한 더 높은 실력을 쌓아보세요!</p>
+      <h1 id="component6-title">Join Our Community</h1>
+      <p id="component6-text">Join the Fides community and be a part of venture capital<br>to be a better and more productive investor!
+</p>
 
       <div id="component6-telegram-board"></div>
       <img id="component6-telegram-icon" src="../assets/component6/telegram.png" >
-      <h3 id="component6-telegram-title">텔레그램</h3>
-      <p id="component6-telegram-content">공지 및 정보 알림 획득</p>
+      <h3 id="component6-telegram-title">Telegram</h3>
+      <p id="component6-telegram-content">Official notification and information</p>
 
       <div id="component6-twitter-board"></div>
       <img id="component6-twitter-icon" src="../assets/component6/twitter.png" >
-      <h3 id="component6-twitter-title">트위터</h3>
-      <p id="component6-twitter-content">@fidesFinance를 팔로우해보세요</p>
+      <h3 id="component6-twitter-title">Twitter</h3>
+      <p id="component6-twitter-content">Please follow @fidesFinance</p>
 
       <div id="component6-discord-board"></div>
       <img id="component6-discord-icon" src="../assets/component6/discord.png" >
-      <h3 id="component6-discord-title">디스코드</h3>
-      <p id="component6-discord-content">커뮤니티 논의, 토론 및 거버넌스를 통해<br> '투자' 생태계를 발전시켜보세요</p>
+      <h3 id="component6-discord-title">Discord</h3>
+      <p id="component6-discord-content">Improve your investment environment</p>
 
       <div id="component6-github-board"></div>
       <img id="component6-github-icon" src="../assets/component6/github.png" >
-      <h3 id="component6-github-title">깃허브</h3>
-      <p id="component6-github-content">개발에 참여하거나 ui, ux에 기여해보세요.</p>
+      <h3 id="component6-github-title">Github</h3>
+      <p id="component6-github-content">Join us for development, ui, and others</p>
 
       <div id="component6-blog-board"></div>
       <img id="component6-blog-icon" src="../assets/component6/blog.png" >
@@ -31,13 +32,13 @@
 
       <div id="component6-reddit-board"></div>
       <img id="component6-reddit-icon" src="../assets/component6/reddit.png" >
-      <h3 id="component6-reddit-title">레딧</h3>
-      <p id="component6-reddit-content">더 넓은 커뮤니티 및 생태계를 위한 토론 및 정보 의견 획득</p>
+      <h3 id="component6-reddit-title">Reddit</h3>
+      <p id="component6-reddit-content">Discussion and information sharing</p>
 
       <div id="component6-blog-board"></div>
       <img id="component6-blog-icon" src="../assets/component6/blog.png" >
-      <h3 id="component6-blog-title">미디엄</h3>
-      <p id="component6-blog-content">핵심 정보, 소식들을 구체화하여 공유, 작성합니다</p>
+      <h3 id="component6-blog-title">Blog</h3>
+      <p id="component6-blog-content">Key information, news will be shared</p>
 
       <img id="component6-chess2" class="chess" src="../assets/component6/chess2.png">
     </div>
@@ -54,9 +55,9 @@ export default {
 <style>
 #component6{
   position: absolute;
-  width: 1600px;
-  height: 511px;
-  left: -800px;
+  width: 2560px;
+  height: 538px;
+  left: -1280px;
   top: 3356px;
   background: #EDEDF2;
 }
@@ -64,7 +65,7 @@ export default {
   position: absolute;
   height: 166px;
   width: 122px;
-  left: 150px;
+  left: 630px;
   top: -48px;
   border-radius: 0px;
 }
@@ -72,7 +73,7 @@ export default {
   position:absolute;
   height: 230px;
   width: 140px;
-  left: 1340px;
+  left: 1780px;
   top: 428px;
   border-radius: 0px;
 }
@@ -81,10 +82,10 @@ export default {
 }
 #component6-title{
   position: absolute;
-  width: 278px;
+  width: 300px;
   height: 30px;
-  left: 661px;
-  top: 22px;
+  left: 1130px;
+  top: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -96,17 +97,16 @@ export default {
 }
 #component6-text{
   position: absolute;
-  width: 800px;
-  height: 18px;
-  left: 418px;
-  top: 90px;
-  left: 443px;
-  top: 72px;
+  width: 420px;
+  height: 35px;
+  left: 1064px;
+  top: 76px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  text-align: center;
   /* or 125% */
   color: #606060;
 }
@@ -114,8 +114,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 410px;
-  top: 132px;
+  left: 890px;
+  top: 162px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -127,16 +127,16 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 430px;
-  top: 162px;
+  left: 910px;
+  top: 192px;
   border-radius: 0px;
 }
 #component6-telegram-title{
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
-  top: 140px;
+  left: 962px;
+  top: 170px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -150,8 +150,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
-  top: 168px;
+  left: 962px;
+  top: 198px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -166,8 +166,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 810px;
-  top: 132px;
+  left: 1290px;
+  top: 162px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -179,16 +179,16 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 831px;
-  top: 162px;
+  left: 1311px;
+  top: 192px;
   border-radius: 0px;
 }
 #component6-twitter-title{
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
-  top: 140px;
+  left: 1363px;
+  top: 170px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -202,8 +202,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
-  top: 168px;
+  left: 1363px;
+  top: 198px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -217,8 +217,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 410px;
-  top: 247px;
+  left: 890px;
+  top: 276px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -230,8 +230,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 810px;
-  top: 362px;
+  left: 1290px;
+  top: 392px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -243,8 +243,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 410px;
-  top: 362px;
+  left: 890px;
+  top: 392px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -256,16 +256,16 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 831px;
-  top: 276px;
+  left: 1311px;
+  top: 306px;
   border-radius: 0px;
 }
 #component6-blog-board{
   position: absolute;
   width: 380px;
   height: 95px;
-  left: 810px;
-  top: 247px;
+  left: 1290px;
+  top: 277px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -277,32 +277,32 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 430px;
-  top: 276px;
+  left: 910px;
+  top: 306px;
   border-radius: 0px;
 }
 #component6-github-icon{
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 831px;
-  top: 390px;
+  left: 1311px;
+  top: 420px;
   border-radius: 0px;
 }
 #component6-reddit-icon{
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 430px;
-  top: 390px;
+  left: 910px;
+  top: 420px;
   border-radius: 0px;
 }
 #component6-discord-title{
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
-  top: 254px;
+  left: 962px;
+  top: 284px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -315,8 +315,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
-  top: 368px;
+  left: 1363px;
+  top: 398px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -330,8 +330,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
-  top: 368px;
+  left: 962px;
+  top: 398px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -345,8 +345,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
-  top: 254px;
+  left: 1363px;
+  top: 284px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -360,8 +360,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
-  top: 282px;
+  left: 962px;
+  top: 312px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -375,8 +375,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 882px;
-  top: 396px;
+  left: 1362px;
+  top: 426px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -390,8 +390,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 482px;
-  top: 396px;
+  left: 962px;
+  top: 426px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -405,8 +405,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 883px;
-  top: 282px;
+  left: 1363px;
+  top: 312px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

@@ -1,24 +1,22 @@
 <template>
     <div id="component5">
-      <h1 id="component5-text-title">The Fides Research center</h1>
-      <p id="component5-text-body"> 피데스 리서치 센터에서 더 나은 기회를 찾아보세요.
+      <h1 id="component5-text-title">The FIdes Blog</h1>
+      <p id="component5-text-body">Find the better opportunities in Fides Blog
       </p>
 
       <div id="component5-blog1-box"></div>
       <img id="component5-blog1-upper" src="../assets/component5/blog1.png">
-      <p id="component5-blog1-text">글로벌적인 정보의 편차를 줄이는 리서치 시스템 공급</p>
+      <p id="component5-blog1-text">MakerDAO Intergrates Fides’s Staked ETF<br>(wstETF)  as Collateral Asset</p>
       <p id="component5-blog1-date">November 25</p>
 
       <div id="component5-blog2-box"></div>
       <img id="component5-blog2-upper" src="../assets/component5/blog2.png">
-      <p id="component5-blog2-text">매크로 인사이트 제공,<br>
-       거시적 관점의 중요 정보 분석 및 공유 </p>
+      <p id="component5-blog2-text">MakerDAO Intergrates Fides’s Staked ETF<br>(wstETF)  as Collateral Asset</p>
       <p id="component5-blog2-date">November 25</p>
 
       <div id="component5-blog3-box"></div>
       <img id="component5-blog3-upper" src="../assets/component5/blog3.png">
-      <p id="component5-blog3-text">리서치 보고서 알람 및 분기 보고서 발송
-         <br>커뮤니티 견해 리서치에 반영</p>
+      <p id="component5-blog3-text">MakerDAO Intergrates Fides’s Staked ETF<br>(wstETF)  as Collateral Asset</p>
       <p id="component5-blog3-date">November 25</p>
     </div>
 </template>
@@ -42,9 +40,9 @@ export default {
 }
 #component5-text-title{
   position: absolute;
-  width: 360px;
-  height: 26px;
-  left: 630px;
+  width: 210px;
+  height: 30px;
+  left:695px;
   top: 52px;
   font-family: Roboto;
   font-style: normal;
@@ -54,9 +52,9 @@ export default {
 }
 #component5-text-body{
   position: absolute;
-  width: 606px;
+  width: 310px;
   height: 18px;
-  left: 647px;
+  left: 645px;
   top: 98px;
   font-family: Roboto;
   font-style: normal;

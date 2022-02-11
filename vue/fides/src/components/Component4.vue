@@ -1,12 +1,11 @@
 <template>
     <div id="component4">
-      <img id="component4-background" src="../assets/component4/background.png">
+      <img id="component4-background" src="../assets/component4/background1.png">
       <img id="component4-chess" src="../assets/component4/chess.png">
       <div id= "component4-wrapper">
         <div id="component4-textbox">
-          <p class="component4-text-style"><span id="component4-text-title">피데스는..</span><br>
-          피데스는 벤쳐 캐피탈의 탈중앙화를 통해 오픈된 커뮤니티를 지원하고, 수익을 커뮤니티에 환원할 것입니다.
-          또한 길드, 게임파이 등 여러 기능을 런칭하는 것을 기대하고 있습니다.</p>
+          <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>
+          <span id="component4-text-text">Fides support the open community through<br> decentralization of venture capital, and we will distribute<br> the gain back to the community.</span></p>
         </div>
       </div>
     </div>
@@ -23,23 +22,23 @@ export default {
 <style>
 #component4{
   position: absolute;
-  width: 1600px;
-  left: -800px;
+  width: 2560px;
+  left: -1280px;
   text-align: center;
 }
 
 #component4-background {
   position:absolute;
-  width: 1600px;
-  height: 458px;
+  width: 2560px;
+  height: 445px;
   left: 0px;
-  top: 2277px;
+  top: 2290px;
 }
 #component4-chess{
   position: absolute;
   height: 200px;
   width: 140px;
-  left: 1360px;
+  left: 1860px;
   top: 2190px;
   border-radius: 0px;
 }
@@ -47,9 +46,9 @@ export default {
   position: absolute;
   width: 900px;
   height: 200px;
-  left: 350px;
+  left: 830px;
   top: 2406px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 24px;
@@ -57,6 +56,7 @@ export default {
 #component4-textbox{
   position: absolute;
   width: 780px;
+  top: 4px;
   left: 60px;
   height: 142px;
   text-align:left;
@@ -64,16 +64,16 @@ export default {
 .component4-text-style{
   position: absolute;
   font-family: Roboto;
-  font-style: normal;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 28px;
+  line-height: 34px;
   font-weight: 500;
+  margin-top:30px;
+  color: #BFBFBF;
 }
 #component4-text-title{
   text-align: center;
-  color: #E4297E;
-  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
-  font-weight: 900;
+  color: #fff;
+  font-weight: 1000;
 }
 #component4-text-content{
 

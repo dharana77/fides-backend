@@ -1,42 +1,42 @@
 <template>
     <div id="component7">
       <img id="component7-whitepaper-img" src="../assets/component7/whitepaper.png">
-      <p id="component7-titles">더 많은 정보를 얻으려면<br>
-       <span id="component7-contents">Our Fides is more advanced and<br>
-       democratic investment guild for<br> capital increase</span></p>
+      <p id="component7-titles">For more information<br>
+       <span id="component7-contents">Please refer to our whitepaper.<br>
+       In the whitepaper, there is more detailed<br>information about our projects.</span></p>
 
       <div id="component7-ido" class="under">
         <img id="component7-icon1" src="../assets/component7/icon1.png">
-        <h5 id="component7-icon1-title">자체 프로젝트 런칭 및 타 프로젝트 IDO 참여</h5>
+        <h5 id="component7-icon1-title">1/n System</h5>
         <h5 id="component7-icon1-page">p.2</h5>
       </div>
 
       <div id="component7-teardao">
         <img id="component7-icon2" src="../assets/component7/icon2.png">
-        <h5 id="component7-icon2-title">티어 다오 커뮤니티 및 게임파이, 길드화</h5>
+        <h5 id="component7-icon2-title">Tiered dao community</h5>
         <h5 id="component7-icon2-page">p.3</h5>
       </div>
       <div id="component7-alphabeta">
         <img class="icons" id="component7-icon3" src="../assets/component7/icon3.png">
-        <h5 id="component7-icon3-title">베타 및 알파 수익 추구 시스템</h5>
+        <h5 id="component7-icon3-title">Subdao system</h5>
         <h5 id="component7-icon3-page">p.4</h5>
       </div>
 
       <div id="component7-bounty">
         <img id="component7-icon4" src="../assets/component7/icon4.png">
-        <h5 id="component7-icon4-title">바운티 시스템</h5>
+        <h5 id="component7-icon4-title">Lend system</h5>
         <h5 id="component7-icon4-page">p.5</h5>
       </div>
 
       <div id="component7-researchCenter">
         <img id="component7-icon5" src="../assets/component7/icon5.png">
-        <h5 id="component7-icon5-title">리서치 센터 및 분기 보고서</h5>
+        <h5 id="component7-icon5-title">Dao driven investment system</h5>
         <h5 id="component7-icon5-page">p.6</h5>
       </div>
 
       <div id="component7-n1system">
         <img id="component7-icon6" src="../assets/component7/icon6.png">
-        <h5 id="component7-icon6-title">N분의 1시스템, 마켓플레이스</h5>
+        <h5 id="component7-icon6-title">Bounty system</h5>
         <h5 id="component7-icon6-page">p.7</h5>
       </div>
     </div>
@@ -82,7 +82,7 @@ export default {
 
 #component7-titles{
   position: absolute;
-  width: 480px;
+  width: 600px;
   height: 140px;
   left: 810px;
   top: 54px;
@@ -97,11 +97,11 @@ export default {
 #component7-contents{
   font-family: Roboto;
   font-style: normal;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 500;
-  line-height: 36px;
+  line-height: 34px;
   /* or 120% */
-  color: black;
+  color: #333333;
   text-align:left;
 }
 #component7-icon1{
@@ -124,7 +124,7 @@ export default {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #333333;
   display: inline;
 }
 #component7-icon1-page{
@@ -132,14 +132,14 @@ export default {
   width: 30px;
   height: 19px;
   left: 1260px;
-  top: 232px;
+  top: 234px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  color: #000000;
+  color: #333333;
 }
 #component7-icon2{
   position: absolute;
@@ -161,14 +161,14 @@ export default {
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  color: #000000;
+  color: #333333;
 }
 #component7-icon2-page{
   position: absolute;
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 266px;
+  top: 268px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -176,7 +176,7 @@ export default {
   line-height: 24px;
   /* or 120% */
   text-align: right;
-  color: #000000;
+  color:#333333;
 }
 #component7-icon3{
   position: absolute;
@@ -199,14 +199,14 @@ export default {
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  color: #000000;
+  color: #333333;
 }
 #component7-icon3-page{
   position: absolute;
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 300px;
+  top: 302px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -214,7 +214,7 @@ export default {
   line-height: 24px;
   /* or 120% */
   text-align: right;
-  color: #000000;
+  color: #333333;
 }
 #component7-icon4{
   position: absolute;
@@ -236,14 +236,14 @@ export default {
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  color: #000000;
+  color: #333333;
 }
 #component7-icon4-page{
   position: absolute;
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 334px;
+  top: 336px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -251,7 +251,7 @@ export default {
   line-height: 24px;
   /* or 120% */
   text-align: right;
-  color: #000000;
+  color: #333333;
 }
 #component7-icon5{
   position: absolute;
@@ -274,14 +274,14 @@ export default {
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  color: #000000;
+  color: #333333;
 }
 #component7-icon5-page{
   position: absolute;
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 368px;
+  top: 370px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -289,7 +289,7 @@ export default {
   line-height: 24px;
   /* or 120% */
   text-align: right;
-  color: #000000;
+  color: #333333;
 }
 #component7-icon5{
   position: absolute;
@@ -319,14 +319,14 @@ export default {
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  color: #000000;
+  color: #333333;
 }
 #component7-icon6-page{
   position: absolute;
   width: 30px;
   height: 19px;
   left: 1258px;
-  top: 402px;
+  top: 404px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -334,6 +334,6 @@ export default {
   line-height: 24px;
   /* or 120% */
   text-align: right;
-  color: #000000;
+  color: #333333;
 }
 </style>
