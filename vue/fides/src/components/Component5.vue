@@ -40,7 +40,7 @@ export default {
 }
 #component5-text-title{
   position: absolute;
-  width: 210px;
+  width: 250px;
   height: 30px;
   left:695px;
   top: 52px;
