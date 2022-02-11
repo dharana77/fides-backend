@@ -3,7 +3,7 @@
       <img id="component2-chess1" src="../assets/component2/chess1.png">
       <img id="component2-chess2" src="../assets/component2/chess2.png">
 
-      <div id="component2-box1">
+      <div id="component2-box1" class="animate__animated animate__swing">
         <h1 id="component2-box1-title">피데스란?</h1>
         <p id="component2-box1-text">Fides는 투자를 게임처럼 즐기고 커뮤니티의 기능을 적극적으로 활용하며 투자에 대한 다양한 기능을 적용할 수 있도록
         핵심 기능들을 선보일 예정입니다.</p>
