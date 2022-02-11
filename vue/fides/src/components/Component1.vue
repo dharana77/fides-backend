@@ -1,8 +1,8 @@
 <template>
-    <div id="component1">
+    <div id="component1" class="leftMove">
       <img id="background_img" src="../assets/component1/background.png">
-      <h1 id="component1_title" class="animate__animated animate__backInLeft animate__delay-0.5s">World's first web3 venture capital & guild</h1>
-      <p id="component1_contents" class="animate__animated animate__backInLeft animate__delay-1s">Fides is The <span class="most">Most</span> efficient
+      <h1 id="component1_title" class="leftMove">World's first web3 venture capital & guild</h1>
+      <p id="component1_contents" class="leftMove">Fides is The <span class="most">Most</span> efficient
       <span class="guild"> Venture Capital</span> for<span class="guild"> web3</span>, We use collective intelligence
       and functions to search more opportunities.</p>
       <img id="background_img" src="../assets/component1/background1.png">
@@ -37,7 +37,7 @@ export default {
 
 #component1_title{
   position: absolute;
-  width: 550px;
+  width: 560px;
   height: 108px;
   left: 650px;
   top: 190px;
@@ -82,4 +82,19 @@ export default {
   font-weight: bold;
 }
 
+div>h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 </style>

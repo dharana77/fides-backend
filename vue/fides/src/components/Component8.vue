@@ -34,7 +34,7 @@ export default {
 }
 #component8-title{
   position: absolute;
-  width: 326px;
+  width: 333px;
   height: 30px;
   left: 1122px;
   top: 50px;

@@ -9,7 +9,7 @@
         <img id = "component2-box1-icon" src="../assets/component2/box1-icon.png">
       </div>
 
-      <div id="component2-box2">
+      <div id="component2-box2" class="animate__animated animate__swing">
         <h1 id="component2-box2-title">Be the community member</h1>
         <p id="component2-box2-text">You will have an opportunity to be a part of this capital as an investor, tester, and founding member.
 You not only can do direct investment but also you can do indirect investment.</p>
