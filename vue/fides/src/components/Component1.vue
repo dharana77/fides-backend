@@ -87,6 +87,10 @@ div>h1 {
   animation-name: slidein;
 }
 
+div>p{
+  animation-duration: 3.5s;
+  animation-name: slidein;
+}
 @keyframes slidein {
   from {
     margin-left: 100%;
