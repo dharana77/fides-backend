@@ -1,7 +1,6 @@
 <template>
     <div id="component4">
       <img id="component4-background" src="../assets/component4/background1.png">
-      <img id="component4-chess" src="../assets/component4/chess.png">
       <div id= "component4-wrapper">
         <div id="component4-textbox">
           <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>

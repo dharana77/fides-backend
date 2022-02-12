@@ -1,7 +1,5 @@
 <template>
     <div id="component2">
-      <img id="component2-chess1" src="../assets/component2/chess1.png">
-      <img id="component2-chess2" src="../assets/component2/chess2.png">
 
       <div id="component2-box1" class="animate__animated animate__flipInX">
         <h1 id="component2-box1-title">What is Fides?</h1>
