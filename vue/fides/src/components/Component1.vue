@@ -1,8 +1,8 @@
 <template>
-    <div id="component1" class="leftMove">
+    <div id="component1">
       <img id="background_img" src="../assets/component1/background.png">
-      <h1 id="component1_title" class="leftMove">World's first web3 venture capital & guild</h1>
-      <p id="component1_contents" class="leftMove">Fides is The <span class="most">Most</span> efficient
+      <h1 id="component1_title">World's first web3 venture capital & guild</h1>
+      <p id="component1_contents">Fides is The <span class="most">Most</span> efficient
       <span class="guild"> Venture Capital</span> for<span class="guild"> web3</span>, We use collective intelligence
       and functions to search more opportunities.</p>
       <img id="background_img" src="../assets/component1/background1.png">
@@ -82,23 +82,34 @@ export default {
   font-weight: bold;
 }
 
-div>h1 {
-  animation-duration: 3s;
-  animation-name: slidein;
+div> #component1_title {
+  animation-duration: 1.3s;
+  animation-name: slidein_title;
 }
 
-div>p{
-  animation-duration: 3.5s;
-  animation-name: slidein;
+div> #component1_contents{
+  animation-duration: 1.8s;
+  animation-name: slidein_contents;
 }
-@keyframes slidein {
+
+@keyframes slidein_title {
   from {
-    margin-left: 100%;
-    width: 300%
+    margin-left: 10%;
+    width: 560px;
   }
   to {
     margin-left: 0%;
-    width: 100%;
+    width: 560px;
+  }
+}
+@keyframes slidein_contents {
+  from {
+    margin-left: 10%;
+    width: 630px;
+  }
+  to {
+    margin-left: 0%;
+    width: 630px;
   }
 }
 </style>
