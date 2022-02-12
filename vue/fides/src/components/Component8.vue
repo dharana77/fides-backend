@@ -34,9 +34,9 @@ export default {
 }
 #component8-title{
   position: absolute;
-  width: 333px;
+  width: 343px;
   height: 30px;
-  left: 1122px;
+  left: 1104px;
   top: 50px;
 
   font-family: Roboto;
