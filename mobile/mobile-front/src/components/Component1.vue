@@ -49,10 +49,13 @@ export default {
   color: #000000;
 }
 #component1-img{
-  position: absolute;
-  width: 335px;
-  height: 492px;
-  left: 20px;
-  top: 280px;
+ position: absolute;
+ width: 335px;
+ height: 492px;
+ left: 20px;
+ top: 280px;
+ background: #C4C4C4;
+ box-sizing: border-box;
+ border-radius: 20px;
 }
 </style>

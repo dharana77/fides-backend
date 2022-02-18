@@ -1,6 +1,7 @@
 <template>
     <nav id="navigation_bar">
         <img id="nav-menu-bar" src="../assets/menu.png">
+        <img id="nav-icon" src="../assets/nav-icon.png">
         <div id="nav-title">FIDES VENTURE</div>
     </nav>
 </template>
@@ -29,10 +30,11 @@ export default {
 
 #nav-menu-bar{
   position: absolute;
-  left: 4%;
-  right: 89.07%;
-  top: 0.25%;
-  bottom: 99.38%;
+  width: 26px;
+  height: 26px;
+  top: 18px;
+  left : 15px;
+  bottom: 18px;
 }
 #nav-title{
   position: absolute;
@@ -44,10 +46,15 @@ export default {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 20.7px;
   color: #FFFFFF;
 }
-#component1-title{
-
+#nav-icon{
+  position: absolute;
+  left: 102px;
+  top: 19px;
+  height: 24px;
+  bottom: 19px;
+  width:20px;
 }
 </style>

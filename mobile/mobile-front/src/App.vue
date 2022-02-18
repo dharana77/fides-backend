@@ -1,18 +1,21 @@
 <template>
   <div id="app">
     <Navbar/>
-    <Components/>
+    <Component1/>
+    <Component2/>
   </div>
 </template>
 
 <script>
 import Navbar from '@/components/Navbar'
-import Components from '@/components/Components'
+import Component1 from '@/components/Component1'
+import Component2 from '@/components/Component2'
 export default {
   name: 'App',
   components: {
       Navbar,
-      Components
+      Component1,
+      Component2,
     }
 }
 </script>
