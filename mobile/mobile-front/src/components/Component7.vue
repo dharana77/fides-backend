@@ -44,7 +44,7 @@ export default {
 
 #component7{
   position: absolute;
-  width: 2560px;
+  width: 375px;
 }
 
 #component7-title{

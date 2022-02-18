@@ -18,7 +18,7 @@ export default {
 
 #component1{
   position: absolute;
-  width: 2560px;
+  width: 375px;
 }
 #component1-title{
   position: absolute;

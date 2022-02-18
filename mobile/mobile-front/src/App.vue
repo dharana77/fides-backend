@@ -41,5 +41,11 @@ export default {
 <style>
 #app {
   background: black;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 </style>

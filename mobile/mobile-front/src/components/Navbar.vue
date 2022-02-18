@@ -38,7 +38,7 @@ export default {
 }
 #nav-title{
   position: absolute;
-  width: 139px;
+  width: 150px;
   height: 21px;
   left: 134px;
   top: 21px;
