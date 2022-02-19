@@ -43,5 +43,6 @@ export default {
 #app {
   position: absolute;
   left:50%;
+  width:
 }
 </style>
