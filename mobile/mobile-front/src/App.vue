@@ -40,12 +40,10 @@ export default {
 
 <style>
 #app {
-  background: black;
-  width: 100%;
-  overflow-x: hidden;
+  position:absolute;
+  left:50%;
 }
 body {
-  max-width: 100%;
   overflow-x: hidden;
 }
 </style>

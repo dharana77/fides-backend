@@ -24,6 +24,7 @@ export default {
 #component8{
   position: absolute;
   width: 375px;
+  left: -187.5px;
 }
 #component8-background{
   position: absolute;

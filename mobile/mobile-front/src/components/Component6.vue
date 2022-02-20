@@ -49,7 +49,7 @@ export default {
   position: absolute;
   width: 375px;
   height: 780px;
-  left: 0px;
+  left: -187.5px;
   top: 5451px;
 
   background: #EDEDF2;

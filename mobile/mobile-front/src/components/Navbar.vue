@@ -22,7 +22,7 @@ export default {
   position: absolute;
   width: 375px;
   height: 62px;
-  left: 0px;
+  left: -187.5px;
   top: 0px;
   background: #4D6360;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
