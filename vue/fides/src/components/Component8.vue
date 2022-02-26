@@ -2,7 +2,8 @@
     <div id="component8">
       <img id="component8-background" src="../assets/component8/background2.png">
       <h3 id="component8-title">Get started immediately</h3>
-      <p id="component8-explain">Connect your crypto wallet to start our application immediately No registration needed.</p>
+      <p id="component8-explain">Please join our community and Get more information about
+                                 Fides meta venture!</p>
       <img id="component8-connect-img" src="../assets/component8/connect.png">
       <h4 id="component8-connect-text">Read More</h4>
     </div>

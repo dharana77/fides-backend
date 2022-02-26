@@ -7,37 +7,43 @@
 
       <div id="component7-ido" class="under">
         <img id="component7-icon1" src="../assets/component7/icon1.png">
-        <h5 id="component7-icon1-title">1/n System</h5>
+        <h5 id="component7-icon1-title">IDOs & NFT</h5>
         <h5 id="component7-icon1-page">p.2</h5>
       </div>
 
       <div id="component7-teardao">
         <img id="component7-icon2" src="../assets/component7/icon2.png">
-        <h5 id="component7-icon2-title">Tiered dao community</h5>
+        <h5 id="component7-icon2-title">De-fi platform</h5>
         <h5 id="component7-icon2-page">p.3</h5>
       </div>
       <div id="component7-alphabeta">
         <img class="icons" id="component7-icon3" src="../assets/component7/icon3.png">
-        <h5 id="component7-icon3-title">Subdao system</h5>
+        <h5 id="component7-icon3-title">Community system</h5>
         <h5 id="component7-icon3-page">p.4</h5>
       </div>
 
       <div id="component7-bounty">
         <img id="component7-icon4" src="../assets/component7/icon4.png">
-        <h5 id="component7-icon4-title">Lend system</h5>
-        <h5 id="component7-icon4-page">p.5</h5>
+        <h5 id="component7-icon4-title">Research and Information System</h5>
+        <h5 id="component7-icon4-page">p.6</h5>
       </div>
 
       <div id="component7-researchCenter">
         <img id="component7-icon5" src="../assets/component7/icon5.png">
-        <h5 id="component7-icon5-title">Dao driven investment system</h5>
-        <h5 id="component7-icon5-page">p.6</h5>
+        <h5 id="component7-icon5-title">1/N investment</h5>
+        <h5 id="component7-icon5-page">p.7</h5>
       </div>
 
       <div id="component7-n1system">
         <img id="component7-icon6" src="../assets/component7/icon6.png">
-        <h5 id="component7-icon6-title">Bounty system</h5>
-        <h5 id="component7-icon6-page">p.7</h5>
+        <h5 id="component7-icon6-title">Information guild & Marketplace</h5>
+        <h5 id="component7-icon6-page">p.9</h5>
+      </div>
+
+      <div id="component7-dao">
+        <img id="component7-icon7" src="../assets/component7/icon7.png">
+        <h5 id="component7-icon7-title">Formation of expandable DAO</h5>
+        <h5 id="component7-icon7-page">p.11</h5>
       </div>
     </div>
 </template>
@@ -73,11 +79,12 @@ export default {
   background: #FFFFFF;
 }
 #component7-whitepaper-img{
-  position: absolute;
-  width: 380px;
-  height: 370px;
-  left: 310px;
   top: 88px;
+  position: absolute;
+  width: 466px;
+  height: 466px;
+  left: 192px;
+  top: 60px;
 }
 
 #component7-titles{
@@ -123,7 +130,7 @@ export default {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   color: #333333;
   display: inline;
 }
@@ -153,13 +160,13 @@ export default {
   position: absolute;
   width: 500px;
   height: 19px;
-  left: 836px;
+  left: 840px;
   top: 266px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   /* or 120% */
   color: #333333;
 }
@@ -197,7 +204,7 @@ export default {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   /* or 120% */
   color: #333333;
 }
@@ -234,7 +241,7 @@ export default {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   /* or 120% */
   color: #333333;
 }
@@ -272,7 +279,7 @@ export default {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   /* or 120% */
   color: #333333;
 }
@@ -317,7 +324,7 @@ export default {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   /* or 120% */
   color: #333333;
 }
@@ -335,5 +342,42 @@ export default {
   /* or 120% */
   text-align: right;
   color: #333333;
+}
+
+#component7-icon7{
+   position: absolute;
+   height: 18px;
+   width: 18px;
+   left: 810px;
+   top: 476px;
+   border-radius: 0px;
+}
+#component7-icon7-title{
+  position: absolute;
+  width: 500px;
+  height: 19px;
+  left: 840px;
+  top: 440px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+  color: #333333;
+}
+
+#component7-icon7-page{
+  position: absolute;
+  width: 30px;
+  height: 19px;
+  left: 1258px;
+  top: 440px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
 }
 </style>

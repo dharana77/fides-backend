@@ -1,6 +1,6 @@
 <template>
     <div id="component4">
-      <img id="component4-background" src="../assets/component4/background1.png">
+      <img id="component4-background" src="../assets/component4/background2.png">
       <div id= "component4-wrapper">
         <div id="component4-textbox">
           <p class="component4-text-style"><span id="component4-text-title">Why Fides?</span><br>
@@ -30,8 +30,9 @@ export default {
   position:absolute;
   width: 2560px;
   height: 445px;
-  left: 0px;
+  left: 410px;
   top: 2290px;
+
 }
 #component4-chess{
   position: absolute;
@@ -62,17 +63,19 @@ export default {
 }
 .component4-text-style{
   position: absolute;
-  font-family: Roboto;
-  font-size: 28px;
-  line-height: 34px;
-  font-weight: 500;
   margin-top:30px;
-  color: #BFBFBF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
 }
 #component4-text-title{
-  text-align: center;
-  color: #fff;
-  font-weight: 1000;
+  font-family: Roboto;
+  font-style: normal;
+  color: #0F8D7C;
+  font-weight: 900;
+  font-size: 30px;
 }
 #component4-text-content{
 
