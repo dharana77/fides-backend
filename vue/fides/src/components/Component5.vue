@@ -6,18 +6,21 @@
 
       <div id="component5-blog1-box"></div>
       <img id="component5-blog1-upper" src="../assets/component5/blog1.png">
-      <p id="component5-blog1-text">MakerDAO Intergrates Fides’s Staked ETF<br>(wstETF)  as Collateral Asset</p>
-      <p id="component5-blog1-date">November 25</p>
+      <p id="component5-blog1-text">01.Fides meta venture</p>
+      <p id="component5-blog1-text2">Fides is a venture capital organization based....</p>
+      <p id="component5-blog1-date">February 26</p>
 
       <div id="component5-blog2-box"></div>
       <img id="component5-blog2-upper" src="../assets/component5/blog2.png">
-      <p id="component5-blog2-text">MakerDAO Intergrates Fides’s Staked ETF<br>(wstETF)  as Collateral Asset</p>
-      <p id="component5-blog2-date">November 25</p>
+      <p id="component5-blog2-text">02.IDOs & NFT</p>
+      <p id="component5-blog2-text2">Regarding IDO, the necessary information wil....</p>
+      <p id="component5-blog2-date">February 26</p>
 
       <div id="component5-blog3-box"></div>
       <img id="component5-blog3-upper" src="../assets/component5/blog3.png">
-      <p id="component5-blog3-text">MakerDAO Intergrates Fides’s Staked ETF<br>(wstETF)  as Collateral Asset</p>
-      <p id="component5-blog3-date">November 25</p>
+      <p id="component5-blog3-text">03.De-fi platform</p>
+      <p id="component5-blog3-text2">De-fi platform for the transactions, mining....</p>
+      <p id="component5-blog3-date">February 26</p>
     </div>
 </template>
 
@@ -145,6 +148,20 @@ export default {
   color: #000000;
   text-align:left;
 }
+#component5-blog1-text2{
+  position: absolute;
+  width: 340px;
+  height: 20px;
+  left: 230px;
+  top: 405px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #7D7D7D;
+}
 #component5-blog2-text{
   position: absolute;
   width: 340px;
@@ -160,6 +177,19 @@ export default {
   color: #000000;
   text-align:left;
 }
+#component5-blog2-text2{
+  position: absolute;
+  width: 340px;
+  height: 20px;
+  left: 630px;
+  top: 405px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7D7D7D;
+}
 #component5-blog3-text{
   position: absolute;
   width: 340px;
@@ -174,6 +204,19 @@ export default {
   /* or 125% */
   color: #000000;
   text-align:left;
+}
+#component5-blog3-text2{
+  position: absolute;
+  width: 340px;
+  height: 20px;
+  left: 1030px;
+  top: 405px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7D7D7D;
 }
 #component5-blog1-date{
   position: absolute;
