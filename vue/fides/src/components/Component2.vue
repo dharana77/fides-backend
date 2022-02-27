@@ -74,7 +74,7 @@ export default {
   top: 70px;
   background: #F5F8FC;
   border-radius: 20px;
-  animation-duration:5.5s;
+  animation-duration:3.5s;
 }
 #component2-box1:hover{
  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 18px;
@@ -87,7 +87,7 @@ export default {
   top: 70px;
   border-radius: 20px;
   background: #F5F8FC;
-  animation-duration:10.3s;
+  animation-duration:3.8s;
 }
 #component2-box2:hover{
  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 18px;
