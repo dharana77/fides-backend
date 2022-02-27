@@ -47,4 +47,7 @@ export default {
   position: absolute;
   left:50%;
 }
+body{
+  overflow-x:hidden;
+}
 </style>
