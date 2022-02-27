@@ -78,12 +78,12 @@ export default {
 }
 
 div> #component1_title {
-  animation-duration: 1.3s;
+  animation-duration: 3.2s;
   animation-name: slidein_title;
 }
 
 div> #component1_contents{
-  animation-duration: 1.8s;
+  animation-duration: 4.2s;
   animation-name: slidein_contents;
 }
 
