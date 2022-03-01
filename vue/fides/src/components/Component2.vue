@@ -47,25 +47,7 @@ export default {
   top: 600px;
   background: #EDEDF2;
 }
-#component2-chess1 {
-   position: absolute;
-   height: 268px;
-   width: 134px;
-   left: 1780px;
-   top: 105px;
-   border-radius: 0px;
-   background: rgba( 255, 255, 255, 0 );
-}
 
-#component2-chess2 {
-  position: absolute;
-  height: 248px;
-  width: 144px;
-  left: 630px;
-  top: 848px;
-  border-radius: 0px;
-  background: rgba( 255, 255, 255, 0 );
-}
 #component2-box1{
   position: absolute;
   width: 390px;
