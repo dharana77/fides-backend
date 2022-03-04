@@ -4,23 +4,32 @@
       <p id="component5-text-body">Find the better opportunities in Fides Blog
       </p>
 
-      <div id="component5-blog1-box"></div>
+      <div id="component5-blog1-box">
+      <a href="https://medium.com/@fidesmeta/01-fides-meta-venture-a36172c24675">
       <img id="component5-blog1-upper" src="../assets/component5/blog1.png">
       <p id="component5-blog1-text">01.Fides meta venture</p>
       <p id="component5-blog1-text2">Fides is a venture capital organization based....</p>
       <p id="component5-blog1-date">February 26</p>
+      </a>
+      </div>
 
-      <div id="component5-blog2-box"></div>
+      <div id="component5-blog2-box">
+      <a href="https://medium.com/@fidesmeta/02-idos-nft-f63c5ec23c30">
       <img id="component5-blog2-upper" src="../assets/component5/blog2.png">
       <p id="component5-blog2-text">02.IDOs & NFT</p>
       <p id="component5-blog2-text2">Regarding IDO, the necessary information wil....</p>
       <p id="component5-blog2-date">February 26</p>
+      </a>
+      </div>
 
-      <div id="component5-blog3-box"></div>
+      <div id="component5-blog3-box">
+      <a href="https://medium.com/@fidesmeta/03-de-fi-platform-c37411ddde1">
       <img id="component5-blog3-upper" src="../assets/component5/blog3.png">
       <p id="component5-blog3-text">03.De-fi platform</p>
       <p id="component5-blog3-text2">De-fi platform for the transactions, mining....</p>
       <p id="component5-blog3-date">February 26</p>
+      </a>
+      </div>
     </div>
 </template>
 
@@ -38,7 +47,7 @@ export default {
   width: 1600px;
   height: 572px;
   left: -800px;
-  top: 2735px;
+  top: 2770px;
   background: #FFFFFF;
 }
 #component5-text-title{
@@ -71,8 +80,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 220px;
-  left: 210px;
-  top: 156px;
+  left: 0px;
+  top: 0px;
   background: #FFFFFF;
   border-radius: 20px 20px 0px 0px;
 }
@@ -119,8 +128,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 220px;
-  left: 610px;
-  top: 156px;
+  left: 0px;
+  top: 0px;
   background: #FFFFFF;
   border-radius: 20px 20px 0px 0px;
 }
@@ -128,8 +137,8 @@ export default {
   position: absolute;
   width: 380px;
   height: 220px;
-  left: 1010px;
-  top: 156px;
+  left: 0px;
+  top: 0px;
   background: #FFFFFF;
   border-radius: 20px 20px 0px 0px;
 }
@@ -137,8 +146,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 40px;
-  left: 230px;
-  top: 382px;
+  left: 20px;
+  top: 226px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -152,8 +161,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 20px;
-  left: 230px;
-  top: 405px;
+  left: 20px;
+  top: 250px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -166,8 +175,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 40px;
-  left: 630px;
-  top: 382px;
+  left: 20px;
+  top: 220px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -181,8 +190,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 20px;
-  left: 630px;
-  top: 405px;
+  left: 20px;
+  top: 250px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -194,8 +203,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 40px;
-  left: 1030px;
-  top: 382px;
+  left: 20px;
+  top: 220px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -209,8 +218,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 20px;
-  left: 1030px;
-  top: 405px;
+  left: 20px;
+  top: 250px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -220,10 +229,10 @@ export default {
 }
 #component5-blog1-date{
   position: absolute;
-  width: 340px;
+  width: 100px;
   height: 20px;
-  left: 230px;
-  top: 440px;
+  left: 20px;
+  top: 284px;
 
   font-family: Roboto;
   font-style: normal;
@@ -238,8 +247,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 20px;
-  left: 630px;
-  top: 440px;
+  left: 20px;
+  top: 284px;
 
   font-family: Roboto;
   font-style: normal;
@@ -254,8 +263,8 @@ export default {
   position: absolute;
   width: 340px;
   height: 20px;
-  left: 1030px;
-  top: 440px;
+  left: 20px;
+  top: 284px;
 
   font-family: Roboto;
   font-style: normal;

@@ -3,14 +3,30 @@
       <img id="footer-fides-logo" src="../assets/footer/logo.png">
       <div id="footer-title">FIDES META VENTURE</div>
       <div id="footer-copyright">Copyright FIDES META VENTURE. All Rights Reserved.</div>
+      <a href="">
       <img id="footer-fides-twitter" src="../assets/footer/twitter.png">
+      </a>
+      <a href="">
       <img id="footer-fides-discord" src="../assets/footer/discord.png">
+      </a>
+      <a href="">
       <img id="footer-fides-telegram" src="../assets/footer/telegram.png">
+      </a>
+      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
       <div id="footer-content1">White paper</div>
+      </a>
+      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
       <div id="footer-content2">Apply Suggestions</div>
+      </a>
+      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
       <div id="footer-content3">Privacy Policy</div>
+      </a>
+      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
       <div id="footer-content4">AML&KYC Policy</div>
+      </a>
+      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
       <div id="footer-content5">Branding</div>
+      </a>
     </div>
 </template>
 
@@ -28,7 +44,7 @@ export default {
   width: 2560px;
   height: 180px;
   left: -1280px;
-  top: 4697px;
+  top: 4730px;
   background: #626262;;
 }
 #footer-fides-logo{
@@ -41,7 +57,7 @@ export default {
 }
 #footer-title{
   position: absolute;
-  width: 290px;
+  width: 320px;
   height: 28px;
   left: 791px;
   top: 33px;
@@ -54,10 +70,10 @@ export default {
 }
 #footer-copyright{
   position: absolute;
-  width: 395px;
+  width: 420px;
   height: 19px;
   left: 743px;
-  top: 114px;
+  top: 116px;
   font-family: Times New Roman;
   font-style: normal;
   font-weight: bold;

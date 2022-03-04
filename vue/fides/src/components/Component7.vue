@@ -6,44 +6,58 @@
        In the whitepaper, there is more detailed<br>information about our projects.</span></p>
 
       <div id="component7-ido" class="under">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/idos-and-nft">
         <img id="component7-icon1" src="../assets/component7/icon1.png">
         <h5 id="component7-icon1-title">IDOs & NFT</h5>
         <h5 id="component7-icon1-page">p.2</h5>
+        </a>
       </div>
 
       <div id="component7-teardao">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/de-fi-platform">
         <img id="component7-icon2" src="../assets/component7/icon2.png">
         <h5 id="component7-icon2-title">De-fi platform</h5>
         <h5 id="component7-icon2-page">p.3</h5>
+        </a>
       </div>
       <div id="component7-alphabeta">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/community-system">
         <img class="icons" id="component7-icon3" src="../assets/component7/icon3.png">
         <h5 id="component7-icon3-title">Community system</h5>
         <h5 id="component7-icon3-page">p.4</h5>
+        </a>
       </div>
 
       <div id="component7-bounty">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/research-and-information-system">
         <img id="component7-icon4" src="../assets/component7/icon4.png">
         <h5 id="component7-icon4-title">Research and Information System</h5>
         <h5 id="component7-icon4-page">p.6</h5>
+        </a>
       </div>
 
       <div id="component7-researchCenter">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/1-n-investment">
         <img id="component7-icon5" src="../assets/component7/icon5.png">
         <h5 id="component7-icon5-title">1/N investment</h5>
         <h5 id="component7-icon5-page">p.7</h5>
+        </a>
       </div>
 
       <div id="component7-n1system">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/information-guild-and-marketplace">
         <img id="component7-icon6" src="../assets/component7/icon6.png">
         <h5 id="component7-icon6-title">Information guild & Marketplace</h5>
         <h5 id="component7-icon6-page">p.9</h5>
+        </a>
       </div>
 
       <div id="component7-dao">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/formation-of-expandable-dao">
         <img id="component7-icon7" src="../assets/component7/icon7.png">
         <h5 id="component7-icon7-title">Formation of expandable DAO</h5>
         <h5 id="component7-icon7-page">p.11</h5>
+        </a>
       </div>
     </div>
 </template>
@@ -116,7 +130,7 @@ export default {
   height: 18px;
   width: 18px;
   left: 810px;
-  top: 270px;
+  top: 266px;
   border-radius: 0px;
   display:inline;
 }
