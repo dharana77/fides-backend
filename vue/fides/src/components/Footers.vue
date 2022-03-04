@@ -3,7 +3,7 @@
       <img id="footer-fides-logo" src="../assets/footer/logo.png">
       <div id="footer-title">FIDES META VENTURE</div>
       <div id="footer-copyright">Copyright FIDES META VENTURE. All Rights Reserved.</div>
-      <a href="">
+      <a href="https://twitter.com/fidesmeta">
       <img id="footer-fides-twitter" src="../assets/footer/twitter.png">
       </a>
       <a href="">
