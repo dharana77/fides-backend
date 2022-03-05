@@ -15,7 +15,6 @@ export default {
 </script>
 
 <style>
-
 #component1{
   position: absolute;
   width: 2560px;
