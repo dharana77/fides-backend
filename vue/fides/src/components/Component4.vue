@@ -19,25 +19,21 @@ export default {
 </script>
 
 <style>
-a { text-decoration:none !important } 
+a { text-decoration:none !important }
 a:hover { text-decoration:none !important }
 a:visited { text-decoration:none !important }
-
-
 #component4{
   position: absolute;
   width: 2560px;
   left: -1280px;
   text-align: center;
 }
-
 #component4-background {
   position:absolute;
   width: 2560px;
   height: 480px;
   left: 0px;
   top: 2290px;
-
 }
 #component4-chess{
   position: absolute;

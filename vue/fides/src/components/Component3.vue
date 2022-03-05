@@ -11,7 +11,7 @@ The more specific development plan is followed.
             <h1 class="contents1-title" id="component3-box1-title">Beta Profit</h1>
             <p class="contents1-text" id="component3-box1-text">Beta profit is a part of the index fund system. Fides aims to follow at least the market average gain, and we will contrive the ways of growth to meet the mission statement.
 Through this, we can prevent the risk of the bear market, and expect continuous growth.
-</p>      
+            </p>
             <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
             <h3 class="detail" id="component3-box1-detail">View Detail</h3>
             <img id="component3-line1">
