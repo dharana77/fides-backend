@@ -229,7 +229,6 @@ export default {
   height: 310px;
   left: 20px;
   top: 5101px;
-
   background: #FFFFFF;
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 20px;

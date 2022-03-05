@@ -9,7 +9,7 @@
        <div id="component8-button">
          <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
           <div id="component8-button-text">Read more</div>
-         </a> 
+         </a>
        </div>
     </div>
 </template>
