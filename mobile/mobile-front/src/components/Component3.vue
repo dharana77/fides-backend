@@ -13,7 +13,9 @@
                                           Through this, we can prevent the risk of the bear market, and expect continuous growth.
         </div>
         <img id="component3-box1-line" src="../assets/component3-line.png"></img>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
         <div id="component3-box1-detail">View Detail</div>
+        </a>
       </div>
 
       <div id="component3-box2">
@@ -22,7 +24,9 @@
                                                                                     Through this, you will have an autonomous marketplace, and the owners will have opportunities to buy and sell their ownership.
         </div>
         <img id="component3-box2-line" src="../assets/component3-line.png"></img>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/1-n-investment">
         <div id="component3-box2-detail">View Detail</div>
+        </a>
       </div>
 
       <div id="component3-box3">
@@ -31,7 +35,9 @@
                                           Depending on the conditions of the investment, you will have the right to participate in the project as a beta tester.
         </div>
         <img id="component3-box3-line" src="../assets/component3-line.png"></img>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/product-evaluation">
         <div id="component3-box3-detail">View Detail</div>
+        </a>
       </div>
     </div>
 </template>

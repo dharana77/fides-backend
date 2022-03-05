@@ -38,8 +38,9 @@ export default {
   height: 258px;
   left: 20px;
   top: 3964px;
-  background: rgba(255, 255, 255, 0.4);
+  background-color: #F9F9F9;
   backdrop-filter: blur(20px);
+  opacity: 90%;
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 24px;
@@ -56,7 +57,6 @@ export default {
   font-size: 22px;
   line-height: 30px;
   /* or 136% */
-  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
 }
 .green{
   color: #0F8D7C;
