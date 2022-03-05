@@ -7,7 +7,9 @@
                                     No registration needed.
        </div>
        <div id="component8-button">
+         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
           <div id="component8-button-text">Read more</div>
+         </a> 
        </div>
     </div>
 </template>
@@ -31,14 +33,14 @@ export default {
   width: 375px;
   height: 300px;
   left: 0px;
-  top: 6843px;
+  top: 6903px;
 }
 #component8-title{
   position: absolute;
   width: 326px;
   height: 26px;
   left: 24px;
-  top: 6909px;
+  top: 6969px;
 
   font-family: Roboto;
   font-style: normal;
@@ -55,7 +57,7 @@ export default {
   width: 345px;
   height: 56px;
   left: 15px;
-  top: 6947px;
+  top: 7012px;
 
   font-family: Roboto;
   font-style: normal;
@@ -72,7 +74,7 @@ export default {
   width: 186px;
   height: 44px;
   left: 94px;
-  top: 7033px;
+  top: 7093px;
 
   background: #E9863B;
   border-radius: 30px;

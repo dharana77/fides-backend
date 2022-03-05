@@ -147,7 +147,7 @@ export default {
   width: 340px;
   height: 40px;
   left: 20px;
-  top: 226px;
+  top: 220px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
