@@ -4,32 +4,35 @@
       <div id="component5-content">Find the better opportunities in Fides Blog</div>
 
       <div id="component5-box1">
-        <img id="component5-img1" src="../assets/component5-box1.png"></img>
+        <img id="component5-img1" src="../assets/component5-box01.png"></img>
         <div id="component5-box1-content">
-          MakerDAO Intergrates Fides’s Staked ETF(wstETF)  as Collateral Asset
+          <span class="component5-head">01.Fides meta venture</span><br>
+          <span class="component5-tail">Fides is a venture capital organization....</span>
         </div>
         <div id="component5-box1-detail">
-          November 25
+          February 26
         </div>
       </div>
 
       <div id="component5-box2">
-        <img id="component5-img2" src="../assets/component5-box2.png"></img>
+        <img id="component5-img2" src="../assets/component5-box02.png"></img>
         <div id="component5-box2-content">
-          MakerDAO Intergrates Fides’s Staked ETF(wstETF)  as Collateral Asset
+          <span class="component5-head">02..IDOs & NFT</span><br>
+          <span class="component5-tail">Regarding IDO, the necessary informa....</span>
         </div>
         <div id="component5-box2-detail">
-          November 25
+          February 26
         </div>
       </div>
 
       <div id="component5-box3">
-        <img id="component5-img3" src="../assets/component5-box3.png"></img>
+        <img id="component5-img3" src="../assets/component5-box03.png"></img>
         <div id="component5-box3-content">
-          MakerDAO Intergrates Fides’s Staked ETF(wstETF)  as Collateral Asset
+          <span class="component5-head">03.De-fi platform</span><br>
+          <span class="component5-tail">De-fi platform for the transactions....</span>
         </div>
         <div id="component5-box3-detail">
-          November 25
+         February 26
         </div>
       </div>
     </div>
@@ -128,8 +131,7 @@ export default {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
-  color: #8E8E8E;
+  color: #D9D9D9;
 }
 
 #component5-img2{
@@ -170,14 +172,13 @@ export default {
   height: 20px;
   left: 20px;
   top: 272px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   /* identical to box height, or 125% */
-  color: #8E8E8E;
+  color: #D9D9D9;
 }
 
 #component5-img3{
@@ -224,7 +225,24 @@ export default {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
-  color: #8E8E8E;
+  color: #D9D9D9;
 }
+.component5-head{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #333333;
+}
+.component5-tail{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7D7D7D;
+}
+
 </style>

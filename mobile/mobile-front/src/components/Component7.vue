@@ -3,29 +3,33 @@
       <div id="component7-title">For more information</div>
       <div id="component7-content">Please refer to our whitepaper.
                                    In the whitepaper, there is more detailed information about our projects.</div>
+      <div id="component7-box0">
+        <img id="component7-box0-icon" src="../assets/component7-box0-icon.png"></img>
+        <div id="component7-box0-text">IDO & NFT</div>
+      </div>
       <div id="component7-box1">
         <img id="component7-box1-icon" src="../assets/component7-box1-icon.png"></img>
-        <div id="component7-box1-text">1/n System</div>
+        <div id="component7-box1-text">De-fi platform</div>
       </div>
       <div id="component7-box2">
         <img id="component7-box2-icon" src="../assets/component7-box2-icon.png"></img>
-        <div id="component7-box2-text">Tiered dao community</div>
+        <div id="component7-box2-text">Community system</div>
       </div>
       <div id="component7-box3">
         <img id="component7-box3-icon" src="../assets/component7-box3-icon.png"></img>
-        <div id="component7-box3-text">Subdao system</div>
+        <div id="component7-box3-text">Research and Information...</div>
       </div>
       <div id="component7-box4">
         <img id="component7-box4-icon" src="../assets/component7-box4-icon.png"></img>
-        <div id="component7-box4-text">Lend system</div>
+        <div id="component7-box4-text">1/N investment</div>
       </div>
       <div id="component7-box5">
         <img id="component7-box5-icon" src="../assets/component7-box5-icon.png"></img>
-        <div id="component7-box5-text">Dao driven investment...</div>
+        <div id="component7-box5-text">Information guild & Market...</div>
         </div>
       <div id="component7-box6">
         <img id="component7-box6-icon" src="../assets/component7-box6-icon.png"></img>
-        <div id="component7-box6-text">Bounty system</div>
+        <div id="component7-box6-text">Formation of expandable DAO</div>
       </div>
 
 
@@ -81,18 +85,17 @@ export default {
   /* or 137% */
   color: #606060;
 }
-#component7-box1{
+#component7-box0{
   position: absolute;
   width: 335px;
   height: 50px;
   left: 20px;
   top: 6403px;
-
   background: #FFFFFF;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-#component7-box2{
+#component7-box1{
   position: absolute;
   width: 335px;
   height: 50px;
@@ -103,7 +106,7 @@ export default {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-#component7-box3{
+#component7-box2{
   position: absolute;
   width: 335px;
   height: 50px;
@@ -114,7 +117,7 @@ export default {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-#component7-box4{
+#component7-box3{
   position: absolute;
   width: 335px;
   height: 50px;
@@ -125,7 +128,7 @@ export default {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-#component7-box5{
+#component7-box4{
   position: absolute;
   width: 335px;
   height: 50px;
@@ -136,7 +139,7 @@ export default {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-#component7-box6{
+#component7-box5{
   position: absolute;
   width: 335px;
   height: 50px;
@@ -147,11 +150,30 @@ export default {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
+#component7-box6{
+  position: absolute;
+  width: 335px;
+  height: 50px;
+  left: 20px;
+  top: 6823px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#component7-box0-icon{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 101px;
+  top: 13px;
+  border-radius: 0px;
+}
 #component7-box1-icon {
   position: absolute;
   height: 26px;
   width: 26px;
-  left: 94px;
+  left: 88px;
   top: 13px;
   border-radius: 0px;
 }
@@ -159,7 +181,7 @@ export default {
   position: absolute;
   height: 26px;
   width: 26px;
-  left: 46px;
+  left: 61px;
   top: 12px;
   border-radius: 0px;
 }
@@ -167,7 +189,7 @@ export default {
   position: absolute;
   height: 26px;
   width: 26px;
-  left: 77px;
+  left: 24px;
   top: 12px;
   border-radius: 0px;
 }
@@ -175,7 +197,7 @@ export default {
   position: absolute;
   height: 28px;
   width: 28px;
-  left: 87px;
+  left: 79px;
   top: 11px;
   border-radius: 0px;
 }
@@ -183,7 +205,7 @@ export default {
   position: absolute;
   height: 30px;
   width: 30px;
-  left: 40px;
+  left: 20px;
   top: 10px;
   border-radius: 0px;
 }
@@ -191,17 +213,30 @@ export default {
   position: absolute;
   height: 28px;
   width: 28px;
-  left: 79px;
+  left: 15px;
   top: 11px;
   border-radius: 0px;
 }
-#component7-box1-text{
+#component7-box0-text{
   position: absolute;
-  width: 103px;
-  height: 20px;
-  left: 138px;
+  width: 100px;
+  height: 22px;
+  left: 141px;
   top: 15px;
 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000
+}
+#component7-box1-text{
+  position: absolute;
+  width: 130px;
+  height: 20px;
+  left: 124px;
+  top: 15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -212,9 +247,9 @@ export default {
 }
 #component7-box2-text{
   position: absolute;
-  width: 202px;
+  width: 230px;
   height: 20px;
-  left: 86px;
+  left: 97px;
   top: 15px;
 
   font-family: Roboto;
@@ -227,9 +262,9 @@ export default {
 }
 #component7-box3-text{
   position: absolute;
-  width: 140px;
+  width: 230px;
   height: 20px;
-  left: 117px;
+  left: 62px;
   top: 15px;
 
   font-family: Roboto;
@@ -242,9 +277,9 @@ export default {
 }
 #component7-box4-text{
   position: absolute;
-  width: 118px;
+  width: 198px;
   height: 24px;
-  left: 129px;
+  left: 119px;
   top: 13px;
 
   font-family: Roboto;
@@ -257,9 +292,9 @@ export default {
 }
 #component7-box5-text{
   position: absolute;
-  width: 218px;
+  width: 248px;
   height: 20px;
-  left: 77px;
+  left: 58px;
   top: 15px;
 
   font-family: Roboto;
@@ -275,9 +310,9 @@ export default {
 }
 #component7-box6-text{
   position: absolute;
-  width: 134px;
+  width: 264px;
   height: 20px;
-  left: 121px;
+  left: 53px;
   top: 15px;
 
   font-family: Roboto;

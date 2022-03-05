@@ -1,6 +1,6 @@
 <template>
     <div id="component4">
-       <img id="component4-background" src="../assets/component4-background.png"></img>
+       <img id="component4-background" src="../assets/component4-background2.png"></img>
        <div id="component4-box1">
           <div id="component4-box1-content">
             <span class="green"> Why Fides?</span><br>
@@ -38,10 +38,8 @@ export default {
   height: 258px;
   left: 20px;
   top: 3964px;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(20px);
-  /* Note: backdrop-filter has minimal browser support */
-
+  background: #F9F9F9;
+  opacity: 0.9;
   border-radius: 24px;
 }
 #component4-box1-content{

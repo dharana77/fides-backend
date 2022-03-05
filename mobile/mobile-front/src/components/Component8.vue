@@ -2,9 +2,9 @@
     <div id="component8">
        <img id="component8-background" src="../assets/component8-background.png"></img>
        <div id="component8-title">Get started immediately</div>
-       <div id="component8-content">Connect your crypto wallet
-                                    to start our application immediately
-                                    No registration needed.
+       <div id="component8-content">Please join our community<br>
+                                    and Get more information about<br>
+                                    Fides meta venture!
        </div>
        <div id="component8-button">
           <div id="component8-button-text">Read more</div>
@@ -31,14 +31,14 @@ export default {
   width: 375px;
   height: 300px;
   left: 0px;
-  top: 6843px;
+  top: 6913px;
 }
 #component8-title{
   position: absolute;
   width: 326px;
   height: 26px;
   left: 24px;
-  top: 6909px;
+  top: 6979px;
 
   font-family: Roboto;
   font-style: normal;
@@ -55,7 +55,7 @@ export default {
   width: 345px;
   height: 56px;
   left: 15px;
-  top: 6947px;
+  top: 7017px;
 
   font-family: Roboto;
   font-style: normal;
@@ -65,6 +65,7 @@ export default {
   /* or 125% */
 
   text-align: center;
+
   color: #FFFFFF;
 }
 #component8-button{
@@ -72,7 +73,7 @@ export default {
   width: 186px;
   height: 44px;
   left: 94px;
-  top: 7033px;
+  top: 7103px;
 
   background: #E9863B;
   border-radius: 30px;
