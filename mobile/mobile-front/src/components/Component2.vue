@@ -57,7 +57,7 @@ export default {
 
 #component2{
   position: absolute;
-  width: 100%;
+  width: 375px;
   height: 1832px;
   left: -187.5px;
   top: 812px;
