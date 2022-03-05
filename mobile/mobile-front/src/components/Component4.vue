@@ -3,7 +3,7 @@
        <img id="component4-background" src="../assets/component4-background2.png"></img>
        <div id="component4-box1">
           <div id="component4-box1-content">
-            <span class="green"> Why Fides?</span><br>
+            <span class="green">Why Fides?</span><br>
             Fides support the open community through decentralization of venture capital, and we will distribute the gain back to the community.
           </div>
        </div>
@@ -19,7 +19,6 @@ export default {
 </script>
 
 <style>
-
 #component4{
   position: absolute;
   width: 375px;
@@ -38,7 +37,7 @@ export default {
   height: 258px;
   left: 20px;
   top: 3964px;
-  background: #F9F9F9;
+  background-color: #F9F9F9;
   opacity: 0.9;
   border-radius: 24px;
 }
@@ -54,7 +53,6 @@ export default {
   font-size: 22px;
   line-height: 30px;
   /* or 136% */
-  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
 }
 .green{
   color: #0F8D7C;

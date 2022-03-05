@@ -7,7 +7,9 @@
                                     Fides meta venture!
        </div>
        <div id="component8-button">
+         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
           <div id="component8-button-text">Read more</div>
+         </a>
        </div>
     </div>
 </template>
@@ -31,22 +33,20 @@ export default {
   width: 375px;
   height: 300px;
   left: 0px;
-  top: 6913px;
+  top: 6903px;
 }
 #component8-title{
   position: absolute;
   width: 326px;
   height: 26px;
   left: 24px;
-  top: 6979px;
-
+  top: 6969px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 26px;
   /* identical to box height, or 100% */
-
   text-align: center;
   color: #FFFFFF;
 }
@@ -55,7 +55,7 @@ export default {
   width: 345px;
   height: 56px;
   left: 15px;
-  top: 7017px;
+  top: 7012px;
 
   font-family: Roboto;
   font-style: normal;
@@ -63,9 +63,7 @@ export default {
   font-size: 16px;
   line-height: 20px;
   /* or 125% */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 #component8-button{
@@ -73,8 +71,7 @@ export default {
   width: 186px;
   height: 44px;
   left: 94px;
-  top: 7103px;
-
+  top: 7093px;
   background: #E9863B;
   border-radius: 30px;
 }
@@ -84,16 +81,13 @@ export default {
   height: 18px;
   left: 9px;
   top: 13px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
   line-height: 20px;
   /* or 100% */
-
   text-align: center;
-
   color: #FFFFFF;
 }
 </style>

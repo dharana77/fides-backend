@@ -54,14 +54,13 @@ export default {
 </script>
 
 <style>
-
 #component2{
   position: absolute;
   width: 375px;
   height: 1832px;
   left: -187.5px;
   top: 812px;
-  background: #EDEDF2;
+  background-color: #dcdce6;
 }
 #component2-info{
   position: absolute;
@@ -69,7 +68,8 @@ export default {
   height: 408px;
   left: 20px;
   top: 40px;
-  background: #FFFFFF;
+  background-color: #ffffff;
+  border-radius: 20px;
 }
 #component2-info-title{
   position: absolute;
@@ -105,7 +105,7 @@ export default {
   position: absolute;
   width: 258px;
   height: 238px;
-  left: 39px;
+  left: 43px;
   right: 38px;
   top: 170px;
 }
@@ -116,6 +116,7 @@ export default {
   left: 20px;
   top: 478px;
   background: #FFFFFF;
+  border-radius: 20px;
 }
 #component2-community-title{
   position: absolute;
@@ -152,6 +153,7 @@ export default {
   left: 60px;
   top: 243px;
   right: 28px;
+  border-radius: 20px;
 }
 #component2-character{
   position: absolute;
@@ -159,7 +161,8 @@ export default {
   height: 416px;
   left: 20px;
   top: 924px;
-  background: #FFFFFF;
+  background: #ffffff;
+  border-radius: 20px;
 }
 #component2-character-title{
   position: absolute;
@@ -191,10 +194,10 @@ export default {
 }
 #component2-character-img{
   position: absolute;
-  width: 294.31px;
-  height: 222.39px;
-  left: 21px;
-  top: 194px;
+  width: 270px;
+  height: 200px;
+  left: 30px;
+  top: 216px;
 }
 #component2-research{
   position: absolute;
@@ -203,6 +206,7 @@ export default {
   left: 20px;
   top: 1370px;
   background: #FFFFFF;
+  border-radius: 20px;
 }
 #component2-research-title{
   position: absolute;

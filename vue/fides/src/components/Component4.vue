@@ -19,20 +19,21 @@ export default {
 </script>
 
 <style>
+a { text-decoration:none !important }
+a:hover { text-decoration:none !important }
+a:visited { text-decoration:none !important }
 #component4{
   position: absolute;
   width: 2560px;
   left: -1280px;
   text-align: center;
 }
-
 #component4-background {
   position:absolute;
-  width: 2150px;
-  height: 445px;
-  left: 410px;
+  width: 2560px;
+  height: 480px;
+  left: 0px;
   top: 2290px;
-
 }
 #component4-chess{
   position: absolute;
@@ -48,7 +49,7 @@ export default {
   height: 200px;
   left: 830px;
   top: 2406px;
-  background: rgba(255, 255, 255, 0.2);
+  background-color: #F9F9F9;
   backdrop-filter: blur(20px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 24px;
@@ -56,7 +57,7 @@ export default {
 #component4-textbox{
   position: absolute;
   width: 780px;
-  top: 4px;
+  top: 0px;
   left: 60px;
   height: 142px;
   text-align:left;

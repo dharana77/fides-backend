@@ -25,7 +25,6 @@ export default {
 </script>
 
 <style>
-
 #footers{
   position: absolute;
   width: 375px;

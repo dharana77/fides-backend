@@ -23,7 +23,7 @@ export default {
 #background_img{
   position: absolute;
   width: 2560px;
-  height: 515px;
+  height: 640px;
   left: 0px;
   top: 85px;
   background: #FFFFFF;
@@ -31,17 +31,11 @@ export default {
 #component1-main-top{
   position: absolute;
   width: 2560px;
-  height: 515px;
+  height: 550px;
   left: 0px;
   top: 85px;
 }
-#component1-main-bottom{
-  position: absolute;
-  width: 2560px;
-  height: 335px;
-  left: 0px;
-  top: 305px;
-}
+
 #component1_title{
   position: absolute;
   width: 560px;

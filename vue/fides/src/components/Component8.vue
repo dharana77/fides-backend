@@ -4,8 +4,10 @@
       <h3 id="component8-title">Get started immediately</h3>
       <p id="component8-explain">Please join our community and Get more information about
                                  Fides meta venture!</p>
+      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
       <img id="component8-connect-img" src="../assets/component8/connect.png">
       <h4 id="component8-connect-text">Read More</h4>
+      </a>
     </div>
 </template>
 
@@ -23,7 +25,7 @@ export default {
   width: 2560px;
   height: 300px;
   left: -1280px;
-  top: 4397px;
+  top: 4430px;
   background-color: #FFFFFF;
   text-align: center;
 }

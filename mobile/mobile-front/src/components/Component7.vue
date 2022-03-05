@@ -8,28 +8,46 @@
         <div id="component7-box0-text">IDO & NFT</div>
       </div>
       <div id="component7-box1">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/idos-and-nft">
         <img id="component7-box1-icon" src="../assets/component7-box1-icon.png"></img>
-        <div id="component7-box1-text">De-fi platform</div>
+        <div id="component7-box1-text">IDO & NFT</div>
+        </a>
       </div>
       <div id="component7-box2">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/de-fi-platform">
         <img id="component7-box2-icon" src="../assets/component7-box2-icon.png"></img>
-        <div id="component7-box2-text">Community system</div>
+        <div id="component7-box2-text">De-fi platform</div>
+        </a>
       </div>
       <div id="component7-box3">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/community-system">
         <img id="component7-box3-icon" src="../assets/component7-box3-icon.png"></img>
-        <div id="component7-box3-text">Research and Information...</div>
+        <div id="component7-box3-text">Community system</div>
+        </a>
       </div>
       <div id="component7-box4">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/research-and-information-system">
         <img id="component7-box4-icon" src="../assets/component7-box4-icon.png"></img>
-        <div id="component7-box4-text">1/N investment</div>
+        <div id="component7-box4-text">Research and Information...</div>
+        </a>
       </div>
       <div id="component7-box5">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/1-n-investment">
         <img id="component7-box5-icon" src="../assets/component7-box5-icon.png"></img>
-        <div id="component7-box5-text">Information guild & Market...</div>
+        <div id="component7-box5-text">1/N investment</div>
+        </a>
         </div>
       <div id="component7-box6">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/information-guild-and-marketplace">
         <img id="component7-box6-icon" src="../assets/component7-box6-icon.png"></img>
-        <div id="component7-box6-text">Formation of expandable DAO</div>
+        <div id="component7-box6-text">Information guild & Market...</div>
+        </a>
+      </div>
+      <div id="component7-box7">
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/fides-meta-venture/formation-of-expandable-dao">
+        <img id="component7-box7-icon" src="../assets/component7-box7-icon.png"></img>
+        <div id="component7-box7-text">Formation of expandable DAO</div>
+        </a>
       </div>
 
 
@@ -51,7 +69,6 @@ export default {
   width: 375px;
   left: -187.5px;
 }
-
 #component7-title{
   position: absolute;
   width: 250px;
@@ -161,19 +178,21 @@ export default {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-#component7-box0-icon{
+#component7-box7{
   position: absolute;
-  height: 30px;
-  width: 30px;
-  left: 101px;
-  top: 13px;
-  border-radius: 0px;
+  width: 335px;
+  height: 50px;
+  left: 20px;
+  top: 6823px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 #component7-box1-icon {
   position: absolute;
   height: 26px;
   width: 26px;
-  left: 88px;
+  left: 104px;
   top: 13px;
   border-radius: 0px;
 }
@@ -181,7 +200,7 @@ export default {
   position: absolute;
   height: 26px;
   width: 26px;
-  left: 61px;
+  left: 88px;
   top: 12px;
   border-radius: 0px;
 }
@@ -189,7 +208,7 @@ export default {
   position: absolute;
   height: 26px;
   width: 26px;
-  left: 24px;
+  left: 60px;
   top: 12px;
   border-radius: 0px;
 }
@@ -197,24 +216,32 @@ export default {
   position: absolute;
   height: 28px;
   width: 28px;
-  left: 79px;
-  top: 11px;
+  left: 24px;
+  top: 12px;
   border-radius: 0px;
 }
 #component7-box5-icon{
   position: absolute;
   height: 30px;
   width: 30px;
-  left: 20px;
-  top: 10px;
+  left: 78px;
+  top: 12px;
   border-radius: 0px;
 }
 #component7-box6-icon{
   position: absolute;
   height: 28px;
   width: 28px;
+  left: 20px;
+  top: 12px;
+  border-radius: 0px;
+}
+#component7-box7-icon{
+  position: absolute;
+  height: 28px;
+  width: 28px;
   left: 15px;
-  top: 11px;
+  top: 12px;
   border-radius: 0px;
 }
 #component7-box0-text{
@@ -235,7 +262,7 @@ export default {
   position: absolute;
   width: 130px;
   height: 20px;
-  left: 124px;
+  left: 140px;
   top: 15px;
   font-family: Roboto;
   font-style: normal;
@@ -249,7 +276,7 @@ export default {
   position: absolute;
   width: 230px;
   height: 20px;
-  left: 97px;
+  left: 124px;
   top: 15px;
 
   font-family: Roboto;
@@ -262,9 +289,9 @@ export default {
 }
 #component7-box3-text{
   position: absolute;
-  width: 230px;
+  width: 200px;
   height: 20px;
-  left: 62px;
+  left: 96px;
   top: 15px;
 
   font-family: Roboto;
@@ -277,9 +304,9 @@ export default {
 }
 #component7-box4-text{
   position: absolute;
-  width: 198px;
+  width: 280px;
   height: 24px;
-  left: 119px;
+  left: 62px;
   top: 13px;
 
   font-family: Roboto;
@@ -294,7 +321,7 @@ export default {
   position: absolute;
   width: 248px;
   height: 20px;
-  left: 58px;
+  left: 79px;
   top: 15px;
 
   font-family: Roboto;
@@ -310,9 +337,26 @@ export default {
 }
 #component7-box6-text{
   position: absolute;
-  width: 264px;
+  width: 300px;
   height: 20px;
-  left: 53px;
+  left: 38px;
+  top: 15px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  text-align: center;
+  color: #000000;
+}
+#component7-box7-text{
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  left: 36px;
   top: 15px;
 
   font-family: Roboto;

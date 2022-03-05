@@ -3,34 +3,46 @@
       <div id="component6-title">Join Our Community</div>
       <div id="component6-content">Join the Fides community and be a part of venture capital to be a better and more productive investor!</div>
       <div id="component6-box1">
+        <a href="https://telegram.org/">
         <img id="component6-box1-img" src="../assets/telegram.png"></img>
         <div id="component6-box1-title">Telegram</div>
         <div id="component6-box1-content">Official notification and information</div>
+        </a>
       </div>
       <div id="component6-box2">
+        <a href="https://telegram.org/">
         <img id="component6-box2-img" src="../assets/twitter.png"></img>
         <div id="component6-box2-title">Twitter</div>
         <div id="component6-box2-content">Please follow @fidesFinance</div>
+        </a>
       </div>
       <div id="component6-box3">
+        <a href="https://telegram.org/">
         <img id="component6-box3-img" src="../assets/discord.png"></img>
         <div id="component6-box3-title">Discord</div>
         <div id="component6-box3-content">Improve your investment environment</div>
+        </a>
       </div>
       <div id="component6-box4">
+        <a href="https://telegram.org/">
         <img id="component6-box4-img" src="../assets/medium.png"></img>
         <div id="component6-box4-title">Medium</div>
         <div id="component6-box4-content">App explanation, news,  will be shared</div>
+        </a>
       </div>
       <div id="component6-box5">
+        <a href="https://telegram.org/">
           <img id="component6-box5-img" src="../assets/reddit.png"></img>
           <div id="component6-box5-title">Reddit</div>
           <div id="component6-box5-content">Discussion and information sharing</div>
+          </a>
       </div>
       <div id="component6-box6">
+        <a href="https://telegram.org/">
         <img id="component6-box6-img" src="../assets/github.png"></img>
         <div id="component6-box6-title">Github</div>
         <div id="component6-box6-content">Join us for development, ui, and others</div>
+        </a>
       </div>
     </div>
 </template>
@@ -175,7 +187,7 @@ export default {
 }
 #component6-box1-content, #component6-box2-content, #component6-box3-content, #component6-box4-content, #component6-box5-content, #component6-box6-content{
   position: absolute;
-  width: 233px;
+  width: 250px;
   height: 14px;
   left: 78px;
   top: 44px;

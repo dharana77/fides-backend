@@ -4,40 +4,61 @@
       <p id="component6-text">Join the Fides community and be a part of venture capital<br>to be a better and more productive investor!
 </p>
 
-      <div id="component6-telegram-board"></div>
+      <div id="component6-telegram-board">
+      <a href="https://telegram.org/">
       <img id="component6-telegram-icon" src="../assets/component6/telegram.png" >
       <h3 id="component6-telegram-title">Telegram</h3>
       <p id="component6-telegram-content">Official notification and information</p>
+      </a>
+      </div>
 
-      <div id="component6-twitter-board"></div>
+      <div id="component6-twitter-board">
+      <a href="https://telegram.org/">
       <img id="component6-twitter-icon" src="../assets/component6/twitter.png" >
       <h3 id="component6-twitter-title">Twitter</h3>
       <p id="component6-twitter-content">Please follow @fidesFinance</p>
+      </a>
+      </div>
 
-      <div id="component6-discord-board"></div>
+      <div id="component6-discord-board">
+      <a href="https://telegram.org/">
       <img id="component6-discord-icon" src="../assets/component6/discord.png" >
       <h3 id="component6-discord-title">Discord</h3>
       <p id="component6-discord-content">Improve your investment environment</p>
+      </a>
+      </div>
 
-      <div id="component6-github-board"></div>
+      <div id="component6-github-board">
+      <a href="https://telegram.org/">
       <img id="component6-github-icon" src="../assets/component6/github.png" >
       <h3 id="component6-github-title">Github</h3>
       <p id="component6-github-content">Join us for development, ui, and others</p>
+      </a>
+      </div>
 
-      <div id="component6-blog-board"></div>
+      <div id="component6-blog-board">
+      <a href="https://telegram.org/">
       <img id="component6-blog-icon" src="../assets/component6/blog.png" >
       <h3 id="component6-blog-title">Blog</h3>
       <p id="component6-blog-content">Learn about Fides</p>
+      </a>
+      </div>
 
-      <div id="component6-reddit-board"></div>
+      <div id="component6-reddit-board">
+      <a href="https://telegram.org/">
       <img id="component6-reddit-icon" src="../assets/component6/reddit.png" >
       <h3 id="component6-reddit-title">Reddit</h3>
       <p id="component6-reddit-content">Discussion and information sharing</p>
+      </a>
+      </div>
 
-      <div id="component6-blog-board"></div>
+      <div id="component6-blog-board">
+      <a href="https://telegram.org/">
       <img id="component6-blog-icon" src="../assets/component6/blog.png" >
       <h3 id="component6-blog-title">Blog</h3>
       <p id="component6-blog-content">Key information, news will be shared</p>
+      </a>
+      </div>
 
     </div>
 </template>
@@ -125,16 +146,16 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 910px;
-  top: 192px;
+  left: 20px;
+  top: 30px;
   border-radius: 0px;
 }
 #component6-telegram-title{
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 962px;
-  top: 170px;
+  left: 72px;
+  top: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -148,8 +169,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 962px;
-  top: 198px;
+  left: 72px;
+  top: 36px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -177,16 +198,16 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 1311px;
-  top: 192px;
+  left: 20px;
+  top: 30px;
   border-radius: 0px;
 }
 #component6-twitter-title{
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 1363px;
-  top: 170px;
+  left: 72px;
+  top: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -200,8 +221,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 1363px;
-  top: 198px;
+  left: 72px;
+  top: 36px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -254,8 +275,8 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 1311px;
-  top: 306px;
+  left: 20px;
+  top: 30px;
   border-radius: 0px;
 }
 #component6-blog-board{
@@ -275,32 +296,32 @@ export default {
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 910px;
-  top: 306px;
+  left: 20px;
+  top: 30px;
   border-radius: 0px;
 }
 #component6-github-icon{
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 1311px;
-  top: 420px;
+  left: 20px;
+  top: 30px;
   border-radius: 0px;
 }
 #component6-reddit-icon{
   position: absolute;
   height: 36px;
   width: 36px;
-  left: 910px;
-  top: 420px;
+  left: 20px;
+  top: 30px;
   border-radius: 0px;
 }
 #component6-discord-title{
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 962px;
-  top: 284px;
+  left: 72px;
+  top: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -313,8 +334,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 1363px;
-  top: 398px;
+  left: 72px;
+  top: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -328,8 +349,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 962px;
-  top: 398px;
+  left: 72px;
+  top: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -343,8 +364,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 1363px;
-  top: 284px;
+  left: 72px;
+  top: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -358,8 +379,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 962px;
-  top: 312px;
+  left: 72px;
+  top: 36px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -373,8 +394,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 1362px;
-  top: 426px;
+  left: 72px;
+  top: 36px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -388,8 +409,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 962px;
-  top: 426px;
+  left: 72px;
+  top: 36px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -403,8 +424,8 @@ export default {
   position: absolute;
   width: 280px;
   height: 17px;
-  left: 1363px;
-  top: 312px;
+  left: 72px;
+  top: 36px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
