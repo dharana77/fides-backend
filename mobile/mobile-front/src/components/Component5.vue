@@ -2,7 +2,6 @@
     <div id="component5">
       <div id="component5-title">The Fides Blog</div>
       <div id="component5-content">Find the better opportunities in Fides Blog</div>
-
       <div id="component5-box1">
         <a href="https://medium.com/@fidesmeta/01-fides-meta-venture-a36172c24675">
         <img id="component5-img1" src="../assets/component5-box1.png"></img>
@@ -17,7 +16,6 @@
         </div>
         </a>
       </div>
-
       <div id="component5-box2">
         <a href="https://medium.com/@fidesmeta/02-idos-nft-f63c5ec23c30">
         <img id="component5-img2" src="../assets/component5-box2.png"></img>
@@ -32,7 +30,6 @@
         </div>
         </a>
       </div>
-
       <div id="component5-box3">
         <a href="https://medium.com/@fidesmeta/03-de-fi-platform-c37411ddde1">
         <img id="component5-img3" src="../assets/component5-box3.png"></img>
@@ -71,14 +68,12 @@ export default {
   height: 26px;
   left: 99px;
   top: 4333px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 30px;
   /* or 115% */
-
   text-align: center;
   color: #000000;
 }
@@ -88,7 +83,6 @@ export default {
   height: 16px;
   left: 20px;
   top: 4375px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -158,8 +152,7 @@ export default {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
-  color: #8E8E8E;
+  color: #D9D9D9;
 }
 
 #component5-img2{
@@ -215,14 +208,13 @@ export default {
   height: 20px;
   left: 20px;
   top: 272px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   /* identical to box height, or 125% */
-  color: #8E8E8E;
+  color: #D9D9D9;
 }
 
 #component5-img3{
@@ -284,7 +276,24 @@ export default {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
-  color: #8E8E8E;
+  color: #D9D9D9;
 }
+.component5-head{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  color: #333333;
+}
+.component5-tail{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7D7D7D;
+}
+
 </style>

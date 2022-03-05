@@ -9,6 +9,7 @@
     <Component6/>
     <Component7/>
     <Component8/>
+    <Footers/>
   </div>
 </template>
 
@@ -22,6 +23,8 @@ import Component5 from '@/components/Component5'
 import Component6 from '@/components/Component6'
 import Component7 from '@/components/Component7'
 import Component8 from '@/components/Component8'
+import Footers from '@/components/Footers'
+
 export default {
   name: 'App',
   components: {
@@ -34,6 +37,7 @@ export default {
       Component6,
       Component7,
       Component8,
+      Footers,
     }
 }
 </script>
