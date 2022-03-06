@@ -33,14 +33,14 @@ export default {
   width: 375px;
   height: 300px;
   left: 0px;
-  top: 6903px;
+  top: 6913px;
 }
 #component8-title{
   position: absolute;
   width: 326px;
   height: 26px;
   left: 24px;
-  top: 6969px;
+  top: 6990px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -55,8 +55,7 @@ export default {
   width: 345px;
   height: 56px;
   left: 15px;
-  top: 7012px;
-
+  top: 7028px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -71,7 +70,7 @@ export default {
   width: 186px;
   height: 44px;
   left: 94px;
-  top: 7093px;
+  top: 7110px;
   background: #E9863B;
   border-radius: 30px;
 }
