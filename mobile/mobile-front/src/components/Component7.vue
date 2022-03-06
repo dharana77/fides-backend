@@ -46,8 +46,6 @@
         </a>
       </div>
       <div id="component7-box7">
-        <img id="component7-box7-icon" src="../assets/component7-box7-icon.png"></img>
-        <div id="component7-box7-text">Formation of expandable DAO</div>
       </div>
 
 
