@@ -1,8 +1,6 @@
 <template>
     <nav id="navigation_bar">
-        <a href="">
-        <img id="nav-menu-bar" src="../assets/menu.png">
-        </a>
+        <!-- <img id="nav-menu-bar" src="../assets/menu.png"> -->
         <img id="nav-icon" src="../assets/nav-icon.png">
         <div id="nav-title">FIDES VENTURE</div>
     </nav>

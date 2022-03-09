@@ -10,24 +10,24 @@
         <span id="footers-apply">Apply for IDO</span>
         </a>
         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
-        <span id="footers-policy">Privacy Policy</span>
+        <span id="footers-policy">Privacy Policy (TBD) </span>
         </a>
         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
-        <span id="footers-kyc">AML&KYC Policy</span>
+        <span id="footers-kyc">AML&KYC Policy (TBD) </span>
         </a>
         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
-        <span id="footers-branding">Branding</span>
+        <span id="footers-branding">Branding (TBD) </span>
         </a>
       </div>
-      <div id="footers-tail">Copyrigt FIDES VENTURE. All Rights Reserved.</div>
+      <div id="footers-tail">Copyright FIDES VENTURE. All Rights Reserved.</div>
       <a href="https://twitter.com/fidesmeta">
-      <img id="footers-telegram" src="../assets/footers-twitter.png"></img>
+      <img id="footers-twitter" src="../assets/footers-twitter.png"></img>
       </a>
-      <a href="https://twitter.com/fidesmeta">
-      <img id="footers-twitter" src="../assets/footers-discord.png"></img>
+      <a href="https://discord.gg/ncAc4KS8JE">
+      <img id="footers-discord" src="../assets/footers-discord.png"></img>
       </a>
-      <a href="https://twitter.com/fidesmeta">
-      <img id="footers-discord" src="../assets/footers-telegram.png"></img>
+      <a href="https://t.me/fidesmeta">
+      <img id="footers-telegram" src="../assets/footers-telegram.png"></img>
       </a>
     </div>
 </template>
