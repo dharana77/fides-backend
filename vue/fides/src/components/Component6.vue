@@ -5,7 +5,7 @@
 </p>
 
       <div id="component6-telegram-board">
-      <a href="https://telegram.org/">
+      <a href="https://t.me/fidesmeta">
       <img id="component6-telegram-icon" src="../assets/component6/telegram.png" >
       <h3 id="component6-telegram-title">Telegram</h3>
       <p id="component6-telegram-content">Official notification and information</p>
@@ -13,7 +13,7 @@
       </div>
 
       <div id="component6-twitter-board">
-      <a href="https://telegram.org/">
+      <a href="https://twitter.com/fidesmeta">
       <img id="component6-twitter-icon" src="../assets/component6/twitter.png" >
       <h3 id="component6-twitter-title">Twitter</h3>
       <p id="component6-twitter-content">Please follow @fidesFinance</p>
@@ -21,7 +21,7 @@
       </div>
 
       <div id="component6-discord-board">
-      <a href="https://telegram.org/">
+      <a href="https://discord.gg/ncAc4KS8JE">
       <img id="component6-discord-icon" src="../assets/component6/discord.png" >
       <h3 id="component6-discord-title">Discord</h3>
       <p id="component6-discord-content">Improve your investment environment</p>
@@ -29,23 +29,15 @@
       </div>
 
       <div id="component6-github-board">
-      <a href="https://telegram.org/">
+      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
       <img id="component6-github-icon" src="../assets/component6/github.png" >
       <h3 id="component6-github-title">Github</h3>
       <p id="component6-github-content">Join us for development, ui, and others</p>
       </a>
       </div>
 
-      <div id="component6-blog-board">
-      <a href="https://telegram.org/">
-      <img id="component6-blog-icon" src="../assets/component6/blog.png" >
-      <h3 id="component6-blog-title">Blog</h3>
-      <p id="component6-blog-content">Learn about Fides</p>
-      </a>
-      </div>
-
       <div id="component6-reddit-board">
-      <a href="https://telegram.org/">
+      <a href="https://www.reddit.com/user/fidesmeta">
       <img id="component6-reddit-icon" src="../assets/component6/reddit.png" >
       <h3 id="component6-reddit-title">Reddit</h3>
       <p id="component6-reddit-content">Discussion and information sharing</p>
@@ -53,7 +45,7 @@
       </div>
 
       <div id="component6-blog-board">
-      <a href="https://telegram.org/">
+      <a href="https://medium.com/@fidesmeta">
       <img id="component6-blog-icon" src="../assets/component6/blog.png" >
       <h3 id="component6-blog-title">Blog</h3>
       <p id="component6-blog-content">Key information, news will be shared</p>

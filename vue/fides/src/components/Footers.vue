@@ -6,10 +6,10 @@
       <a href="https://twitter.com/fidesmeta">
       <img id="footer-fides-twitter" src="../assets/footer/twitter.png">
       </a>
-      <a href="">
+      <a href="https://discord.gg/ncAc4KS8JE">
       <img id="footer-fides-discord" src="../assets/footer/discord.png">
       </a>
-      <a href="">
+      <a href="https://t.me/fidesmeta">
       <img id="footer-fides-telegram" src="../assets/footer/telegram.png">
       </a>
       <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
