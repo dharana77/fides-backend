@@ -3,16 +3,32 @@
       <div id="footers-title">FIDES META VENTURE</div>
       <div id="footers-contents">
         <img id="footers-logo" src="../assets/footers-logo.png"></img>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
         <span id="footers-whitepaper">Whitepaper</span>
+        </a>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
         <span id="footers-apply">Apply for IDO</span>
+        </a>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
         <span id="footers-policy">Privacy Policy</span>
+        </a>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
         <span id="footers-kyc">AML&KYC Policy</span>
+        </a>
+        <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
         <span id="footers-branding">Branding</span>
+        </a>
       </div>
       <div id="footers-tail">Copyrigt FIDES VENTURE. All Rights Reserved.</div>
+      <a href="https://twitter.com/fidesmeta">
       <img id="footers-telegram" src="../assets/footers-twitter.png"></img>
+      </a>
+      <a href="https://twitter.com/fidesmeta">
       <img id="footers-twitter" src="../assets/footers-discord.png"></img>
+      </a>
+      <a href="https://twitter.com/fidesmeta">
       <img id="footers-discord" src="../assets/footers-telegram.png"></img>
+      </a>
     </div>
 </template>
 
