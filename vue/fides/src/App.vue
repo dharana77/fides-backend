@@ -48,5 +48,6 @@ export default {
   left:50%;
 }
 body{
+
 }
 </style>

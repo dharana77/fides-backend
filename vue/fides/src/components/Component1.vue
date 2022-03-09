@@ -2,7 +2,7 @@
     <div id="component1">
       <img id="component1-main-top" src="../assets/component1/main_img.png">
       <h1 id="component1_title">World's first web3 venture capital & guild</h1>
-      <p id="component1_contents">Fides is <span class="most">innovative venture capital</span> for the cryptocurrency managed by the <span class="most">investor community's</span> collective intelligence </p>
+      <p id="component1_contents" ref="component1">Fides is <span class="most">innovative venture capital</span> for the cryptocurrency managed by the <span class="most">investor community's</span> collective intelligence </p>
     </div>
 </template>
 

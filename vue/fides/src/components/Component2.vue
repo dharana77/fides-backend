@@ -1,6 +1,5 @@
 <template>
-    <div id="component2">
-
+    <div id="component2" ref="component2">
       <div id="component2-box1" class="animate__animated animate__pulse">
         <h1 id="component2-box1-title">What is Fides?</h1>
         <p id="component2-box1-text">Fides is innovative venture capital for the cryptocurrency managed by the investor community's collective intelligence which lowers the risk and maximizes the gain.</p>

@@ -73,7 +73,7 @@ export default {
   width: 420px;
   height: 19px;
   left: 743px;
-  top: 116px;
+  top: 122px;
   font-family: Times New Roman;
   font-style: normal;
   font-weight: bold;
@@ -86,21 +86,21 @@ export default {
   width: 30px;
   height: 25px;
   left: 1177px;
-  top: 114px;
+  top: 122px;
 }
 #footer-fides-discord{
   position: absolute;
   width: 30px;
   height: 23px;
   left: 1237px;
-  top: 114px;
+  top: 122px;
 }
 #footer-fides-telegram{
   position: absolute;
   width: 32px;
   height: 28px;
   left: 1297px;
-  top: 114px;
+  top: 122px;
 }
 #footer-content1{
   position: absolute;
