@@ -1,6 +1,6 @@
 <template>
     <div id="component5">
-      <h1 id="component5-text-title">The FIdes Blog</h1>
+      <h1 id="component5-text-title">The Fides Blog</h1>
       <p id="component5-text-body">Find the better opportunities in Fides Blog
       </p>
 

@@ -10,13 +10,13 @@
         <span id="footers-apply">Apply for IDO</span>
         </a>
         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
-        <span id="footers-policy">Privacy Policy (TBD) </span>
+        <span id="footers-policy">Privacy Policy </span>
         </a>
         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
-        <span id="footers-kyc">AML&KYC Policy (TBD) </span>
+        <span id="footers-kyc">AML&KYC Policy</span>
         </a>
         <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
-        <span id="footers-branding">Branding (TBD) </span>
+        <span id="footers-branding">Branding</span>
         </a>
       </div>
       <div id="footers-tail">Copyright FIDES VENTURE. All Rights Reserved.</div>
@@ -51,7 +51,7 @@ export default {
 }
 #footers-title{
   position: absolute;
-  width: 194px;
+  width: 210px;
   height: 21px;
   left: 51px;
   top: 20px;
@@ -153,21 +153,21 @@ export default {
   position: absolute;
   width: 22px;
   height: 18px;
-  left: 236px;
+  left: 249px;
   top: 210px;
 }
 #footers-discord{
   position: absolute;
   width: 20px;
   height: 15px;
-  left: 274px;
+  left: 287px;
   top: 210px;
 }
 #footers-telegram{
   position: absolute;
   width: 20px;
   height: 15px;
-  left: 312px;
+  left: 325px;
   top: 210px;
 }
 </style>

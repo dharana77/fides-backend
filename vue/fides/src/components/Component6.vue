@@ -29,7 +29,7 @@
       </div>
 
       <div id="component6-github-board">
-      <a href="https://fidesmetaventure.gitbook.io/whitepaper/">
+      <a href="https://github.com/">
       <img id="component6-github-icon" src="../assets/component6/github.png" >
       <h3 id="component6-github-title">Github</h3>
       <p id="component6-github-content">Join us for development, ui, and others</p>

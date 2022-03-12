@@ -13,7 +13,7 @@
         <a href="https://twitter.com/fidesmeta">
         <img id="component6-box2-img" src="../assets/twitter.png"></img>
         <div id="component6-box2-title">Twitter</div>
-        <div id="component6-box2-content">Please follow @fidesFinance</div>
+        <div id="component6-box2-content">Please follow @fidesmeta</div>
         </a>
       </div>
       <div id="component6-box3">
@@ -38,6 +38,7 @@
           </a>
       </div>
       <div id="component6-box6">
+        <a href="https://github.com/">
         <img id="component6-box6-img" src="../assets/github.png"></img>
         <div id="component6-box6-title">Github</div>
         <div id="component6-box6-content">Join us for development, ui, and others</div>

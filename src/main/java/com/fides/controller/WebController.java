@@ -13,10 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 public class WebController {
     private static final String IS_MOBILE = "MOBI";
 
-    @GetMapping("/")
+    @GetMapping("/*")
     public String detectDevice(HttpServletRequest request) {
         String userAgent = request.getHeader("User-Agent").toUpperCase();
-        if(userAgent.indexOf(IS_MOBILE) > -1) {
+        if (userAgent.indexOf(IS_MOBILE) > -1) {
             return "mobile/index";
         }
         return "vue/index";

@@ -1,7 +1,7 @@
 <template>
     <nav id="navigation_bar">
         <router-link to="home"><img @click="gotoComponent1()" id="fides_icon" src="../assets/nav/fides_icon.png"></router-link>
-        <div @click="gotoComponent1()" class="nav" id="nav-home"><router-link to="home">Home</router-link></div>
+        <div @click="gotoComponent1()" class="nav" id="nav-home"><router-link to="/">Home</router-link></div>
         <div @click="gotoComponent5()" class="nav" id="nav-using"><router-link to="using-fides">Using fides</router-link></div>
         <div class="nav" @click="gotoComponent6()" id="nav-community"><router-link to="community">Community</router-link></div>
         <router-view></router-view>
