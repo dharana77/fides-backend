@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 public class WebController {
     private static final String IS_MOBILE = "MOBI";
 
-    @GetMapping("/")
+    @GetMapping({"/","/home","/using-fides","/community"})
     public String detectDevice(HttpServletRequest request) {
         String userAgent = request.getHeader("User-Agent").toUpperCase();
         if (userAgent.indexOf(IS_MOBILE) > -1) {
