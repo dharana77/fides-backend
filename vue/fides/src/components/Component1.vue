@@ -1,6 +1,10 @@
 <template>
     <div id="component1">
-      <img id="component1-main-top" src="../assets/component1/main_img.png">
+      <img id="component1-main-top1" src="../assets/component1/main_1.jpg">
+      <img id="component1-main-top2" src="../assets/component1/main_2.jpg">
+      <img id="component1-main-top3" src="../assets/component1/main_3.jpg">
+      <img id="component1-main-top4" src="../assets/component1/main_4.jpg">
+      <img id="component1-main-top5" src="../assets/component1/main_5.jpg">
       <h1 id="component1_title">World's first web3 venture capital & guild</h1>
       <p id="component1_contents" ref="component1">Fides is <span class="most">innovative venture capital</span> for the cryptocurrency managed by the <span class="most">investor community's</span> collective intelligence </p>
     </div>
@@ -20,20 +24,48 @@ export default {
   width: 2560px;
   left: -1280px;
 }
-#background_img{
+
+#component1-main-top1{
   position: absolute;
   width: 2560px;
-  height: 640px;
+  height: 110px;
   left: 0px;
   top: 85px;
-  background: #FFFFFF;
 }
-#component1-main-top{
+#component1-main-top2{
   position: absolute;
   width: 2560px;
-  height: 550px;
+  height: 220px;
   left: 0px;
   top: 85px;
+}
+#component1-main-top3{
+  position: absolute;
+  width: 2560px;
+  height: 110px;
+  left: 0px;
+  top: 305px;
+}
+#component1-main-top4{
+  position: absolute;
+  width: 2560px;
+  height: 110px;
+  left: 0px;
+  top: 415px;
+}
+#component1-main-top2{
+  position: absolute;
+  width: 2560px;
+  height: 110px;
+  left: 0px;
+  top: 195px;
+}
+#component1-main-top5{
+  position: absolute;
+  width: 2560px;
+  height: 110px;
+  left: 0px;
+  top: 525px;
 }
 
 #component1_title{
