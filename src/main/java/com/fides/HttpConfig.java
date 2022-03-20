@@ -40,5 +40,4 @@ public class HttpConfig {
         connector.setRedirectPort(443);
         return connector;
     }
-
 }
