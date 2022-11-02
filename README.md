@@ -1,4 +1,4 @@
-# fides-main page
+# fides-main page, 웹3 벤쳐캐피탈 프로젝트
 
 fides 메인 페이지:  [https://fidesventure.com](https://fidesventure.com) 현재 요금 문제로 서비스를 내린 상태입니다.
 
